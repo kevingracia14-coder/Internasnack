@@ -1,18 +1,131 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F766E" />
-      <stop offset="100%" stop-color="#115E59" />
+    <!-- Latar belakang profesional: Warm Dark Espresso/Cocoa Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#362218" />
+      <stop offset="100%" stop-color="#1C100B" />
     </linearGradient>
-    <linearGradient id="pulse" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5EEAD4" />
-      <stop offset="100%" stop-color="#FFFFFF" />
+
+    <!-- Gradasi halus untuk warna dasar cookie cokelat -->
+    <linearGradient id="cookie-base" x1="20%" y1="15%" x2="80%" y2="85%">
+      <stop offset="0%" stop-color="#D99B52" />
+      <stop offset="65%" stop-color="#BA7A34" />
+      <stop offset="100%" stop-color="#965B1D" />
     </linearGradient>
+
+    <!-- Gradasi untuk bagian dalam gigitan (inner dough) -->
+    <linearGradient id="cookie-inner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2C894" />
+      <stop offset="100%" stop-color="#DFA566" />
+    </linearGradient>
+
+    <!-- Bayangan halus di bawah cookie dengan nuansa warm dark brown -->
+    <filter id="drop-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0F0704" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Clip path untuk memotong lingkaran utama dengan bekas gigitan yang organik -->
+    <clipPath id="bitten-cookie-clip">
+      <path d="
+        M 245 88
+        C 145 88, 88 158, 88 256
+        C 88 354, 158 424, 256 424
+        C 348 424, 416 364, 422 276
+        C 402 279, 384 267, 381 248
+        C 360 254, 338 242, 333 221
+        C 312 223, 294 208, 293 187
+        C 272 184, 259 165, 263 144
+        C 246 132, 240 109, 245 88 Z
+      " />
+    </clipPath>
   </defs>
-  <rect width="512" height="512" rx="112" fill="url(#bg)" />
-  <rect x="28" y="28" width="456" height="456" rx="92" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="4" />
-  <!-- Clinical Cross + ECG Pulse -->
-  <path d="M214 116h84a18 18 0 0 1 18 18v80h80a18 18 0 0 1 18 18v48a18 18 0 0 1-18 18h-80v80a18 18 0 0 1-18 18h-84a18 18 0 0 1-18-18v-80h-80a18 18 0 0 1-18-18v-48a18 18 0 0 1 18-18h80v-80a18 18 0 0 1 18-18z" fill="rgba(255,255,255,0.14)" />
-  <path d="M96 272h76l28-64 38 124 38-92 24 32h116" fill="none" stroke="url(#pulse)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="416" cy="272" r="14" fill="#F59E0B" />
+
+  <!-- Base Squircle (Ikon Aplikasi Standar) dengan warna warm gelap profesional -->
+  <rect x="16" y="16" width="480" height="480" rx="112" ry="112" fill="url(#bg-grad)" />
+  
+  <!-- Garis tepi tipis untuk definisi squircle yang hangat & elegan -->
+  <rect x="17" y="17" width="478" height="478" rx="111" ry="111" fill="none" stroke="#523728" stroke-width="2" />
+
+  <!-- Grup Utama Cookie dengan Drop Shadow -->
+  <g filter="url(#drop-shadow)">
+    
+    <!-- Lapisan Bagian Dalam Bekas Gigitan (Memberikan ketebalan/dimensi 2.5D pada gigitan) -->
+    <path d="
+      M 245 88
+      C 258 88, 272 91, 284 95
+      C 278 116, 286 138, 304 148
+      C 301 168, 314 186, 334 189
+      C 336 209, 353 224, 373 222
+      C 379 241, 398 252, 417 247
+      C 420 257, 422 266, 422 276
+      C 380 285, 315 245, 280 200
+      C 245 155, 235 110, 245 88 Z
+    " fill="url(#cookie-inner)" />
+
+    <!-- Badan Utama Cookie yang terpotong oleh bentuk gigitan -->
+    <g clip-path="url(#bitten-cookie-clip)">
+      <!-- Warna dasar adonan cookie -->
+      <circle cx="256" cy="256" r="172" fill="url(#cookie-base)" />
+      
+      <!-- Highlight lembut di sisi kiri atas -->
+      <path d="M 105 256 C 105 168, 168 105, 256 105" fill="none" stroke="#EAB87B" stroke-width="10" stroke-linecap="round" opacity="0.45" />
+
+      <!-- Pori-pori / Tekstur panggang cookie (subtle dots) -->
+      <circle cx="155" cy="175" r="4" fill="#7D4912" opacity="0.35" />
+      <circle cx="215" cy="145" r="3" fill="#7D4912" opacity="0.35" />
+      <circle cx="140" cy="295" r="4.5" fill="#7D4912" opacity="0.35" />
+      <circle cx="225" cy="365" r="3.5" fill="#7D4912" opacity="0.35" />
+      <circle cx="315" cy="340" r="4" fill="#7D4912" opacity="0.35" />
+      <circle cx="245" cy="260" r="3" fill="#7D4912" opacity="0.35" />
+
+      <!-- Chocochips (Kepingan Cokelat Gelap) -->
+      <!-- Chocochip 1 (Kiri Atas) -->
+      <path d="M 162 198 C 174 192, 189 201, 187 215 C 185 227, 170 232, 160 224 C 151 217, 152 203, 162 198 Z" fill="#3E1F0D" />
+      <path d="M 164 203 C 169 201, 174 203, 176 207" fill="none" stroke="#6B3A1E" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Chocochip 2 (Tengah) -->
+      <path d="M 222 218 C 236 213, 250 224, 246 239 C 242 251, 226 254, 217 245 C 209 236, 211 222, 222 218 Z" fill="#3E1F0D" />
+      <path d="M 224 223 C 229 221, 235 223, 237 228" fill="none" stroke="#6B3A1E" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Chocochip 3 (Kiri Bawah) -->
+      <path d="M 152 308 C 166 302, 182 312, 179 327 C 176 340, 160 345, 149 336 C 140 328, 141 313, 152 308 Z" fill="#3E1F0D" />
+      <path d="M 154 313 C 159 311, 165 313, 167 318" fill="none" stroke="#6B3A1E" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Chocochip 4 (Bawah Tengah) -->
+      <path d="M 248 312 C 261 307, 275 317, 272 330 C 269 341, 254 345, 245 337 C 237 330, 238 316, 248 312 Z" fill="#3E1F0D" />
+      <path d="M 250 317 C 255 315, 260 317, 262 321" fill="none" stroke="#6B3A1E" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Chocochip 5 (Kanan Bawah) -->
+      <path d="M 332 282 C 344 277, 357 286, 354 299 C 351 309, 337 313, 329 305 C 321 298, 322 286, 332 282 Z" fill="#3E1F0D" />
+      <path d="M 334 287 C 338 285, 343 287, 345 291" fill="none" stroke="#6B3A1E" stroke-width="2.5" stroke-linecap="round" />
+
+      <!-- Chocochip 6 (Atas Kecil) -->
+      <path d="M 206 154 C 215 150, 226 157, 224 167 C 222 175, 211 178, 204 172 C 198 167, 199 157, 206 154 Z" fill="#3E1F0D" />
+    </g>
+
+    <!-- Garis Tepi Halus (Outline) Mengikuti Bentuk Cookie Tergigit -->
+    <path d="
+      M 245 88
+      C 145 88, 88 158, 88 256
+      C 88 354, 158 424, 256 424
+      C 348 424, 416 364, 422 276
+      C 402 279, 384 267, 381 248
+      C 360 254, 338 242, 333 221
+      C 312 223, 294 208, 293 187
+      C 272 184, 259 165, 263 144
+      C 246 132, 240 109, 245 88 Z
+    " fill="none" stroke="#5C320B" stroke-width="5" stroke-linejoin="round" />
+
+    <!-- Remahan Cookie (Crumbs) di Sekitar Area Gigitan -->
+    <!-- Remahan 1 -->
+    <path d="M 342 128 C 350 123, 360 129, 358 138 C 356 146, 346 149, 340 143 C 335 138, 336 131, 342 128 Z" fill="#D99B52" stroke="#5C320B" stroke-width="3.5" />
+    <!-- Remahan 2 -->
+    <path d="M 396 168 C 403 164, 412 169, 410 177 C 408 184, 399 186, 394 181 C 390 177, 391 171, 396 168 Z" fill="#BA7A34" stroke="#5C320B" stroke-width="3.5" />
+    <!-- Remahan 3 (Chocochip kecil terlepas) -->
+    <circle cx="378" cy="112" r="6" fill="#3E1F0D" />
+    <!-- Remahan 4 -->
+    <circle cx="424" cy="212" r="5" fill="#F2C894" stroke="#5C320B" stroke-width="2.5" />
+    <!-- Remahan 5 -->
+    <circle cx="324" cy="166" r="4" fill="#D99B52" />
+  </g>
 </svg>
