@@ -19,6 +19,7 @@
   const { renderInteractiveWidget, getWidgetCatalog } = R.registry;
 
   const STORAGE_KEY = "internasnack_sppd_state_v2";
+  const TRYOUT_AUTOSAVE_KEY = "internasnack_tryout_autosave_v1";
 
   function getLocalDateKey(offsetDays = 0) {
     const d = new Date();
@@ -86,7 +87,9 @@
     snackQuizConfig: {
       count: 10,
       divisions: ["tropik-infeksi", "kardiologi", "ginjal-hipertensi", "pulmonologi", "gastroenterohepatologi", "endokrin-metabolik", "hematologi-onkologi", "reumatologi", "geriatri", "alergi-imunologi", "psikosomatik-paliatif"],
-      source: "mixed"
+      source: "mixed",
+      difficulty: "all",
+      status: "all"
     },
     cbtConfig: {
       packageSize: 25,
@@ -4608,6 +4611,24 @@
 
           <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-[var(--border-subtle)]">
             <div>
+              <div class="text-xs font-bold text-[var(--text-primary)]">Backup &amp; Pulihkan Progres (JSON)</div>
+              <div class="text-[11px] text-[var(--text-muted)]">Ekspor riwayat belajar ke file JSON atau pulihkan dari perangkat lain.</div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button type="button" onclick="window.InternaApp.exportProgressData()" class="btn-duo btn-duo-outline text-xs py-1.5 px-3 inline-flex items-center gap-1.5">
+                ${svgIcon("download", "w-3.5 h-3.5")}
+                <span>Export JSON</span>
+              </button>
+              <button type="button" onclick="window.InternaApp.triggerImportProgress()" class="btn-duo btn-duo-outline text-xs py-1.5 px-3 inline-flex items-center gap-1.5">
+                ${svgIcon("upload", "w-3.5 h-3.5")}
+                <span>Import JSON</span>
+              </button>
+              <input type="file" id="progress-import-input" accept="application/json,.json" class="hidden" onchange="window.InternaApp.handleImportProgressFile(event)" />
+            </div>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-[var(--border-subtle)]">
+            <div>
               <div class="text-xs font-bold text-[var(--accent-coral)]">Atur Ulang Riwayat Belajar</div>
               <div class="text-[11px] text-[var(--text-muted)]">Hapus riwayat soal, streak, dan materi dibaca untuk memulai dari awal.</div>
             </div>
@@ -5199,8 +5220,90 @@
     setTimeout(() => t.remove(), 4000);
   }
 
+  function exportProgressData() {
+    try {
+      const payload = {
+        app: "InternaSnack",
+        version: 2,
+        exportedAt: new Date().toISOString(),
+        state
+      };
+      const jsonStr = JSON.stringify(payload, null, 2);
+      const blob = new Blob([jsonStr], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `internasnack-backup-${getLocalDateKey(0)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      showToast("Backup progres berhasil diunduh.", "success");
+    } catch (e) {
+      console.warn("Export failed:", e);
+      showToast("Gagal mengekspor data progres.", "error");
+    }
+  }
+
+  function triggerImportProgress() {
+    const input = document.getElementById("progress-import-input");
+    if (input) {
+      input.click();
+      return;
+    }
+    const temp = document.createElement("input");
+    temp.type = "file";
+    temp.accept = "application/json,.json";
+    temp.onchange = handleImportProgressFile;
+    temp.click();
+  }
+
+  function handleImportProgressFile(event) {
+    const input = event && event.target ? event.target : null;
+    const file = input && input.files && input.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const parsed = JSON.parse(String(reader.result || ""));
+        const incoming = parsed && parsed.state && typeof parsed.state === "object" ? parsed.state : parsed;
+        const looksValid =
+          incoming &&
+          typeof incoming === "object" &&
+          (typeof incoming.totalXP === "number" ||
+            (incoming.srs && typeof incoming.srs === "object") ||
+            (incoming.topicsRead && typeof incoming.topicsRead === "object"));
+        if (!looksValid) {
+          showToast("File backup tidak valid atau rusak.", "error");
+          return;
+        }
+        if (!confirm("Impor backup akan mengganti progres belajar saat ini. Lanjutkan?")) {
+          return;
+        }
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(incoming));
+        state = loadState();
+        R.setCustomModulesGetter(() => state.customModules || []);
+        saveState();
+        applyTheme();
+        applyFontSize();
+        renderApp();
+        showToast("Progres belajar berhasil dipulihkan!", "success");
+      } catch (e) {
+        showToast("File backup tidak valid atau rusak.", "error");
+      } finally {
+        if (input) input.value = "";
+      }
+    };
+    reader.onerror = () => {
+      if (input) input.value = "";
+      showToast("File backup tidak valid atau rusak.", "error");
+    };
+    reader.readAsText(file);
+  }
+
   function resetAllProgress() {
     if (confirm("Apakah Anda yakin ingin mereset seluruh progres belajar, riwayat latihan soal, dan streak? Tindakan ini tidak dapat dibatalkan.")) {
+      clearTryoutAutosave();
       state.topicsRead = {};
       state.srs = {};
       state.streakDays = 0;
@@ -5473,6 +5576,120 @@
     return shuffleArray(sampled.slice(0, targetSize)).map((q) => prepareShuffledQuizQuestion(q));
   }
 
+  function saveTryoutAutosave() {
+    if (!tryoutSession || !tryoutSession.isActive || tryoutSession.isFinished || !Array.isArray(tryoutSession.questions) || tryoutSession.questions.length === 0) return;
+    try {
+      const snapshot = {
+        savedAt: Date.now(),
+        packageSize: tryoutSession.packageSize,
+        totalSeconds: tryoutSession.totalSeconds,
+        remainingSeconds: tryoutSession.remainingSeconds,
+        questions: tryoutSession.questions,
+        userAnswers: tryoutSession.userAnswers || {},
+        doubtFlags: tryoutSession.doubtFlags || {},
+        currentIndex: tryoutSession.currentIndex || 0
+      };
+      localStorage.setItem(TRYOUT_AUTOSAVE_KEY, JSON.stringify(snapshot));
+    } catch (e) {
+      console.warn("Tryout autosave failed:", e);
+    }
+  }
+
+  function loadTryoutAutosave() {
+    try {
+      const raw = localStorage.getItem(TRYOUT_AUTOSAVE_KEY);
+      if (!raw) return null;
+      const parsed = JSON.parse(raw);
+      if (!parsed || !Array.isArray(parsed.questions) || parsed.questions.length === 0 || !(Number(parsed.remainingSeconds) > 0)) {
+        return null;
+      }
+      return parsed;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function clearTryoutAutosave() {
+    try {
+      localStorage.removeItem(TRYOUT_AUTOSAVE_KEY);
+    } catch (e) {
+      // ignore
+    }
+  }
+
+  function startTryoutTimer() {
+    if (tryoutSession.timerInterval) {
+      clearInterval(tryoutSession.timerInterval);
+      tryoutSession.timerInterval = null;
+    }
+    tryoutSession.timerInterval = setInterval(() => {
+      if (tryoutSession.remainingSeconds > 0) {
+        tryoutSession.remainingSeconds--;
+        if (tryoutSession.remainingSeconds % 5 === 0) {
+          saveTryoutAutosave();
+        }
+        const timerEl = document.getElementById("tryout-countdown-display");
+        if (timerEl) {
+          timerEl.textContent = formatTryoutTime(tryoutSession.remainingSeconds);
+          if (tryoutSession.remainingSeconds <= 300) {
+            timerEl.classList.remove("text-teal-700", "dark:text-teal-300");
+            timerEl.classList.add("text-red-600", "dark:text-red-400", "font-black");
+          }
+        }
+      } else {
+        clearInterval(tryoutSession.timerInterval);
+        tryoutSession.timerInterval = null;
+        showToast("Waktu ujian telah habis! Mengumpulkan jawaban...", "warning");
+        finishTryoutSession();
+      }
+    }, 1000);
+  }
+
+  function resumeSavedTryout() {
+    const saved = loadTryoutAutosave();
+    if (!saved) {
+      showToast("Tidak ada sesi CBT tersimpan.", "info");
+      return;
+    }
+    if (tryoutSession.timerInterval) {
+      clearInterval(tryoutSession.timerInterval);
+      tryoutSession.timerInterval = null;
+    }
+    if (currentQuiz.timerInterval) {
+      clearInterval(currentQuiz.timerInterval);
+      currentQuiz.timerInterval = null;
+    }
+    tryoutSession = {
+      isActive: true,
+      packageSize: Number(saved.packageSize || saved.questions.length),
+      totalSeconds: Number(saved.totalSeconds || saved.questions.length * 90),
+      remainingSeconds: Math.max(1, Number(saved.remainingSeconds || 60)),
+      timerInterval: null,
+      questions: saved.questions,
+      userAnswers: saved.userAnswers && typeof saved.userAnswers === "object" ? saved.userAnswers : {},
+      doubtFlags: saved.doubtFlags && typeof saved.doubtFlags === "object" ? saved.doubtFlags : {},
+      currentIndex: Math.min(saved.questions.length - 1, Math.max(0, Number(saved.currentIndex || 0))),
+      isFinished: false,
+      timeSpentSeconds: 0,
+      score: 0,
+      percentage: 0,
+      passed: false,
+      categoryStats: {},
+      reviewFilter: "all"
+    };
+    startTryoutTimer();
+    activeView = "tryout-exam";
+    renderApp();
+    showToast("Sesi CBT berhasil dilanjutkan.", "success");
+    if (typeof window.scrollTo === "function") window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function discardSavedTryout() {
+    clearTryoutAutosave();
+    renderApp();
+    showToast("Sesi CBT tersimpan dihapus.", "info");
+  }
+
   function startTryout(packageSize = null, customDivisions = null) {
     if (tryoutSession.timerInterval) {
       clearInterval(tryoutSession.timerInterval);
@@ -5512,24 +5729,8 @@
       reviewFilter: "all"
     };
 
-    tryoutSession.timerInterval = setInterval(() => {
-      if (tryoutSession.remainingSeconds > 0) {
-        tryoutSession.remainingSeconds--;
-        const timerEl = document.getElementById("tryout-countdown-display");
-        if (timerEl) {
-          timerEl.textContent = formatTryoutTime(tryoutSession.remainingSeconds);
-          if (tryoutSession.remainingSeconds <= 300) {
-            timerEl.classList.remove("text-teal-700", "dark:text-teal-300");
-            timerEl.classList.add("text-red-600", "dark:text-red-400", "font-black");
-          }
-        }
-      } else {
-        clearInterval(tryoutSession.timerInterval);
-        tryoutSession.timerInterval = null;
-        showToast("Waktu ujian telah habis! Mengumpulkan jawaban...", "warning");
-        finishTryoutSession();
-      }
-    }, 1000);
+    saveTryoutAutosave();
+    startTryoutTimer();
 
     activeView = "tryout-exam";
     renderApp();
@@ -5539,12 +5740,14 @@
   function selectTryoutOption(optIndex) {
     if (tryoutSession.isFinished) return;
     tryoutSession.userAnswers[tryoutSession.currentIndex] = optIndex;
+    saveTryoutAutosave();
     renderTryoutExamQuestionArea();
   }
 
   function toggleTryoutDoubt(qIndex = null) {
     const idx = qIndex !== null ? qIndex : tryoutSession.currentIndex;
     tryoutSession.doubtFlags[idx] = !tryoutSession.doubtFlags[idx];
+    saveTryoutAutosave();
     renderTryoutExamQuestionArea();
   }
 
@@ -5553,6 +5756,7 @@
       const dir = idx > tryoutSession.currentIndex ? "next" : idx < tryoutSession.currentIndex ? "prev" : "fade";
       runClickTransition(() => {
         tryoutSession.currentIndex = idx;
+        saveTryoutAutosave();
         renderTryoutExamQuestionArea();
         toggleTryoutGridModal(false);
       }, dir);
@@ -5602,6 +5806,7 @@
         clearInterval(tryoutSession.timerInterval);
         tryoutSession.timerInterval = null;
       }
+      clearTryoutAutosave();
       tryoutSession.isActive = false;
       activeView = "tryout";
       renderApp();
@@ -5614,6 +5819,7 @@
       tryoutSession.timerInterval = null;
     }
 
+    clearTryoutAutosave();
     toggleTryoutFinishModal(false);
     toggleTryoutGridModal(false);
 
@@ -5724,21 +5930,59 @@
   }
 
   function setSnackQuizSource(source) {
-    if (!state.snackQuizConfig) state.snackQuizConfig = { count: 10, divisions: getActiveDivisionIds(), source: "mixed" };
+    if (!state.snackQuizConfig) state.snackQuizConfig = { count: 10, divisions: getActiveDivisionIds(), source: "mixed", difficulty: "all", status: "all" };
     state.snackQuizConfig.source = source === "board" ? "board" : "mixed";
     saveState();
     renderApp();
   }
 
+  function setSnackQuizDifficulty(diff) {
+    if (!state.snackQuizConfig) state.snackQuizConfig = { count: 10, divisions: getActiveDivisionIds(), source: "mixed", difficulty: "all", status: "all" };
+    const allowed = ["all", "Esensial PAPDI", "Menengah PAPDI", "Tantangan Board"];
+    state.snackQuizConfig.difficulty = allowed.includes(diff) ? diff : "all";
+    saveState();
+    renderApp();
+  }
+
+  function setSnackQuizStatus(status) {
+    if (!state.snackQuizConfig) state.snackQuizConfig = { count: 10, divisions: getActiveDivisionIds(), source: "mixed", difficulty: "all", status: "all" };
+    const allowed = ["all", "unattempted", "wrong", "mastered"];
+    state.snackQuizConfig.status = allowed.includes(status) ? status : "all";
+    saveState();
+    renderApp();
+  }
+
+  function matchesSnackQuizFilters(q, cfg) {
+    if (cfg.source === "board" && !isBoardQuestion(q)) return false;
+    if (cfg.difficulty && cfg.difficulty !== "all" && q.difficulty !== cfg.difficulty) return false;
+    if (cfg.status && cfg.status !== "all") {
+      const s = state.srs[q.id];
+      if (cfg.status === "unattempted") {
+        if (s && s.attempts > 0) return false;
+      } else if (cfg.status === "wrong") {
+        if (!s || !(s.inMistakeVault || s.flaggedDoubt || (s.wrong || 0) > 0)) return false;
+      } else if (cfg.status === "mastered") {
+        if (!s || !(s.box >= 3 && !s.inMistakeVault)) return false;
+      }
+    }
+    return true;
+  }
+
   function getSnackQuizPool() {
-    const cfg = state.snackQuizConfig || { count: 10, divisions: getActiveDivisionIds(), source: "mixed" };
+    const cfg = {
+      count: 10,
+      divisions: getActiveDivisionIds(),
+      source: "mixed",
+      difficulty: "all",
+      status: "all",
+      ...(state.snackQuizConfig || {})
+    };
     const divSet = new Set(Array.isArray(cfg.divisions) && cfg.divisions.length > 0 ? cfg.divisions : getActiveDivisionIds());
     const allQ = getAllQuestions();
     return allQ.filter((q) => {
       const qDiv = q.divisionId || "tropik-infeksi";
       if (!divSet.has(qDiv)) return false;
-      if (cfg.source === "board" && !isBoardQuestion(q)) return false;
-      return true;
+      return matchesSnackQuizFilters(q, cfg);
     });
   }
 
@@ -5848,12 +6092,14 @@
     const cbtScopedBoardCount = allBoardQ.filter((q) => cbtDivSet.has(q.divisionId || "tropik-infeksi")).length;
     const cbtActualSize = Math.min(cbtPkg, cbtScopedBoardCount);
 
-    const snackCfg = state.snackQuizConfig || { count: 10, divisions: activeDivIds, source: "mixed" };
+    const snackCfg = { count: 10, divisions: activeDivIds, source: "mixed", difficulty: "all", status: "all", ...(state.snackQuizConfig || {}) };
     const snackDivSet = new Set(Array.isArray(snackCfg.divisions) && snackCfg.divisions.length > 0 ? snackCfg.divisions : activeDivIds);
     const snackPool = getSnackQuizPool();
     const snackCount = Number(snackCfg.count || 10);
     const snackActualSize = Math.min(snackCount, snackPool.length);
     const mistakesCount = getMistakeVaultQuestions().length;
+    const savedTryout = !tryoutSession.isActive ? loadTryoutAutosave() : null;
+    const savedAnsweredCount = savedTryout ? Object.keys(savedTryout.userAnswers || {}).length : 0;
 
     return `
       <div class="max-w-5xl mx-auto px-4 py-6 space-y-6 animate-pop">
@@ -5866,6 +6112,31 @@
             <span class="text-[var(--accent-secondary)] font-bold">${allBoardQ.length} Asli Board</span>
           </div>
         </div>
+
+        ${savedTryout ? `
+          <section class="med-card p-4 sm:p-5 border-2 border-[var(--accent-primary)] bg-[var(--tint-teal-bg)] flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold uppercase tracking-wider bg-[var(--accent-primary)] text-[var(--on-accent-primary)]">
+                  Sesi Tersimpan
+                </span>
+                <span class="text-xs font-mono font-bold text-[var(--text-primary)]">
+                  ${savedAnsweredCount} / ${savedTryout.questions.length} Terjawab &bull; Sisa Waktu ${formatTryoutTime(savedTryout.remainingSeconds)}
+                </span>
+              </div>
+              <p class="text-xs text-[var(--text-secondary)]">Sesi Simulasi CBT Anda sebelumnya masih tersimpan dan siap dilanjutkan dari soal #${(savedTryout.currentIndex || 0) + 1}.</p>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <button type="button" onclick="window.InternaApp.discardSavedTryout()" class="btn-duo btn-duo-outline text-xs py-2 px-3">
+                Hapus Sesi
+              </button>
+              <button type="button" onclick="window.InternaApp.resumeSavedTryout()" class="btn-duo btn-duo-primary text-xs py-2 px-4 inline-flex items-center gap-1.5">
+                ${svgIcon("play", "w-3.5 h-3.5")}
+                <span>Lanjutkan CBT</span>
+              </button>
+            </div>
+          </section>
+        ` : ""}
 
         <!-- Two Side-by-Side Boxes: 1. CBT Ujian Board | 2. Snack Quiz -->
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -6018,6 +6289,66 @@
                 </div>
               </div>
 
+              <!-- Tingkat Kesulitan -->
+              <div class="space-y-2">
+                <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--text-muted)]">Tingkat Kesulitan</div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
+                  ${[
+                    { id: "all", label: "Semua" },
+                    { id: "Esensial PAPDI", label: "Esensial" },
+                    { id: "Menengah PAPDI", label: "Menengah" },
+                    { id: "Tantangan Board", label: "Board" }
+                  ]
+                    .map((d) => {
+                      const active = (snackCfg.difficulty || "all") === d.id;
+                      return `
+                        <button
+                          type="button"
+                          onclick="window.InternaApp.setSnackQuizDifficulty('${d.id}')"
+                          class="py-1.5 px-2.5 rounded-xl border text-[11px] font-bold transition cursor-pointer ${
+                            active
+                              ? "bg-[var(--tint-teal-bg)] border-[var(--accent-primary)] text-[var(--accent-primary)]"
+                              : "bg-[var(--bg-surface-subtle)] border-[var(--border-subtle)] text-[var(--text-secondary)]"
+                          }"
+                        >
+                          ${d.label}
+                        </button>
+                      `;
+                    })
+                    .join("")}
+                </div>
+              </div>
+
+              <!-- Status Pengerjaan -->
+              <div class="space-y-2">
+                <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-[var(--text-muted)]">Status Pengerjaan</div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
+                  ${[
+                    { id: "all", label: "Semua" },
+                    { id: "unattempted", label: "Belum Dikerjakan" },
+                    { id: "wrong", label: "Pernah Salah" },
+                    { id: "mastered", label: "Dikuasai" }
+                  ]
+                    .map((st) => {
+                      const active = (snackCfg.status || "all") === st.id;
+                      return `
+                        <button
+                          type="button"
+                          onclick="window.InternaApp.setSnackQuizStatus('${st.id}')"
+                          class="py-1.5 px-2.5 rounded-xl border text-[11px] font-bold transition cursor-pointer ${
+                            active
+                              ? "bg-[var(--tint-teal-bg)] border-[var(--accent-primary)] text-[var(--accent-primary)]"
+                              : "bg-[var(--bg-surface-subtle)] border-[var(--border-subtle)] text-[var(--text-secondary)]"
+                          }"
+                        >
+                          ${st.label}
+                        </button>
+                      `;
+                    })
+                    .join("")}
+                </div>
+              </div>
+
               <!-- Mix & Match Divisi -->
               <div class="space-y-2">
                 <div class="flex items-center justify-between">
@@ -6027,7 +6358,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   ${activeDivisions
                     .map((div) => {
-                      const divPoolCnt = allQ.filter((q) => (q.divisionId || "tropik-infeksi") === div.id && (snackCfg.source !== "board" || isBoardQuestion(q))).length;
+                      const divPoolCnt = allQ.filter((q) => (q.divisionId || "tropik-infeksi") === div.id && matchesSnackQuizFilters(q, snackCfg)).length;
                       const checked = snackDivSet.has(div.id);
                       return `
                         <button
@@ -7155,10 +7486,14 @@
     toggleSnackQuizDivision,
     selectAllSnackQuizDivisions,
     setSnackQuizSource,
+    setSnackQuizDifficulty,
+    setSnackQuizStatus,
     startSnackQuiz,
     setCbtPackageSize,
     toggleCbtDivision,
     selectAllCbtDivisions,
+    resumeSavedTryout,
+    discardSavedTryout,
     setQuizSourceFilter(source) {
       state.quizSourceFilter = source || "all";
       saveState();
@@ -7232,6 +7567,9 @@
     toggleDivisionAccordion,
     setTocDivisionFilter,
     setTocStatusFilter,
+    exportProgressData,
+    triggerImportProgress,
+    handleImportProgressFile,
     resetAllProgress,
     openGlobalSearch,
     closeGlobalSearch,
@@ -7290,6 +7628,7 @@
     });
     window.addEventListener("beforeunload", (e) => {
       if (tryoutSession && tryoutSession.isActive && !tryoutSession.isFinished) {
+        saveTryoutAutosave();
         e.preventDefault();
         e.returnValue = "";
       }

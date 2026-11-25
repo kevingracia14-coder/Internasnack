@@ -7,6 +7,7 @@ import json
 import os
 import re
 import sys
+from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
@@ -30,6 +31,12 @@ REQUIRED_Q_FIELDS = [
     "difficulty", "sourceType", "vignette", "leadIn", "options",
     "correctIndex", "rationale"
 ]
+
+VALID_DIFFICULTIES = {"Esensial PAPDI", "Menengah PAPDI", "Tantangan Board"}
+VALID_CATEGORIES = {
+    "Teori Dasar", "Patofisiologi", "Diagnosis",
+    "Tatalaksana", "Pencegahan", "Kasus Lintas Divisi"
+}
 
 EMOJI_RE = re.compile(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]")
 FORBIDDEN_RE = re.compile(
@@ -94,6 +101,7 @@ def validate_all():
             errors.append(f"Questions file {div_id}.json must be a list")
             continue
 
+        div_ci = Counter()
         for q in qs:
             total_q += 1
             qid = q.get("id", "<missing>")
@@ -111,6 +119,12 @@ def validate_all():
             if q.get("divisionId") != div_id:
                 errors.append(f"{qid}: divisionId '{q.get('divisionId')}' does not match file '{div_id}'")
 
+            if q.get("difficulty") not in VALID_DIFFICULTIES:
+                errors.append(f"{qid}: non-canonical difficulty '{q.get('difficulty')}'")
+
+            if q.get("category") not in VALID_CATEGORIES:
+                errors.append(f"{qid}: non-canonical category '{q.get('category')}'")
+
             opts = q.get("options", [])
             if not isinstance(opts, list) or len(opts) != 5 or any(not str(o).strip() for o in opts):
                 errors.append(f"{qid}: options must be exactly 5 non-empty strings")
@@ -118,6 +132,8 @@ def validate_all():
             ci = q.get("correctIndex")
             if not isinstance(ci, int) or not (0 <= ci <= 4):
                 errors.append(f"{qid}: invalid correctIndex '{ci}'")
+            else:
+                div_ci[ci] += 1
 
             rat = q.get("rationale", {})
             if not isinstance(rat, dict):
@@ -148,6 +164,10 @@ def validate_all():
                 errors.append(f"{qid}: contains forbidden emoji")
             if FORBIDDEN_RE.search(blob):
                 errors.append(f"{qid}: contains forbidden letter/boilerplate phrasing")
+
+        if qs:
+            if set(div_ci.keys()) != {0, 1, 2, 3, 4} or (max(div_ci.values()) - min(div_ci.values()) > 2):
+                errors.append(f"{div_id}: unbalanced correctIndex distribution {dict(sorted(div_ci.items()))}")
 
     return errors, total_q, len(module_ids)
 

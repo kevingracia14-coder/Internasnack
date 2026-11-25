@@ -1035,7 +1035,9 @@ const PSIKO_EXTRA_WIDGET_SPECS = [];
       play: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" d="M6 4l14 8-14 8V4z" />`,
       search: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" />`,
       chevronDown: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9l6 6 6-6" />`,
-      refresh: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />`
+      refresh: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />`,
+      download: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />`,
+      upload: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.85" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M17 8l-5-5-5 5M12 3v12" />`
     };
     const body = paths[name] || paths.book;
     return `<svg class="${cls} shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">${body}</svg>`;
