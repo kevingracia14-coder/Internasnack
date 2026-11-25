@@ -1044,7 +1044,7 @@ const PSIKO_EXTRA_WIDGET_SPECS = [];
   }
 
   function renderInternaSnackLogoSvg(cls = "w-8 h-8") {
-    return `<img src="icons/icon.svg" class="${cls} shrink-0 rounded-xl" alt="Interna Snack" />`;
+    return `<img src="icons/icon.svg?v=2" class="${cls} shrink-0 rounded-xl" alt="Interna Snack" />`;
   }
 
   const MODULE_DISPLAY_MAP = {

@@ -1,6 +1,6 @@
 /* Interna Snack Service Worker — Offline-First PWA Support */
-const CACHE_NAME = "interna-snack-core-16fbe280"; // AUTO-VERSIONED BY bundle_data.py
-const RUNTIME_CACHE = "interna-snack-runtime-16fbe280"; // AUTO-VERSIONED BY bundle_data.py
+const CACHE_NAME = "interna-snack-core-d584f832"; // AUTO-VERSIONED BY bundle_data.py
+const RUNTIME_CACHE = "interna-snack-runtime-d584f832"; // AUTO-VERSIONED BY bundle_data.py
 
 const CORE_ASSETS = [
   "./",
@@ -9,7 +9,7 @@ const CORE_ASSETS = [
   "./tailwind.min.css",
   "./styles.css",
   "./gamification.js",
-  "./data.js?v=16fbe280", // AUTO-VERSIONED BY bundle_data.py
+  "./data.js?v=d584f832", // AUTO-VERSIONED BY bundle_data.py
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
