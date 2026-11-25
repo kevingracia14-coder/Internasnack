@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth" data-theme="light" data-font-size="normal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interna Snack — Clinical Reference &amp; SpPD Board Companion</title>
+  <meta name="theme-color" content="#0f766e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Interna Snack" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <!-- Google Fonts: Plus Jakarta Sans (Clean Clinical UI & Reading), JetBrains Mono (Lab & Tabular Figures) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Early Theme & Reading Scale Init (Zero FOUC) -->
+  <script>
+    (function () {
+      try {
+        var raw = localStorage.getItem("internasnack_sppd_state_v2");
+        if (!raw) return;
+        var st = JSON.parse(raw);
+        var fs = st && st.fontSizePreference;
+        if (fs === "normal" || fs === "large" || fs === "xlarge") {
+          document.documentElement.setAttribute("data-font-size", fs);
+        }
+        var tp = st && st.themePreference;
+        var isDark = tp === "dark" || (tp !== "light" && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", isDark);
+        document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Tailwind CSS CDN (with automatic offline fallback if CDN unreachable) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (window.tailwind) {
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+              sans: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+              mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+              vignette: ['Plus Jakarta Sans', '-apple-system', 'sans-serif']
+            },
+            colors: {
+              canvas: 'var(--bg-canvas)',
+              surface: {
+                DEFAULT: 'var(--bg-surface)',
+                subtle: 'var(--bg-surface-subtle)',
+                elevated: 'var(--bg-surface-subtle)'
+              },
+              ink: {
+                primary: 'var(--text-primary)',
+                secondary: 'var(--text-secondary)',
+                muted: 'var(--text-muted)'
+              },
+              divider: {
+                subtle: 'var(--border-subtle)',
+                strong: 'var(--border-strong)'
+              },
+              accent: {
+                primary: 'var(--accent-primary)',
+                secondary: 'var(--accent-secondary)',
+                coral: 'var(--accent-coral)'
+              }
+            }
+          }
+        }
+      };
+    } else {
+      var fallbackLink = document.createElement('link');
+      fallbackLink.rel = 'stylesheet';
+      fallbackLink.href = 'offline-fallback.css';
+      document.head.appendChild(fallbackLink);
+    }
+  </script>
+
+  <!-- Clean Clinical Design System Stylesheet (v2) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="antialiased selection:bg-[#0F766E]/15 selection:text-[#0F766E] dark:selection:bg-[#2DD4BF]/20 dark:selection:text-[#2DD4BF]">
+
+  <!-- Desktop Fixed Sidebar / Mobile Slide-Over Drawer -->
+  <aside id="app-sidebar" class="osm-sidebar" aria-label="Navigasi Utama"></aside>
+  <div id="sidebar-backdrop" class="osm-sidebar-backdrop md:hidden" onclick="window.InternaApp.toggleMobileSidebar(false)" aria-hidden="true"></div>
+
+  <!-- Compact Mobile Top Header (Hidden on md+) -->
+  <header id="app-header" class="sticky top-0 z-30 glass-nav md:hidden"></header>
+
+  <!-- Main View Container -->
+  <main id="app-main" class="pb-24 md:pb-12"></main>
+
+  <!-- Mobile Fixed Bottom Navigation Bar (48-56px height, min 44x44px tap targets) -->
+  <nav id="mobile-nav" class="fixed bottom-0 left-0 right-0 z-40 md:hidden glass-bottom-nav" aria-label="Navigasi Bawah Mobile"></nav>
+
+  <!-- Modal 1: Carousel Review Materi 7 Komponen -->
+  <div id="carousel-modal" class="hidden"></div>
+
+  <!-- Modal 2: Laci Nilai Normal Laboratorium Dewasa -->
+  <div id="lab-modal" class="hidden"></div>
+
+  <!-- Modal 5: Daftar Isi (Table of Contents / Quick Jump) -->
+  <div id="toc-modal" class="hidden"></div>
+
+  <!-- Modal 6: Lembar Soal / Grid Navigasi Try Out -->
+  <div id="tryout-grid-modal" class="hidden"></div>
+
+  <!-- Modal 7: Konfirmasi Selesai Try Out -->
+  <div id="tryout-finish-modal" class="hidden"></div>
+
+  <!-- Modal 8: Edit Profil Klinis & Avatar -->
+  <div id="profile-modal" class="hidden"></div>
+
+  <!-- Modal 9: Global Search / Quick Switcher (Cmd+K) -->
+  <div id="global-search-modal" class="hidden"></div>
+
+  <!-- Floating Toast Notifications -->
+  <div id="toast-container" class="fixed bottom-20 md:bottom-5 right-5 z-50 flex flex-col gap-2"></div>
+
+  <!-- Core Data, Modular Widgets & Application Controller -->
+  <script src="gamification.js"></script>
+  <script src="data.js"></script>
+  <script src="src/core/runtime.js"></script>
+  <script src="src/widgets/viz-shared.js"></script>
+  <script src="src/widgets/tropik.js"></script>
+  <script src="src/widgets/kardiologi.js"></script>
+  <script src="src/widgets/nefrologi.js"></script>
+  <script src="src/widgets/pulmonologi.js"></script>
+  <script src="src/widgets/geh.js"></script>
+  <script src="src/widgets/endokrin.js"></script>
+  <script src="src/widgets/hom.js"></script>
+  <script src="src/widgets/reumatologi.js"></script>
+  <script src="src/widgets/geriatri.js"></script>
+  <script src="src/widgets/alergi.js"></script>
+  <script src="src/widgets/psikosomatik.js"></script>
+  <script src="src/widgets/registry.js"></script>
+  <script src="src/core/app.js"></script>
+  <script>
+    (function () {
+      window.__INTERNA_OFFLINE_STATUS__ = {
+        supported: 'serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1'),
+        ready: false,
+        online: navigator.onLine !== false
+      };
+
+      function notifyOfflineStatus() {
+        window.dispatchEvent(new CustomEvent('interna:offline-status', {
+          detail: Object.assign({}, window.__INTERNA_OFFLINE_STATUS__)
+        }));
+      }
+
+      if (window.__INTERNA_OFFLINE_STATUS__.supported) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('./sw.js').then(function (reg) {
+            if (reg.active) {
+              window.__INTERNA_OFFLINE_STATUS__.ready = true;
+              notifyOfflineStatus();
+            }
+            reg.addEventListener('updatefound', function () {
+              var newWorker = reg.installing;
+              if (!newWorker) return;
+              newWorker.addEventListener('statechange', function () {
+                if (newWorker.state === 'activated') {
+                  window.__INTERNA_OFFLINE_STATUS__.ready = true;
+                  notifyOfflineStatus();
+                }
+              });
+            });
+            navigator.serviceWorker.ready.then(function () {
+              window.__INTERNA_OFFLINE_STATUS__.ready = true;
+              notifyOfflineStatus();
+            });
+          }).catch(function (err) {
+            console.warn('ServiceWorker registration skipped:', err);
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,2626 @@
+[
+  {
+    "id": "nefro-board-001",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien saat ini terdiagnosa hidronefrosis bilateral. Pada pemeriksaan USG 4 bulan sebelumnya ditemukan batu tanpa adanya hidronefrosis saat itu. GFR normal, ur/cr normal. Diagnosa",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Acute on CKD",
+      "AKI post renal",
+      "CKD ec post renal",
+      "Lakukan Extracorporeal Shock Wave Lithotripsy (ESWL) cito hari ini untuk menghancurkan batu",
+      "Lakukan Ureteroskopi (URS) dan litotripsi batu segera sebelum infeksi mereda"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Tidak ada bukti AKI karena fungsi ginjal masih normal dan tidak disebutkan kenaikan kreatinin atau oliguria. Kelainan struktural saluran kemih yang telah terdokumentasi ≥3 bulan memenuhi kriteria CKD; bila eGFR ≥90, kategorinya G1. Hidronefrosis bilateral saat ini tetap memerlukan dekompresi dan evaluasi urologi segera. Keyakinan sedang karena persistensi batu selama 4 bulan tidak dinyatakan eksplisit. Rujukan: PAPDI VII 2024; Pedoman Pengelolaan PGK PERNEFRI; KDIGO CKD 2024.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Acute on CKD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'AKI post renal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Lakukan Extracorporeal Shock Wave Lithotripsy (ESWL) cito hari ini untuk menghancurkan batu' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Lakukan Ureteroskopi (URS) dan litotripsi batu segera sebelum infeksi mereda' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-002",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-2",
+    "subtopic": "Hiperplasia Prostat (BPH) & Disfungsi Buli",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki 70 tahun dengan riwayat benign prostatic hyperplasia (BPH) datang dengan retensi urin dan dipasang kateter urin, pada awalnya volume urin >2000 cc; setelah 4 hari perawatan, pasien menunjukkan produksi urin meningkat hingga hampir 4000 cc/hari disertai perbaikan fungsi ginjal (kreatinin menurun), tanpa keluhan haus berlebihan atau hiperglikemia.",
+    "leadIn": "Apakah penyebab paling mungkin terjadinya poliuria pada pasien ini ?",
+    "options": [
+      "Diuresis post obstruksi",
+      "Osmotic diuresis akibat hiperglikemia",
+      "Polidipsi primer",
+      "Gangguan sekresi ADH (diabetes insipidus atau SIADH)",
+      "Efek samping diuretic"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Poliuria setelah pelepasan obstruksi disertai penurunan kreatinin merupakan post- obstructive diuresis. Mekanismenya mencakup ekskresi natrium/urea yang tertahan, medullary washout, dan gangguan sementara kemampuan konsentrasi ginjal. Pantau diuresis, tekanan darah, natrium, kalium, magnesium, dan ganti cairan secara terukur. Rujukan: PAPDI VII 2024; Konsensus Gangguan Ginjal Akut PERNEFRI; KDIGO AKI 2012 (guideline final, sedangkan pembaruan 2026 masih draf publik). SIADH = too much ADH  serum encer, urine pekat DI = too little ADH  serum pekat, urine encer DDAVP = desmopressin = analog ADH DDAVP aquaporin-2 meningkat reabsorpsi air meningkat urine berkurang → → → dan lebih pekat. Water deprivation test",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Osmotic diuresis akibat hiperglikemia' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hiperplasia Prostat (BPH) & Disfungsi Buli, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Polidipsi primer' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hiperplasia Prostat (BPH) & Disfungsi Buli, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Gangguan sekresi ADH (diabetes insipidus atau SIADH)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hiperplasia Prostat (BPH) & Disfungsi Buli, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Efek samping diuretic' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hiperplasia Prostat (BPH) & Disfungsi Buli, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "bph",
+        "retensi urin",
+        "kateter",
+        "tamsulosin"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hiperplasia Prostat (BPH) & Disfungsi Buli merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-003",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-2",
+    "subtopic": "Sindrom Nefritik & Glomerulonefritis Akut",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan 28 tahun datang dengan keluhan urin berwarna kemerahan sejak 2 hari, disertai sakit kepala, dengan riwayat sakit tenggorokan disertai demam 2–3 minggu sebelumnya yang sempat diobati dengan ibuprofen; pasien memiliki riwayat hipertensi, pada pemeriksaan didapatkan tekanan darah 160/100 mmHg, nadi 86x/menit, suhu 36,7°C, terdapat edema pretibial ringan tanpa ruam kulit atau sesak napas; pemeriksaan urinalisis menunjukkan proteinuria +3 dan hematuria >30/lpb dengan silinder eritrosit, laboratorium darah menunjukkan ureum 45 mg/dL dan kreatinin 1,5 mg/dL, C3 menurun dan ASO titer meningkat.",
+    "leadIn": "Apakah diagnosis paling tepat pada pasien ini?",
+    "options": [
+      "Acute tubular necrosis (ATN)",
+      "Acute interstitial nephritis (AIN)",
+      "Glomerulonefritis akut",
+      "Sindrom nefrotik",
+      "Sindrom Goodpasture"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Sindrom nefritik ditandai hematuria glomerular dengan silinder eritrosit, proteinuria, edema, hipertensi, dan penurunan fungsi ginjal. Jeda 2–3 minggu setelah faringitis, C3 rendah, serta ASO meningkat sangat mendukung glomerulonefritis pascastreptokokus, bukan AIN akibat ibuprofen. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025. JEBAKAN!!",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Acute tubular necrosis (ATN)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Acute interstitial nephritis (AIN)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Sindrom nefrotik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Sindrom Goodpasture' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefritik",
+        "gnaps",
+        "glomerulonefritis",
+        "astoo"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefritik & Glomerulonefritis Akut merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-004",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-3",
+    "subtopic": "Krisis Hipertensi: Emergensi vs Urgensi",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan 30 tahun dengan kehamilan 22 minggu datang kontrol antenatal dengan riwayat hipertensi sejak 2 tahun sebelum hamil, saat ini mengeluh tidak ada nyeri kepala atau gangguan penglihatan; pada pemeriksaan didapatkan tekanan darah 170/100 mmHg, nadi 88x/menit, tanpa edema berat; pemeriksaan penunjang menunjukkan proteinuria negatif, fungsi ginjal dalam batas normal.",
+    "leadIn": "Apakah diagnosis paling tepat pada pasien ini?",
+    "options": [
+      "Hipertensi kronik superimposed preeclampsia",
+      "Hipertensi gestasional",
+      "Hipertensi kronik",
+      "Preeklampsia",
+      "Hipertensi emergensi"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi sudah ada 2 tahun sebelum kehamilan, sehingga diklasifikasikan sebagai hipertensi kronik. Belum ada proteinuria atau disfungsi organ baru yang mendukung superimposed preeklampsia. Tekanan darah 170/100 mmHg termasuk hipertensi berat dan memerlukan penanganan segera, tetapi bukan 'emergensi' tanpa bukti kerusakan organ akut. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Hipertensi kronik superimposed preeclampsia' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Hipertensi gestasional' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Preeklampsia' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Hipertensi emergensi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "krisis hipertensi",
+        "hipertensi emergensi",
+        "hipertensi urgensi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Krisis Hipertensi: Emergensi vs Urgensi merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-005",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan hamil usia kehamilan 26 minggu dengan riwayat hipertensi datang kontrol antenatal, pada pemeriksaan didapatkan tekanan darah 150/95 mmHg tanpa keluhan nyeri kepala atau gangguan penglihatan; pemeriksaan penunjang menunjukkan proteinuria (+), fungsi ginjal dalam batas normal.",
+    "leadIn": "Apakah terapi antihipertensi utama yang paling tepat pada pasien ini?",
+    "options": [
+      "Amlodipin",
+      "ACE inhibitor",
+      "Beta blocker",
+      "Isolated Systolic Hypertension; tidak perlu terapi karena TD klinik <140/90 mmHg",
+      "Hipotensi ortostatik"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "sebenarnya adalah nifedipin lepas lambat/labetalol/metildopa. Penjelasan: ACE inhibitor kontraindikasi pada kehamilan. Amlodipin dapat digunakan pada keadaan tertentu, tetapi bukan pilihan pertama yang paling mapan. Karena opsi nifedipin, labetalol, dan metildopa tidak dicantumkan, soal ini tidak memiliki opsi ideal. Proteinuria setelah 20 minggu pada hipertensi kronik juga harus dinilai sebagai kemungkinan superimposed preeklampsia. Keyakinan sedang. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Amlodipin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'ACE inhibitor' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Isolated Systolic Hypertension; tidak perlu terapi karena TD klinik <140/90 mmHg' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Hipotensi ortostatik' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-006",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan hamil usia kehamilan 28–30 minggu datang ke IGD dengan keluhan sakit kepala hebat sejak beberapa jam, tanpa kejang; pada pemeriksaan didapatkan tekanan darah 180/100 mmHg, nadi 90x/menit, frekuensi napas 20x/menit, suhu 36,8°C; tidak tersedia data urinalisis saat ini, pemeriksaan fisik lain belum menunjukkan edema paru atau tanda syok.",
+    "leadIn": "Apakah tata laksana paling tepat pada pasien ini?",
+    "options": [
+      "Ceftriaxone",
+      "Ciprofloxacin",
+      "Mulai kombinasi ACEi (ramipril) + ARB (valsartan) agar blokade RAAS sempurna",
+      "Mulai monoterapi atenolol dosis rendah selama 1 tahun",
+      "Mulai klonidin + metildopa sebagai terapi lini pertama standar"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Tekanan darah ≥160 sistolik atau ≥110 diastolik yang persisten pada kehamilan harus diturunkan segera dengan obat kerja cepat; nicardipin IV dapat digunakan. Sakit kepala hebat merupakan tanda neurologis PEB atau impending eklampsia sehingga MgSO₄ diberikan untuk profilaksis kejang. Terminasi ditentukan setelah stabilisasi berdasarkan usia gestasi dan kondisi ibu-janin, bukan otomatis sebelum stabilisasi. Rujukan: PAPDI VII 2024 dan guideline organ- spesifik terkait. 7. Terapi ISK pada kehamilan. Pilihan antibiotiknya? Penjelasan: Pielonefritis pada kehamilan umumnya memerlukan rawat inap dan antibiotik parenteral seperti ceftriaxone. Untuk sistitis atau bakteriuria asimtomatik, terapi oral terarah kultur seperti sefaleksin, amoksisilin-klavulanat, nitrofurantoin, atau fosfomis...",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Ciprofloxacin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Mulai kombinasi ACEi (ramipril) + ARB (valsartan) agar blokade RAAS sempurna' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Mulai monoterapi atenolol dosis rendah selama 1 tahun' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Mulai klonidin + metildopa sebagai terapi lini pertama standar' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-007",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien wanita dengan massa pelvis besar yang menyebabkan hidronefrosis berat. Tindakan yang harus dilakukan",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Nefrostomi",
+      "Hemodialisis",
+      "pemasangan stent",
+      "Berikan allopurinol dan pertahankan diet tinggi natrium",
+      "Batu Struvit; berikan pengasaman urin dengan amonium klorida"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hidronefrosis berat akibat kompresi massa pelvis memerlukan dekompresi saluran kemih. Pada obstruksi ekstrinsik berat atau ketika stent ureter sulit dipasang/gagal, nefrostomi perkutan memberikan drainase paling cepat dan andal. Stent dapat menjadi alternatif bila secara teknis memungkinkan. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Hemodialisis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'pemasangan stent' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Berikan allopurinol dan pertahankan diet tinggi natrium' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Batu Struvit; berikan pengasaman urin dengan amonium klorida' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-008",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien geriatri mengalami konstipasi. Pasien memiliki riwayat stroke dan hanya berbaring di tempat tidur. Pasien dengan riwayat hipertensi rutin minum amlodipin. Pada pemeriksaan fisik bising usus normal dan tidak dijumpai tanda peritonitis ataupun ileus. Tatalaksana",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Berikan bisacodil",
+      "Ganti amlodipin",
+      "Berikan laktulosa",
+      "Kanal natrium epitel (ENaC) di sel prinsipal duktus kolektivus",
+      "Penukar Na⁺/H⁺ (NHE3) di tubulus konvolutus proksimal"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Tidak ada tanda ileus atau abdomen akut. Pada konstipasi kronik geriatri, setelah optimasi cairan, serat, mobilisasi, dan toileting, laksatif osmotik seperti laktulosa merupakan pilihan rasional. Amlodipin dapat berkontribusi, tetapi tidak perlu otomatis dihentikan bila masih diperlukan; bisakodil lebih sesuai sebagai tambahan/rescue jangka pendek. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. Kenapa gak B?",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Berikan bisacodil' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Ganti amlodipin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Kanal natrium epitel (ENaC) di sel prinsipal duktus kolektivus' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Penukar Na⁺/H⁺ (NHE3) di tubulus konvolutus proksimal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-009",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-2",
+    "subtopic": "Diskalemia & Kegawatdaruratan Hiperkalemia",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan kelemahan otot, hipokalemia berat dgn K 1,8 mg/dL. Ca serum 70 (sangat tinggi). AGDA pH 7,4 (alkalosis). Dijumpai batu ginjal.",
+    "leadIn": "Diagnosa?",
+    "options": [
+      "RTA tipe 1",
+      "RTA tipe 2",
+      "RTA tipe 4",
+      "Gittelman syndrome",
+      "Barter syndrome"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipokalemia dengan alkalosis metabolik menunjukkan kehilangan garam renal seperti Bartter atau Gitelman. Adanya batu ginjal/nephrocalcinosis lebih mendukung Bartter karena hiperkalsiuria; Gitelman biasanya disertai hipomagnesemia dan hipokalsiuria. RTA tipe 1 menyebabkan asidosis metabolik, bukan alkalosis. Keyakinan sedang karena data 'Ca serum 70' tidak jelas. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'RTA tipe 1' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'RTA tipe 2' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'RTA tipe 4' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'Gittelman syndrome' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hiperkalemia",
+        "hipokalemia",
+        "t tall",
+        "kalsium glukonas"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Diskalemia & Kegawatdaruratan Hiperkalemia merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-010",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-1",
+    "subtopic": "Disnatremia & Regulasi Tonisitas",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien datang dengan polidipsi, minum air hingga 16 L/hari. Na serum 140an, BJ urin normal.",
+    "leadIn": "Diagnosa?",
+    "options": [
+      "Polidipsi primer",
+      "SIADH",
+      "Diabetes insipidus nefrogenik",
+      "Diabates insipidus sentral",
+      "Polidipsia primer psikogenik"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Asupan air sangat besar dengan natrium serum tetap normal dan berat jenis urin tidak sangat rendah lebih sesuai dengan polidipsi primer. Diabetes insipidus biasanya menghasilkan urin sangat encer dan, bila akses air tidak mampu mengimbangi, cenderung menyebabkan hipernatremia. Konfirmasi ideal dengan osmolalitas serum-urin dan uji deprivasi air terawasi. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'SIADH' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Diabetes insipidus nefrogenik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Diabates insipidus sentral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Polidipsia primer psikogenik' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hiponatremia",
+        "hipernatremia",
+        "siadh",
+        "koreksi natrium"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Disnatremia & Regulasi Tonisitas merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-011",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki 68 tahun datang dengan keluhan sulit berkemih sejak beberapa bulan, pancaran lemah, terputus-putus, dan rasa tidak lampias; pasien juga sering terbangun malam untuk berkemih. Pada pemeriksaan colok dubur didapatkan prostat membesar, kenyal, tidak nyeri; pemeriksaan laboratorium menunjukkan PSA 5 ng/mL, dan USG ginjal–saluran kemih menunjukkan hidronefrosis akibat obstruksi.",
+    "leadIn": "Apakah tata laksana definitif paling tepat pada pasien ini?",
+    "options": [
+      "Alfa-blocker",
+      "5-alpha reductase inhibitor",
+      "TURP",
+      "Antimuskarinik",
+      "DJ stent"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: BPH dengan obstruksi yang telah menimbulkan hidronefrosis merupakan indikasi terapi definitif, bukan hanya obat simptomatik. TURP adalah prosedur standar untuk prostat ukuran sedang; alfa-blocker atau 5-ARI dapat digunakan sementara/adjunct, tetapi tidak mengatasi komplikasi obstruktif secara definitif. PSA 5 tetap perlu evaluasi kanker prostat sebelum tindakan. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Alfa-blocker' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan '5-alpha reductase inhibitor' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Antimuskarinik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'DJ stent' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-012",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-1",
+    "subtopic": "Sindrom Nefrotik Dewasa",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pemeriksaan lab pada pasien yang sudah terdiagnosa CKD untuk melihat komplikasi ?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Minimal change",
+      "fokal segmental",
+      "Membranosa",
+      "Minimal Change Disease; berikan siklofosfamid dan tunda ARV",
+      "Nefropati Membranosa anti-PLA2R positif; berikan rituksimab tunggal"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Komplikasi CKD yang perlu disaring meliputi anemia serta CKD-mineral and bone disorder, sehingga Hb, kalsium, dan fosfat merupakan kombinasi paling representatif dari opsi. Dalam praktik juga diperiksa kalium, bikarbonat, PTH, albumin, dan parameter besi sesuai stadium. Rujukan: PAPDI VII 2024; Pedoman Pengelolaan PGK PERNEFRI; KDIGO CKD 2024. BESI BESI SI : Besi yang dipake buat operasional Ferritin : Tabungan besi Transferin : Protein yg ngangkut2 besinya TIBC : Kemampuan total transferrin mengikat besi Chatgpt hacks 14. Pilihan antihipertensi pada ibu hamil trimester 3 Jawaban: Nifedipin lepas lambat; alternatif: labetalol atau metildopa. Penjelasan: Ketiganya dapat digunakan pada trimester ketiga. ACE inhibitor dan ARB tetap kontraindikasi karena fetotoksisitas. Untuk hiper...",
+      "distractorAnalysis": {
+        "1": "Pilihan 'fokal segmental' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Membranosa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Minimal Change Disease; berikan siklofosfamid dan tunda ARV' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Nefropati Membranosa anti-PLA2R positif; berikan rituksimab tunggal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefrotik",
+        "minimal change",
+        "fsgs",
+        "membranosa"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefrotik Dewasa merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-013",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan demam di bawah 7 hari. Nyeri gastrocnemius. Diagnosa mengarah ke leptospirosis dan mengalami gangguan ginjal akut.",
+    "leadIn": "Patogenesisnya?",
+    "options": [
+      "Acute tubular necrosis",
+      "Acute intertitial nefritis",
+      "Pasien mengalami nekrosis tubular akut non-oligurik akibat nefrotoksisitas langsung",
+      "Terjadi peningkatan produksi kreatinin otot akibat toksisitas antiretroviral",
+      "Dehidrasi subklinis menyebabkan AKI prerenal berat"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Keterlibatan ginjal pada leptospirosis:",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Acute tubular necrosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Pasien mengalami nekrosis tubular akut non-oligurik akibat nefrotoksisitas langsung' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Terjadi peningkatan produksi kreatinin otot akibat toksisitas antiretroviral' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Dehidrasi subklinis menyebabkan AKI prerenal berat' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-014",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan nyeri pinggang. Ditemukan kadar asam urat tinggi. Curiga batu saluran kemih jenis batu asam urat. Fungsi ginjal terganggu Pilihan penunjang yang tepat? (tidak ada opsi CT scan urologi)",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "USG abdomen",
+      "Foto BNO",
+      "Foto BNO-IVP",
+      "Enzim 1α-hidroksilase di sel epitel tubulus konvolutus proksimal",
+      "Enzim 25-hidroksilase di sel mesangial glomerulus"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Batu asam urat bersifat radiolusen sehingga sering tidak tampak pada foto BNO. CT nonkontras adalah pemeriksaan terbaik, tetapi tidak tersedia dalam opsi. Pada gangguan fungsi ginjal, USG lebih aman untuk mendeteksi batu dan terutama obstruksi; BNO-IVP menggunakan kontras dan tidak menjadi pilihan awal (“fungsi ginjal terganggu”). Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Foto BNO' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Foto BNO-IVP' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Enzim 1α-hidroksilase di sel epitel tubulus konvolutus proksimal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Enzim 25-hidroksilase di sel mesangial glomerulus' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-015",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-3",
+    "subtopic": "Infeksi Saluran Kemih (ISK) Komplikata",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Antibiotik pilihan pada pyelonefritis akut (pasien demam dengan nyeri ketok CVA +) memerlukan terapi parenteral. Penjelasan: Pilihan akhir ditentukan oleh derajat sakit, kehamilan, fungsi ginjal, faktor komplikasi, pola resistensi lokal, serta kultur urin. Pasien stabil rawat jalan dapat memperoleh fluorokuinolon bila sensitivitas lokal memadai; pasien laki-laki, sepsis, obstruksi, atau hamil diperlakukan sebagai ISK sistemik/komplikata dan umumnya memerlukan terapi parenteral awal. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 55 1.",
+    "leadIn": "pada pasien:",
+    "options": [
+      "AKI stage I",
+      "AKI stage II",
+      "AKI stage III",
+      "Acute on CKD",
+      "Karena penisilin G tunggal sudah menyembuhkan seluruh kasus"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Pasien sudah dikenal dengan BPH mengeluhkan nyeri, ada data PSA tinggi, tatalaksana Jawaban: Tidak ada opsi yang sepenuhnya tepat; PSA tinggi harus dievaluasi untuk kanker prostat terlebih dahulu. Bila BPH dengan obstruksi/komplikasi telah terkonfirmasi, A. TURP. Penjelasan: PSA tinggi bukan indikasi langsung finasteride, tamsulosin, atau TURP. Lakukan evaluasi ulang PSA setelah menyingkirkan retensi/infeksi, colok dubur, dan bila perlu MRI/biopsi. TURP dipilih bila gejala/obstruksi BPH berat atau terdapat komplikasi. Keyakinan rendah karena informasi soal tidak lengkap. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 2. pasien: Pasien dirawat dari kreatinin awalnya 0,9 kemudian menjadi 2,1, apa diagnosis pada Penjelasan: Kreatinin meningkat dari 0,9 menjadi 2,1 mg/dL, yaitu ...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'AKI stage I' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'AKI stage III' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Acute on CKD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Karena penisilin G tunggal sudah menyembuhkan seluruh kasus' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "isk",
+        "pielonefritis",
+        "sistitis",
+        "bakteriuria asimtomatik"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Infeksi Saluran Kemih (ISK) Komplikata merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-016",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan nyeri pada pinggang (mengarah ke nephrolithiasis), pasien dengan kreatinin meningkat, sudah dilakukan BNO namun tidak tampak adanya batu, pasien dengan asam urat tinggi.",
+    "leadIn": "Apa pemeriksaan penunjang berikutnya untuk menegakkan diagnosis pada pasien?",
+    "options": [
+      "Pyelography retrograde",
+      "Pyelography antegrade",
+      "CT Urologi non kontras",
+      "Uretrografi",
+      "Enzim renin di aparatus jukstaglomerular"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: NCCT adalah pemeriksaan paling sensitif untuk batu saluran kemih, termasuk batu asam urat yang radiolusen pada BNO, serta dapat menilai lokasi, ukuran, densitas, dan obstruksi. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Pyelography retrograde' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Pyelography antegrade' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Uretrografi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Enzim renin di aparatus jukstaglomerular' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-017",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien ibu hamil dengan tensi 171/100, apa pilihan terapi pada pasien?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Drip NTG",
+      "Drip Nikardipin",
+      "Enzim 11β-hidroksisteroid dehidrogenase tipe 2 di tubulus distal",
+      "Obat HT Bisoprolol, Nifedipin, Metildopa",
+      "dipulangkanNifedipin, Metildopa"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Tekanan darah 171/100 mmHg pada kehamilan sudah termasuk hipertensi akut berat karena sistolik ≥160–170 mmHg. Pasien harus dirawat dan segera diberikan antihipertensi kerja cepat, salah satunya nikardipin IV, dengan target awal menurunkan tekanan darah hingga sekitar 140–150/90–100 mmHg, tanpa menurunkannya terlalu drastis agar perfusi uteroplasenta tetap terjaga. Magnesium sulfat bukan obat penurun tekanan darah. MgSO₄ ditambahkan untuk profilaksis atau terapi kejang apabila pasien didiagnosis preeklampsia dengan gejala berat atau eklampsia. Jadi, bila soal sebenarnya mengasumsikan pasien mengalami preeklampsia berat, maka jawabannya menjadi C. Nikardipin + magnesium sulfat. NTG terutama dipilih bila terdapat edema paru akut. Obat oral nifedipin lepas lambat atau metildopa leb...",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Drip Nikardipin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Enzim 11β-hidroksisteroid dehidrogenase tipe 2 di tubulus distal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Obat HT Bisoprolol, Nifedipin, Metildopa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'dipulangkanNifedipin, Metildopa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-018",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien tidak sadar dengan tensi 220/180, CT Scna ICH apa pilihan terapi pada pasien?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Drip Nikardipin",
+      "USG ginjal",
+      "Berikan bisacodil",
+      "Ganti amlodipin",
+      "Berikan laktulosa"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pada perdarahan intraserebral dengan hipertensi berat, obat IV yang mudah dititrasi seperti nicardipin merupakan pilihan utama. Nitrogliserin dapat meningkatkan tekanan intrakranial dan bukan pilihan rutin. Target tekanan darah harus mengikuti protokol stroke dan waktu onset. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 8. a. Biopsi ginjal Pasien dengan klinis sindrom nefrotik, pilihan pemeriksaan penunjang yang paling tepat Penjelasan: Pada sindrom nefrotik dewasa tanpa penyebab yang sudah jelas, biopsi ginjal diperlukan untuk menentukan lesi histopatologi, prognosis, dan terapi. USG hanya menilai anatomi dan keamanan biopsi, bukan etiologi glomerular. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'USG ginjal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Berikan bisacodil' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Ganti amlodipin' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Berikan laktulosa' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-019",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-3",
+    "subtopic": "Klasifikasi & Evaluasi Proteinuria",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan bak berdarah, proteinuria, sebelumnya mengeluhkan nyeri tenggorakan 1 hari.",
+    "leadIn": "Saudara pasien juga mengeluhkan hal yang sama, apa diagnosis pada pasien?",
+    "options": [
+      "Nefropati IgA",
+      "GNAPS",
+      "Penebalan membran basal",
+      "Nifedipin long acting",
+      "Nifedipine sublingual"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: GN pascastreptokokus Hematuria yang muncul bersamaan atau dalam 1–2 hari setelah infeksi saluran napas atas disebut synpharyngitic hematuria dan khas untuk IgA nephropathy. biasanya muncul setelah masa laten sekitar 1–3 minggu dan sering disertai C3 rendah. Rujukan: PAPDI VII 2024; KDIGO IgA Nephropathy/IgA Vasculitis 2025.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'GNAPS' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Penebalan membran basal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Nifedipin long acting' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Nifedipine sublingual' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "proteinuria",
+        "albuminuria",
+        "uacr",
+        "protein urin 24 jam"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Klasifikasi & Evaluasi Proteinuria merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-020",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien kondisi sblmnya fungsi ginjal normal, kemudian kecelakaan dengan fraktur pelvis, setelahnya didapatkan peningkatan ureum kreatinin, pemeriksaan apakah yang disarankan ?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "CT ginjal",
+      "BNO",
+      "Biopsi ginjal",
+      "CK",
+      "Foto BNO"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Trauma besar dan fraktur dapat menyebabkan rhabdomiolisis dengan myoglobinuria dan AKI; CK adalah pemeriksaan skrining utama. Namun bila terdapat hematuria nyata atau kecurigaan cedera traktus urinarius, diperlukan pencitraan trauma khusus (CT/cystography/urethrography sesuai lokasi). Rujukan: PAPDI VII 2024; Konsensus Gangguan Ginjal Akut PERNEFRI; KDIGO AKI 2012 (guideline final, sedangkan pembaruan 2026 masih draf publik).",
+      "distractorAnalysis": {
+        "0": "Pilihan 'CT ginjal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'BNO' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Biopsi ginjal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Foto BNO' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-021",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien Keracunan alkohol, mata sampe tidak bisa melihat. PH darah 7.0 hco3- 8. Pilihan terapi.?.",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Superimposed preklampsia",
+      "Hipertensi kehamilan",
+      "HT kronik",
+      "Foto BNO-IVP",
+      "Pyelography retrograde"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Gangguan penglihatan setelah alkohol oplosan dan asidosis berat sangat mengarah ke intoksikasi metanol. Terapi lengkap adalah fomepizole atau etanol sebagai antidotum, bikarbonat, folinat, serta hemodialisis pada asidosis berat, gangguan visual, penurunan kesadaran, atau kadar metanol tinggi. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 14. Anemia pada CKD. SI 40an Ferritin <200 Tatalaksana? - iron sucrose - Epo - Iron sucrose + epo Jawaban: Iron sucrose intravena terlebih dahulu. Penjelasan: Ferritin <200 ng/mL dengan besi serum rendah mengarah ke defisiensi besi, tetapi TSAT harus dihitung/diperiksa. Koreksi besi merupakan langkah pertama; ESA dipertimbangkan bila Hb tetap rendah setelah penyebab reversibel dikoreksi, terutama pada dialisis. Bila Hb ≤9–10 g/d...",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Hipertensi kehamilan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'HT kronik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Foto BNO-IVP' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Pyelography retrograde' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-022",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-3",
+    "subtopic": "Analisis Gas Darah & Koreksi Bikarbonat",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki berusia 60 tahun datang dengan keluhan mual dan muntah berulang sejak 1 bulan ini.P asien juga mengeluh menjadi sulit konsentrasi dan sulit tidur. Kadang-kadang terasa gatal pada kulit. Urin sudah mulai berkurang secara bertahap sejak 1 tahun terakhir, pasien juga mengeluh lemas semakin memberat sejak 2 bulan ini. Pasien diketahui sudah mengalami penyakit ginjal kronik sejak 1 tahun ini, namun belum disarankan untuk terapi dialisis. Pasien diketahui DM sejak 10 tahun ini dan rutin kontrol. Pada pemeriksaan fisik didapatkan kompos mentis, TD 140/94 mmHg, HR 78x/menit, R 16×/menit, suhu 36.4 C, konjungtiva pucat, pemeriksaan paru tidak didapatkan rhonki maupun wheezing, pemeriksaan jantung dalam batas normal. Pada kulit didapatkan bekas garukan di kedua lengan, pitting edema tidak ada. Pada pemeriksaan laboratorium didapatkan Hb 8.5 g/dL, leukosit 5600/UL, trombosit 268.000/uL, ureum 170 mg/dL, kreatinin 6.5 mg/dL, eGFR 9 ml/menit/1.73 m, analisis gas darah pH 7.34/pCO2 25/pO2 104/HCO3 16/Sa02 98%, Calsium ion 1.7 mol/L, phosphate 4.6 mg/dL.",
+    "leadIn": "Indikasi dialisis kronik pada pasien ini adalah?",
+    "options": [
+      "Sudah terdapat gejala klinis dan gangguan biokimiawi akibat azotemia",
+      "Penurunan urine output",
+      "Laju filtrasi glomerulus atau eGFR < 15 ml/menit/1.73 m2",
+      "Nilai bikarbonat serum <20 mEq/L",
+      "Nilai Hb < 9 g/dL"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Dialisis kronik dimulai berdasarkan penilaian komposit gejala/tanda uremia, gangguan asam-basa atau elektrolit refrakter, overload yang tidak terkendali, dan status nutrisi— bukan berdasarkan eGFR, Hb, atau bikarbonat tunggal. Mual, gangguan konsentrasi/tidur, pruritus, azotemia berat, dan asidosis pada kasus ini merupakan indikasi. Rujukan: Konsensus Dialisis PERNEFRI; KDIGO CKD 2024. 2. Indikasi HD —> terdapat gejala berulang Penjelasan: Contohnya mual-muntah uremik, anoreksia, pruritus berat, ensefalopati, perikarditis, atau penurunan status nutrisi yang tidak respons terhadap terapi konservatif. Keputusan tetap berbasis keseluruhan klinis, bukan angka ureum saja. Rujukan: Konsensus Dialisis PERNEFRI; KDIGO CKD 2024. 3. Indikasi HD hemodinamik tidak stabil  SLED CRRT Penjel...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Sudah terdapat gejala klinis dan gangguan biokimiawi akibat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Penurunan urine output' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Nilai bikarbonat serum <20 mEq/L' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Nilai Hb < 9 g/dL' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "analisis gas darah",
+        "agd",
+        "asidosis metabolik",
+        "anion gap"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Analisis Gas Darah & Koreksi Bikarbonat merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-023",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-2",
+    "subtopic": "Sindrom Nefritik & Glomerulonefritis Akut",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien post infeksi sakit tenggorokan 2-3 minggu lalu, saat itu juga ada demam sehingga mendapat terapi ibuprofen, ada hipertensi. UL hematuria di atas 30/lpb (lupa) dan proteinuria +3/4. Tidak disebut rash dan eosinofilia di soal. Ur Cr meningkat sedikit.",
+    "leadIn": "Diagnosis:",
+    "options": [
+      "ATN",
+      "AIN",
+      "Glomerulonefritis akut",
+      "Sindrom nefrotik",
+      "Sindrom goodpasture"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pola nefritik setelah faringitis 2–3 minggu sebelumnya lebih sesuai dengan GN pascainfeksi. Tidak adanya rash, eosinofilia, atau piuria membuat AIN akibat ibuprofen kurang mendukung. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'ATN' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'AIN' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Sindrom nefrotik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Sindrom goodpasture' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefritik",
+        "gnaps",
+        "glomerulonefritis",
+        "astoo"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefritik & Glomerulonefritis Akut merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-024",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-3",
+    "subtopic": "Infeksi Saluran Kemih (ISK) Komplikata",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien wanita, baru menikah, nyeri pinggang, demam, UL leukosit 20/lpb, nitrit positif, kristal positif, nyeri ketok CVA. Diagnosis",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Uretritis",
+      "Sistitis",
+      "Pielonefritis akut",
+      "Batu saluran kemih",
+      "USG Abdomen"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Demam, nyeri pinggang/CVA tenderness, leukosituria, dan nitrit positif menunjukkan infeksi traktus urinarius atas. Kristal dapat menyertai tetapi tidak menjelaskan demam dan bakteriuria. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. “Wanita baru menikah”...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Uretritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Sistitis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Batu saluran kemih' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'USG Abdomen' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "isk",
+        "pielonefritis",
+        "sistitis",
+        "bakteriuria asimtomatik"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Infeksi Saluran Kemih (ISK) Komplikata merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-025",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan kesulitan berkemih dan tidak lampias, RT ditemukan prostat membesar, PSA 5. USG ada hidronefrosis.",
+    "leadIn": "Tata laksana definitif:",
+    "options": [
+      "alfa blocker",
+      "5-ARI",
+      "TURP",
+      "Antimuskarinik",
+      "DJ stent"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hidronefrosis akibat BPH adalah komplikasi obstruksi dan merupakan definitif. TURP lebih tepat daripada obat saja; PSA 5 harus tetap dievaluasi sebelum tindakan. indikasi terapi Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'alfa blocker' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan '5-ARI' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Antimuskarinik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'DJ stent' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-026",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang pasiendirujuk karena hasil pemeriksaan Natrium serum 114 mEq/L (lupa tepatnya, tp hiponatremi berat). Pasien sadar baik, compos mentis. Tidak ada riwayat muntah-muntah atau diare. Pasien diberikan terapi NaCl 3%, 6 jam kemudian kondisi pasien tiba-tiba lemah, bicara pelo, serta terdapat kelemahan ekstremitas. Kadar natrium serum post koreksi 137 mEq/L.",
+    "leadIn": "Apa kemungkinan penyebab terjadinya kondisi tersebut:",
+    "options": [
+      "Stroke perdarahan intraserebral",
+      "Demielinisasi serebral",
+      "Perubahan osmolaritas serum mendadak",
+      "Stroke trombotik akut",
+      "Stroke emboli"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Koreksi natrium dari 114 menjadi 137 mEq/L dalam 6 jam sangat berlebihan. Lemah, disartria, dan defisit ekstremitas setelah koreksi cepat khas ODS, yang dapat berupa demielinisasi pontin maupun ekstrapontin. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Stroke perdarahan intraserebral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Perubahan osmolaritas serum mendadak' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Stroke trombotik akut' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Stroke emboli' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-027",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki laki usia 25 tahun datang ke IGD dengan keluhan utama sesak hebat dan pandangan kabur sejak 3 jam sebelum masuk rumah sakit, setelah meminum minuman oplosan sebanyak 1,5 botol 6 jam yang lalu. Pada pemeriksaan fisik didapatkan tampak sakit berat, sopor; tekanan darah 90/60 mmHg; frekuensi nadi 104x/menit; frekuensi napas 32x/menit; suhu 36,2 0C. Hasil laboratorium: ureum 45 mg/dL dan kreatinin 1,5 mg/dL. Analisis gasdarah: pH 7,001; PCO2 19; HCO3 6,5 mmol/L; PO2 96 mmHg. Tatalaksana yang paling tepat untuk menangani intoksikasi pada pasien ini adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Antidotum dengan methylen ethanol",
+      "Koreksi bikarbonat intravena",
+      "Hemodialisis",
+      "Hemofiltrasi",
+      "Rehidrasi"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Metanol dengan gangguan penglihatan, penurunan kesadaran, dan pH 7,00 memenuhi indikasi dialisis. Terapi harus disertai fomepizole/etanol, bikarbonat, dan folinat; dialisis saja tidak menggantikan antidotum. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Antidotum dengan methylen ethanol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Koreksi bikarbonat intravena' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Hemofiltrasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Rehidrasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-028",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan sjogren syndrome, K: 2.9; BGA: pH 7.26; UL: pH 6.6.",
+    "leadIn": "RTA tipe berapa?",
+    "options": [
+      "Proximal RTA (type II)",
+      "Distal RTA (type I)",
+      "Acute Tubular Necrosis",
+      "RTA type IV",
+      "CT Urologi non kontras"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Sjögren merupakan penyebab klasik distal RTA. Terdapat asidosis metabolik dengan hipokalemia, tetapi urin tetap alkalis (pH 6,6), menandakan kegagalan sekresi H+ distal. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Proximal RTA (type II)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Acute Tubular Necrosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'RTA type IV' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'CT Urologi non kontras' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-029",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan batu ginjal ukuran 10mm, tidak ada pelebaran calyces.",
+    "leadIn": "Tatalaksana yg tepat:",
+    "options": [
+      "Ceftriaxone IV",
+      "Ampi-sulbactam oral",
+      "Ulang kultur urine",
+      "Open surgery",
+      "URS"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Batu ginjal sekitar 10 mm tanpa obstruksi dapat ditangani dengan shock-wave lithotripsy atau ureteroscopy. Dari opsi yang ada, ESWL paling noninvasif dan sesuai; URS dipilih bila peluang bebas batu dengan ESWL rendah atau lokasi lebih sesuai. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 8. Ibu hamil 20 minggu, tidak ada gejala, datang berkonsultasi membawa hasil urinalisa dan kultur urine. UL : leukosituria (+) nitrit (+) Kultur didapatkan organisme E. Coli. Antibiotik sensitif: ceftriaxone, ampi-sulbactam. Tatalaksana selanjutnya: Jawaban: Tidak ada opsi yang tepat sepenuhnya: bakteriuria asimtomatik pada kehamilan harus diobati dengan antibiotik oral terarah kultur. Penjelasan: Ceftriaxone IV terlalu agresif untuk pasien tanpa gejala; 'ampicillin-sulbactam or...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Ceftriaxone IV' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Ampi-sulbactam oral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Open surgery' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'URS' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-030",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-8-1",
+    "subtopic": "Sindrom Kardiorenal & Hepatorenal",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Laki-laki, usia 60 tahun, datang ke praktek dokter membawa hasil laboratorium kadar kreatinin serum 2.0mg/dL (sekitar itu tp lupa). Pasien diketahui menderita hipertensi sejak 20 tahun lalu. Sekitar sepuluh tahun yang lalu, pasien sering mengalami sesak napas jika berjalan lebih dari 100 meter. Pada malam hari, pasien tidur dengan 3 bantal, kadang terbangun karena sesak. Pasien rutin berobat ke sebuah klinik dokter ahli jantung dan mendapatkan obat furosemid, bisoprolol, dan ramipril. Tekanan darah pasien 150/90 mmHg, batas jantung kiri melebar. Didapatkan juga edema pretebial.",
+    "leadIn": "Kondisi pasien ini sesuai dengan:",
+    "options": [
+      "Sindrom kardiorenal tipe I",
+      "Sindrom kardiorenal tipe II",
+      "Sindrom kardiorenal tipe III",
+      "Sindrom kardiorenal tipe IV",
+      "Sindrom kardiorenal tipe V"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Gagal jantung kronik yang telah berlangsung bertahun-tahun menyebabkan atau memperburuk disfungsi ginjal kronik. Tipe I adalah gagal jantung akut yang menyebabkan AKI; tipe IV adalah CKD primer yang menyebabkan penyakit jantung. Rujukan: PAPDI VII 2024; Pedoman Pengelolaan PGK PERNEFRI; KDIGO CKD 2024.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Sindrom kardiorenal tipe I' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Kardiorenal & Hepatorenal, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Sindrom kardiorenal tipe III' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Kardiorenal & Hepatorenal, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Sindrom kardiorenal tipe IV' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Kardiorenal & Hepatorenal, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Sindrom kardiorenal tipe V' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Kardiorenal & Hepatorenal, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom kardiorenal",
+        "crs",
+        "sindrom hepatorenal",
+        "hrs"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Kardiorenal & Hepatorenal merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-031",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan keluhan sering haus, banyak minum, BAK sehari banyak (produksi urine >3L/24jam). Dilakukan pemeriksaan osmolaritas urine, hasil awal 78, kemudian dilakukan water deprivation test osm urine tidak meningkat, setelah dilakukan desmopressin test, osm urin meningkat >50%.",
+    "leadIn": "Diagnosis pada pasien:",
+    "options": [
+      "Polidipsi primer",
+      "DI nefrogenik",
+      "DI sentral komplit",
+      "DI sentral parsial",
+      "Uretrografi"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Urin tetap sangat encer setelah deprivasi air, tetapi osmolalitas meningkat >50% setelah desmopresin. Respons besar ini menunjukkan kekurangan AVP sentral; pada DI nefrogenik responsnya minimal. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Polidipsi primer' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'DI nefrogenik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'DI sentral parsial' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Uretrografi' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-032",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien datang dg keluhan sakit kepala, pasien jg mengeluh sering berkeringat dan berdebar- debar. Pasien jg mengeluh tekanan darah yg selalu tinggi. TD pasien sekitar 170/100 mmHg, tidak turun dg obat hipertensi.",
+    "leadIn": "Pemeriksaan lanjutan yg perlu dilakukan:",
+    "options": [
+      "Tidak perlu terapi",
+      "IgA nefropati",
+      "GNM",
+      "Cresentric blabla",
+      "FSGS"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Skrining biokimia feokromositoma/paraganglioma dilakukan sebelum imaging dengan plasma free metanephrines atau 24-hour urinary fractionated metanephrines. CT/MRI adrenal dilakukan setelah bukti biokimia, kecuali keadaan khusus. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. Skrining: Cek di darah2 dulu atau random urine VMA Kalo ga ketemu di MSCT abdomen  scan seluruh tubuh (dd = paraganglioma) 52 1. Apa yg terjadi Pasien laki 71 tahun sakit. Creatinin naik dwri 0.9 ke 2.1 Penjelasan: Kenaikan kreatinin dari 0,9 ke 2,1 mg/dL adalah 2,33 kali baseline, memenuhi KDIGO AKI stadium 2. Rujukan: PAPDI VII 2024; Konsensus Gangguan Ginjal Akut PERNEFRI; KDIGO AKI 2012 (guideline final, sedangkan pembaruan 2026 masih draf publik). 2. Faktor prognosis Pasien wanita 56 th,...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Tidak perlu terapi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'IgA nefropati' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Cresentric blabla' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'FSGS' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-033",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-1",
+    "subtopic": "Disnatremia & Regulasi Tonisitas",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien wanita 22 th, sering haus, produksi urin 5L/24jam, dilakukan water deprivation test osmolalitas darah 298, osmolalitas urin 202 8 jam kemudian, dilakukan water deprivation test hasil urin osmolalitas 780",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Polidipsia primer",
+      "DI sentral",
+      "DI nefrogenik",
+      "CSWS",
+      "SIADH"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Osmolalitas urin meningkat dari 202 menjadi 780 mOsm/kg selama deprivasi air, menunjukkan kemampuan konsentrasi ginjal dan respons AVP yang utuh. Pada DI sentral maupun nefrogenik, urin gagal terkonsentrasi tanpa desmopresin. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 7. Hipertensi kemahilan keluar 3 soal Jawaban: Klasifikasi utama: hipertensi kronik, hipertensi gestasional, preeklampsia, dan superimposed preeklampsia. Penjelasan: Hipertensi sebelum hamil/<20 minggu adalah kronik; baru setelah 20 minggu tanpa proteinuria/organ dysfunction adalah gestasional; dengan proteinuria atau severe features adalah preeklampsia; hipertensi kronik dengan proteinuria/disfungsi organ baru adalah superimposed. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'DI sentral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'DI nefrogenik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'CSWS' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'SIADH' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hiponatremia",
+        "hipernatremia",
+        "siadh",
+        "koreksi natrium"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Disnatremia & Regulasi Tonisitas merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-034",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan 26 tahun hamil 35 minggu dari poli obsgyn datang membawa hasil pemeriksaan urin protein +1, Eritrosit 4/LPM, Leukosit 8 LPM, silinder negatif, kristal negatif, bakteri positif. Tidak terdapat keluhan berkemih, nyeri pinggang, dan demam. Penanganan lanjutan yang sesuai",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "USG Vesica urinaria, ureter",
+      "Ulang pemeriksaan urin rutin",
+      "Berikan topikan antiseptik",
+      "Beri antibiotik",
+      "Observasi"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pasien tanpa gejala dengan bakteri pada urinalisis dicurigai bakteriuria asimtomatik. Pada kehamilan harus dilakukan kultur dan bila positif signifikan, diberi antibiotik terarah; urinalisis saja tidak cukup untuk memilih obat. Dari opsi yang ada, D paling mendekati, dengan syarat kultur terlebih dahulu. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'USG Vesica urinaria, ureter' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Ulang pemeriksaan urin rutin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Berikan topikan antiseptik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Observasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-035",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-3",
+    "subtopic": "Klasifikasi & Evaluasi Proteinuria",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien hamil 20 minggu, sebelum hamil sudah mengalami hipertensi sejak 2 tahun. Saat ini tensi 170/100, proteinuria negatif.",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Adenosin",
+      "Bisoprolol",
+      "Amiodaron",
+      "....",
+      "Acute on CKD"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi sudah ada 2 tahun sebelum kehamilan. Tidak ada proteinuria atau disfungsi organ baru sehingga belum memenuhi superimposed preeklampsia. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 10. Anti hipertensi pada ibu hamil Penjelasan: Nifedipin extended-release aman dan merupakan pilihan utama pada kehamilan. ACE inhibitor/ARB kontraindikasi; atenolol tidak dipilih karena asosiasi dengan pertumbuhan janin terhambat, dan tiazid bukan lini awal kecuali indikasi tertentu. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 11. SVT stabil pada ibu hamil, Penjelasan: SVT stabil pada kehamilan ditangani dengan manuver vagal terlebih dahulu; bila gagal, adenosin IV adalah obat pilihan dan memiliki waktu paruh sangat singkat. Kardioversi tersinkronisasi d...",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Bisoprolol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Amiodaron' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan '....' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Acute on CKD' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "proteinuria",
+        "albuminuria",
+        "uacr",
+        "protein urin 24 jam"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Klasifikasi & Evaluasi Proteinuria merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-036",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien ditawarkan HD oleh dokter tapi menolak dan mau terapi medikamentosa aja, asas kedokteran?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Autonomi",
+      "Beneficence",
+      "Justice",
+      "Obat HT Bisoprolol, Nifedipin, Metildopa",
+      "dipulangkanNifedipin, Metildopa"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pasien kompeten berhak menerima atau menolak dialisis setelah memperoleh informasi yang adekuat mengenai manfaat, risiko, alternatif, dan konsekuensi penolakan. Dokter tetap harus memastikan kapasitas keputusan dan informed refusal. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Beneficence' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Justice' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Obat HT Bisoprolol, Nifedipin, Metildopa' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'dipulangkanNifedipin, Metildopa' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-037",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-3",
+    "subtopic": "Klasifikasi & Evaluasi Proteinuria",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien DM, UACR meningkat, bagaimana patfisnya?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Gula darah tinggi menyebabkan degradasi matrix",
+      "Kerusakan endotel",
+      "Penebalan membran basal",
+      "AKI stage 2",
+      "AKD"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Albuminuria pada DKD timbul akibat kombinasi disfungsi endotel, penebalan GBM, hilangnya integritas podosit/slit diaphragm, dan hipertensi intraglomerular. Jadi opsi C adalah salah satu perubahan morfologis utama, tetapi bukan satu-satunya mekanisme. Rujukan: PAPDI VII 2024; Pedoman Pengelolaan PGK PERNEFRI; KDIGO CKD 2024.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Gula darah tinggi menyebabkan degradasi matrix' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Kerusakan endotel' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'AKI stage 2' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'AKD' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "proteinuria",
+        "albuminuria",
+        "uacr",
+        "protein urin 24 jam"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Klasifikasi & Evaluasi Proteinuria merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-038",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Teori Dasar",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien mengeluh nyeri kepala. Riwayat hipertensi. TD saat ini 220/100?. Funduskopi ditemukan papil edema.",
+    "leadIn": "Patofisiologi?",
+    "options": [
+      "Captopril subling",
+      "Nitrogliserin iv 5mcg/menit",
+      "Nikardipin iv",
+      "Nifedipin subling",
+      "Furosemide 5mg/jam iv + bisoprolol oral"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pada hipertensi maligna terjadi kegagalan autoregulasi dan cedera endotel arteriol, meningkatkan permeabilitas serta kebocoran plasma, menyebabkan edema otak dan papiledema. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 15. Terapi? Pasien hipertensi TD 220/110, klinis edema paru akut. Penjelasan: Hipertensi emergensi dengan edema paru akut membutuhkan vasodilator IV cepat yang menurunkan preload/afterload. Nitrat adalah pilihan utama; nifedipin/captopril sublingual tidak dianjurkan karena penurunan tekanan darah tidak terkontrol. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Captopril subling' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Nikardipin iv' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Nifedipin subling' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Furosemide 5mg/jam iv + bisoprolol oral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-039",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien laki2 usia tua sulit BAK & nyeri perut. BAK netes. PF teraba nodul prostat, lunak. PSA 7, Volume 55.",
+    "leadIn": "Tatalaksana?",
+    "options": [
+      "Fisioterapi + bifosfonat",
+      "Korset + bifosfonat",
+      "radioterapi + bifosfonat",
+      "Korset + radioterapi",
+      "Korset + fisioterapi"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Retensi urin dengan prostat 55 mL dan gejala berat mengarah pada kebutuhan deobstruksi definitif. PSA 7 dan nodul prostat memerlukan work-up malignansi; TURP bukan terapi kanker prostat. Keyakinan sedang karena deskripsi colok dubur tidak konsisten. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 17. Urin: protein Untuk menegakkan diagnosis Pasien bengkak sesak napas, kedua kaki bengkak. Jawaban: Kuantifikasi proteinuria (UPCR/UACR atau urin 24 jam), albumin serum, dan evaluasi penyebab; biopsi ginjal bila sindrom nefrotik dewasa tidak jelas. Penjelasan: Edema dan proteinuria mengarah ke penyakit glomerular, tetapi diagnosis sindrom nefrotik memerlukan proteinuria berat, hipoalbuminemia, dan biasanya hiperlipidemia. Pemeriksaan awal bukan langsung menyimpulkan eti...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Fisioterapi + bifosfonat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Korset + bifosfonat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'radioterapi + bifosfonat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Korset + fisioterapi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-040",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien ada anemia, hiperkalsemia, creatinin meningkat, ada fraktur vertebra. Pemeriksaan awal untuk menegakkan diagnosis",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "B2 blabla",
+      "SPE dan ...",
+      "Bone scan dan BMP",
+      "Bone scan dan ...",
+      "BMD dan ..."
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Kombinasi anemia, hiperkalsemia, gangguan ginjal, dan fraktur/lesi tulang adalah kriteria CRAB yang sangat mencurigakan multiple myeloma. Pemeriksaan awal meliputi SPEP, serum/urine immunofixation, serum free light chain, darah lengkap, kalsium-kreatinin, serta evaluasi sumsum tulang dan imaging. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'B2 blabla' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Bone scan dan BMP' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Bone scan dan ...' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'BMD dan ...' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-041",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien pipis berpasir, di urin rutin ada banyak kristal oksalat Gold standar penegakkan diagnosa?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Captopril",
+      "HCT",
+      "Amlodipin",
+      "BNO",
+      "Biopsi ginjal"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: NCCT merupakan gold standard pencitraan batu saluran kemih dan dapat mendeteksi batu kalsium oksalat, lokasi, ukuran, serta obstruksi. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 23. Habis mabuk 2 hari, mual muntah 1 hari. alkohol toksik. Penjelasan: Pada metanol/etilen glikol dengan asidosis berat atau kerusakan organ, terapi lengkap harus mencakup fomepizole/etanol dan hemodialisis; bikarbonat mengoreksi asidosis. Kumbah lambung setelah 2 hari tidak bermanfaat. Jika hanya intoksikasi etanol biasa, terapi ini tidak tepat; stem sangat tidak lengkap. Keyakinan rendah. Rujukan: PAPDI VII 2024 dan guideline organ- spesifik terkait. 51 167.. Obat apakah dibawah ini yang memiliki efek hiponatremia : Penjelasan: Diuretik tiazid sering menyebabkan hiponatremia melalu...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Captopril' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Amlodipin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'BNO' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Biopsi ginjal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-042",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-1",
+    "subtopic": "Sindrom Nefrotik Dewasa",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang wanita 37 Tahun ada lab ISK LE (leukositesterase) + Bakteri (+) Tatalaksana ISK pasien : non komplikata: wanita tdk hamil, bawah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Minimal change",
+      "Fs",
+      "Membrano proliperatif",
+      "Kotrimoksazol",
+      "Pielonefritis akut emfisematosa"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Untuk sistitis nonkomplikata, nitrofurantoin atau fosfomisin umumnya menjadi pilihan lini pertama. Dari opsi yang tersedia, TMP-SMX lebih tepat daripada fluorokuinolon atau aminopenisilin empiris. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 171. Urin prot +3, leukosit nomal, bun cr normar, USG...Kelainannya glomerulonefrirtis: Penjelasan: Proteinuria berat dengan sedimen urin bland dan fungsi ginjal normal lebih mendukung MCD dibanding MPGN yang biasanya disertai hematuria, konsumsi komplemen, dan disfungsi ginjal. Diagnosis pasti tetap histologis. Keyakinan sedang. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Fs' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Membrano proliperatif' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Kotrimoksazol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Pielonefritis akut emfisematosa' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefrotik",
+        "minimal change",
+        "fsgs",
+        "membranosa"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefrotik Dewasa merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-043",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-3",
+    "subtopic": "Infeksi Saluran Kemih (ISK) Komplikata",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien datang dengan nyeri pinggang denfan riwayat gout artritis denfan hasil asam urat 8.1. apakah pemeriksaan penunjang yang tepat : A Kultur urin",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Berikan terapi antijamur flukonazol profilaksis",
+      "BNO IVP",
+      "Foto polos abdomen",
+      "CT scan abdomen/ CT scan urologi non kontras",
+      "USG Abdomen"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: CT nonkontras paling sensitif untuk batu, termasuk batu asam urat yang tidak terlihat pada foto polos. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Berikan terapi antijamur flukonazol profilaksis' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "1": "Pilihan 'BNO IVP' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Foto polos abdomen' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'USG Abdomen' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Infeksi Saluran Kemih (ISK) Komplikata, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "isk",
+        "pielonefritis",
+        "sistitis",
+        "bakteriuria asimtomatik"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Infeksi Saluran Kemih (ISK) Komplikata merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-044",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan berusia 45 tahun, datang ke IGD dengan keluhan tiba – tiba sakit kepala yang berat dan pandangan menjadi kabur sejak 12 jam yang lalu. Pada pemeriksaan fisik didapatkan tekanan darah 210/160 mmHg; frekuensi nadi 90x/menit; frekuensi nafas 20x/menit; suhu 36,6 C. Pada pemeriksaan penunjang ditemukan Hb 11,2 g/dL; Leukosit 8.300 /uL; trombosit 245.000/uL; ureum 50 mg/dL; kreatinin 1,7 mg/dL. Pasien memiliki riwayat hipertensi namun tidak rutin kontrol.",
+    "leadIn": "Terapi farmakologis yang tepat untuk menurunkan tekanan darah pada pasien ini adalah :",
+    "options": [
+      "Drip furosemid 5-10 mg/jam",
+      "Drip nikardipin 0,5-6 ug/KgBB/mnt",
+      "Nifedipin 5-10 mg/sublingual diberikan setiap 1-2 jam",
+      "Captopril 12,-25 mg sublingual diberikan setiap 1-2 jam",
+      "Klonidin."
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi emergensi dengan gejala neurologis/visual memerlukan obat IV titratable. Nicardipin adalah pilihan tepat; dosis lazim dinyatakan mg/jam (misalnya mulai 5 mg/jam), sehingga satuan dalam opsi kemungkinan salah. Rujukan: PAPDI VII 2024 dan guideline organ- spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Drip furosemid 5-10 mg/jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Nifedipin 5-10 mg/sublingual diberikan setiap 1-2 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Captopril 12,-25 mg sublingual diberikan setiap 1-2 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Klonidin.' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-045",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-1",
+    "subtopic": "Sindrom Nefrotik Dewasa",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki 23 tahun datang ke poliklinik dengan keluhan bengkak di seluruh badan terutama pada wajah dan tungkai sejak 5 hari yang lalu. Sepuluh hari yang lalu pasien mengeluh jumlah buang air kecil yang menurun disertai warna air seni menjadi coklat kemerahan. Dua bulan yang lalu pasien mengeluh nyeri tenggorokan dan mengonsumsi ibuprofen sehingga keluhan membaik. Pada pemeriksaan fisik didapatkan tekanan darah 172/110 mmHg, frekuensi nadi 85 x/menit, frekuensi napas 18 x/menit, suhu 37°C, didapatkan edema anasarka. Hasil laboratorium menunjukkan Hb 11,9 g/dL, leukosit 10.700/μL, trombosit 190.000/μL, kreatinin 1,2 mg/dL. Urinalisis: berat jenis urin 1.025 dengan eritrosit 25/LPB, protein 4+, silinder eritrosit positif.",
+    "leadIn": "Diagnosis yang paling tepat untuk pasien ini adalah:",
+    "options": [
+      "Sindrom nefrotik",
+      "Goodpasture disease",
+      "Nekrosis tubular akut",
+      "Glomerulonefritis akut",
+      "Nefritis interstisial akut"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hematuria coklat, oliguria, hipertensi, edema, proteinuria, dan silinder eritrosit menunjukkan sindrom nefritik akut. Riwayat faringitis sebelumnya mendukung GN pascastreptokokus; edema anasarka dan protein 4+ tidak otomatis menjadikannya sindrom nefrotik karena sedimen jelas nefritik. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Sindrom nefrotik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Goodpasture disease' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Nekrosis tubular akut' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Nefritis interstisial akut' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefrotik",
+        "minimal change",
+        "fsgs",
+        "membranosa"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefrotik Dewasa merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-046",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-3",
+    "subtopic": "Krisis Hipertensi: Emergensi vs Urgensi",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan 32 tahun, hamil 22 minggu, datang ke poliklinik untuk memeriksakan kehamilannya. Pasien diketahui hipertensi sejak 2 tahun yang lalu dan rutin mengonsumsi amlodipin 1x5 mg. Pada pemeriksaan fisik didapatkan tekanan darah 170/100 mmHg. Protein urin 24 jam 500 mg.",
+    "leadIn": "Kemungkinan diagnosis pasien tersebut adalah:",
+    "options": [
+      "Hipertensi superimposed preeklampsia",
+      "Hipertensi gestasional > 20 mnggu tanpa protein uri",
+      "Hipertensi emergensi",
+      "Hipertensi kronis",
+      "Preeklampsia"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi sudah ada sebelum hamil dan pada usia 22 minggu timbul proteinuria 500 mg/24 jam. Proteinuria baru setelah 20 minggu memenuhi superimposed preeklampsia. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Hipertensi gestasional > 20 mnggu tanpa protein uri' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Hipertensi emergensi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Hipertensi kronis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Preeklampsia' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "krisis hipertensi",
+        "hipertensi emergensi",
+        "hipertensi urgensi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Krisis Hipertensi: Emergensi vs Urgensi merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-047",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien hipertensi, DM, tekanan darah belum terkontrol setelah gaya hidup sehat. UACR di atas 30 tapi tidak sampai 300. Creatinin masih baik.",
+    "leadIn": "Apa Tata laksana:",
+    "options": [
+      "lisinopril 1x10 mg",
+      "lisinopril 1x2.5 mg + amlodipin === ??",
+      "HCT 1x25 mg",
+      "lisinopril 1x2.5 mg + HCT 1x25 mg",
+      "Tidak usah diterapi"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pada diabetes, hipertensi, dan albuminuria A2, ACE inhibitor atau ARB dianjurkan dan dititrasi maksimal sesuai toleransi, dengan monitoring kreatinin serta kalium 2–4 minggu setelah mulai/naik dosis. Kombinasi obat dapat ditambahkan bila tekanan darah belum mencapai target, tetapi jangan mempertahankan RAS blocker pada dosis sangat rendah tanpa alasan. Rujukan: PAPDI VII 2024; Pedoman Pengelolaan PGK PERNEFRI; KDIGO CKD 2024.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'lisinopril 1x2.5 mg + amlodipin === ??' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'HCT 1x25 mg' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'lisinopril 1x2.5 mg + HCT 1x25 mg' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Tidak usah diterapi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-048",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang perempuan 30 tahun datang ke poliklinik untuk konsultasi tentang tekanan darah tinggi. Pasien pasca operasi sectio caesarea anak ke-2. Riwayat hipertensi didapatkan saat kehamilan ini namun tidak minum obat. Pasien berencana untuk menyusui bayinya. Pada pemeriksaan fisik didapatkan tekanan darah 150/110 mmHg.",
+    "leadIn": "Obat antihipertensi yang dianjurkan untuk pasien ini adalah:",
+    "options": [
+      "Tiazid (menurunkan produksi asi)",
+      "Ramipril",
+      "Diltiazem – Kategori C",
+      "Verapamil – Kategori C",
+      "Bisoprolol – Kategori C Pilihan terbaik adalah nifedipin panjang yang kompatibel dengan menyusui. Penjelasan: Ramipril memiliki data laktasi lebih terbatas daripada enalapril/captopril, tetapi merupakan opsi yang paling mendekati bila harus memilih dari daftar. Tiazid dosis tinggi dapat menurunkan produksi ASI; verapamil/diltiazem kompatibel namun bukan lini utama untuk hipertensi postpartum. Tekanan darah diastolik 110 memerlukan evaluasi segera. Keyakinan sedang. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait."
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Jawaban: Tidak ada pilihan ideal: nifedipin extended-release atau enalapril adalah pilihan utama",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Ramipril' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Diltiazem – Kategori C' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Verapamil – Kategori C' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Bisoprolol – Kategori C Pilihan terbaik adalah nifedipin pan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-049",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-3",
+    "subtopic": "Krisis Hipertensi: Emergensi vs Urgensi",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien hamil 28-30 minggu dengan sakit kepala, TD 180/100 mmHg. Tanpa data UL.",
+    "leadIn": "Pilihan terapi:",
+    "options": [
+      "rawat inap dan terminasi kehamilan",
+      "rawat inap + nicardipin + MgSO4",
+      "rawat inap + nicardipin + NTG + metildopa",
+      "rawat jalan + obat oral (lupa)",
+      "rawat jalan + obat oral (lupa) Hipertensi Emergensi MgSO4 untuk mencegah eklampsia"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Sakit kepala dengan tekanan darah 180/100 pada kehamilan adalah hipertensi berat dengan severe feature. Stabilkan ibu, berikan antihipertensi kerja cepat dan profilaksis kejang; keputusan persalinan dilakukan setelah stabilisasi dan evaluasi obstetri. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'rawat inap dan terminasi kehamilan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'rawat inap + nicardipin + NTG + metildopa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'rawat jalan + obat oral (lupa)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'rawat jalan + obat oral (lupa) Hipertensi Emergensi MgSO4 un' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Krisis Hipertensi: Emergensi vs Urgensi, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "krisis hipertensi",
+        "hipertensi emergensi",
+        "hipertensi urgensi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Krisis Hipertensi: Emergensi vs Urgensi merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-050",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-3",
+    "subtopic": "Klasifikasi & Evaluasi Proteinuria",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien hipertensi dan hamil >20 minggu dengan proteinuria.",
+    "leadIn": "Pilihan terapi utama:",
+    "options": [
+      "Nifedipin long acting",
+      "Nifedipine sublingual",
+      "ACEi",
+      "Beta blocker",
+      "Sindrom nefrotik stadium awal; mulai prednison 1 mg/kgBB/hari"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Untuk kontrol tekanan darah berkelanjutan pada kehamilan, nifedipin extended- release merupakan salah satu pilihan utama. Nifedipin sublingual dan ACE inhibitor tidak boleh digunakan. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Nifedipine sublingual' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'ACEi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Beta blocker' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Sindrom nefrotik stadium awal; mulai prednison 1 mg/kgBB/hari' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "proteinuria",
+        "albuminuria",
+        "uacr",
+        "protein urin 24 jam"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Klasifikasi & Evaluasi Proteinuria merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-051",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan nyeri kepala dan gangguan pandangan. Fundus ada papil edema, TD 210/110 mmHg. Pasien tidak ada sesak napas, kaki tidak bengkak. Ur cr baik. Pilihan terapi: Hipertensi Encephalopathy",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Nicardipin 5-15 mg/jam",
+      "NTG 15-20 mcg/menit",
+      "Furosemid 5-10 mg/jam",
+      "Oral nifedipin lalu rawat jalan",
+      "Oral captopril lalu rawat jalan"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Papiledema dan gejala neurologis pada tekanan darah sangat tinggi menunjukkan hipertensi emergensi/ensefalopati hipertensif. Nicardipin IV dapat dititrasi dengan penurunan MAP bertahap; nitrogliserin lebih sesuai pada edema paru/iskemia koroner. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'NTG 15-20 mcg/menit' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Furosemid 5-10 mg/jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Oral nifedipin lalu rawat jalan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Oral captopril lalu rawat jalan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-052",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-1",
+    "subtopic": "Disnatremia & Regulasi Tonisitas",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien mual muntah, diobati saat ini sudah berhenti tapi masih kurang makan minumnya. TD normal, takikardi, turgor kurang, Hb 15, Ur 200 Cr 4, hipernatremia 150, hipokalemia 3,2. Pilihan terapi: Dehidrasi",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "HD",
+      "Pemberian cairan",
+      "Challenge furosemide",
+      "Diabetes Insipidus Sentral; berikan desmopresin intranasal",
+      "Polidipsia primer; batasi asupan air bebas"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Tanda hipovolemia dengan azotemia, hipernatremia, dan hipokalemia menunjukkan AKI prarenal akibat dehidrasi. Resusitasi awal menggunakan kristaloid isotonic; setelah perfusi pulih, defisit air bebas dan elektrolit dikoreksi bertahap. Dialisis tidak otomatis diperlukan. Rujukan: PAPDI VII 2024; Konsensus Gangguan Ginjal Akut PERNEFRI; KDIGO AKI 2012 (guideline final, sedangkan pembaruan 2026 masih draf publik).",
+      "distractorAnalysis": {
+        "0": "Pilihan 'HD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Challenge furosemide' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Disnatremia & Regulasi Tonisitas, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Diabetes Insipidus Sentral; berikan desmopresin intranasal' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Polidipsia primer; batasi asupan air bebas' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hiponatremia",
+        "hipernatremia",
+        "siadh",
+        "koreksi natrium"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Disnatremia & Regulasi Tonisitas merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-053",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan nyeri pinggang, ditemukan ada batu kalsium oksalat. saluran kemih. Diet yang disarankan: Nefrolitiasis",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Rendah kalsium",
+      "Rendah garam – harusnya tinggi",
+      "Rendah fosfat",
+      "Tinggi protein",
+      "Tinggi kalium"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pencegahan batu kalsium oksalat mencakup cairan tinggi, natrium rendah, kalsium makanan normal (bukan rendah), pembatasan oksalat berlebih, dan moderasi protein hewani. Natrium tinggi meningkatkan kalsiuria. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Rendah kalsium' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Rendah fosfat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Tinggi protein' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Tinggi kalium' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-054",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-2",
+    "subtopic": "Sindrom Nefritik & Glomerulonefritis Akut",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan keluhan kreatinin naik dari 0,8 ke 3,5 dalam 4 hari disertai bengkak seluruh tubuh, kencing berbusa dan proteinuria 4+ dalam pengobatan MP 2x16 mg dan furosemid. Terapi: Rapid Progresive Glomerulonefritis Akut",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "CYC 500 mg,",
+      "MP pulse dose 500-1000 3 hari",
+      "MMF 2x1000",
+      "AZA 2 x100 mg",
+      "MP 2x16 lanjutkan + lupa"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "biopsi dan work-up segera. Penjelasan: Kenaikan kreatinin cepat disertai proteinuria berat mengarah ke rapidly progressive glomerulonephritis. Terapi empiris pulse steroid dapat dimulai bila kecurigaan tinggi setelah infeksi aktif disingkirkan, tetapi diagnosis etiologi melalui biopsi, ANCA, anti-GBM, komplemen, dan serologi harus dipercepat; cyclophosphamide/rituximab ditentukan etiologi. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'CYC 500 mg,' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'MMF 2x1000' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'AZA 2 x100 mg' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'MP 2x16 lanjutkan + lupa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefritik",
+        "gnaps",
+        "glomerulonefritis",
+        "astoo"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefritik & Glomerulonefritis Akut merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-055",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki 69 tahun datang ke IGD dengan keluhan tidak bisa buang air kecil sejak 2 hari. Pasien sudah merasakan sulit buang air kecil sejak 3 minggu terakhir. Pada pemeriksaan fisik didapatkan distensi kandung kemih, dilakukan pemasangan kateter Folley, dan keluar urin sebanyak 2,5 L. Pada pemeriksaan rectal touche terdapat pembesaran prostat. Hasil laboratorium menunjukkan prostate spesific antigen (PSA) 2 ng/mL (Normal), ureum 89 mg/dL, dan kreatinin 6,4 mg/dL. Pada hari perawatan ke-4 didapatkan volume urin 4 liter dan ureum serta kreatinin turun. Pasien saat dirawat tidak mendapat cairan infus.",
+    "leadIn": "Patogenesis peningkatan volume urin pasien adalah:",
+    "options": [
+      "Peningkatan aktivasi sistem renin-angiotensin-aldosteron",
+      "Penurunan osmolaritas meduler",
+      "Peningkatan tekanan tubulus",
+      "Diuresis pasca obstruktif",
+      "Cerebral salt wasting"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Poliuria setelah kateterisasi dengan perbaikan ureum-kreatinin adalah post- obstructive diuresis. Penurunan gradien osmotik medula dan resistensi sementara terhadap ADH merupakan mekanisme penting, tetapi nama diagnosisnya adalah opsi D. Rujukan: PAPDI VII 2024; Konsensus Gangguan Ginjal Akut PERNEFRI; KDIGO AKI 2012 (guideline final, sedangkan pembaruan 2026 masih draf publik).",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Peningkatan aktivasi sistem renin-angiotensin-aldosteron' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Penurunan osmolaritas meduler' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Peningkatan tekanan tubulus' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Cerebral salt wasting' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-056",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-3",
+    "subtopic": "Analisis Gas Darah & Koreksi Bikarbonat",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki 24 tahun datang ke poliklinik dengan keluhan badan lemas sejak 3 hari yang lalu. Pasien juga merasa otot kaki terasa kram dan kesemutan. Tidak ada riwayat mual dan muntah atau diare. Pada pemeriksaan fisik didapatkan tekanan darah 110/70 mmHg, frekuensi nadi 98 x/menit, reguler, kuat; frekuensi napas 20 x/menit. Hasil laboratorium menunjukkan natrium 136 mEq/L, kalium 2 mEq/L, klorida 88 mEq/L, magnesium 1,4 mEq/L. Kalium urin 30 mEq/24 jam (kalsium/kreatinin urin rasio <0,15 mg/g). Analisis gas darah menunjukkan pH 7,46, pCO2 44 mmHg, HCO3 28 mmol/L, pO2 98 mmHg.",
+    "leadIn": "Kemungkinan diagnosis pasien ini adalah:",
+    "options": [
+      "Sindrom Conn → Primary Aldosteronism, hipertensi usia muda",
+      "Sindrom Liddle → Hiperaldosterinsm – Hipertensi",
+      "Sindrom Bartter → Normal atau Hiperkalsiuria, infant - adolescent",
+      "Sindrom Gitelman → Hipokalemia, Hiperkalsemia, Hipokalsiuria, pada adolescent - adult, BGA Alkalosis",
+      "Renal tubular acidosis (RTA)"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipokalemia, alkalosis metabolik, hipomagnesemia, tekanan darah normal, dan hipokalsiuria merupakan kombinasi khas Gitelman. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Sindrom Conn → Primary Aldosteronism, hipertensi usia muda' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Sindrom Liddle → Hiperaldosterinsm – Hipertensi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Sindrom Bartter → Normal atau Hiperkalsiuria, infant - adole' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Renal tubular acidosis (RTA)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Analisis Gas Darah & Koreksi Bikarbonat, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "analisis gas darah",
+        "agd",
+        "asidosis metabolik",
+        "anion gap"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Analisis Gas Darah & Koreksi Bikarbonat merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-057",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-1",
+    "subtopic": "Fisiologi Filtrasi & Regulasi Tubulus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan sirosis, kreatinin meningkat cepat dalam beberapa hari awalnya masih normal 0.7. Patofisiologi yang mungkin: Hepatorenal Syndrome",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "vasokonstriksi aliran darah ginjal",
+      "peningkatan aktivitas vasodilator",
+      "peningkatan volume darah arteri",
+      "Penurunan aktivitas vasokonstriktor",
+      "Distal RTA (type I)"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pada HRS, meskipun vasodilatasi splanknik menurunkan effective arterial blood volume, memicu aktivasi sistem vasokonstriktor dan menyebabkan vasokonstriksi renal berat ginjal secara struktural awalnya relatif utuh. Rujukan: PAPDI VII 2024 dan guideline organ- spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'peningkatan aktivitas vasodilator' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'peningkatan volume darah arteri' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Penurunan aktivitas vasokonstriktor' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Fisiologi Filtrasi & Regulasi Tubulus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Distal RTA (type I)' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fisiologi filtrasi",
+        "lfg",
+        "gfr",
+        "tubulus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Fisiologi Filtrasi & Regulasi Tubulus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-058",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-5-3",
+    "subtopic": "Hemodialisis Kronik & Adekuasi Dialisis",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan CKD stage IV tidak ada keluhan datang kontrol. Faktor risiko DM dan Hipertensi sudah lama. eGFR 22. Saat ini direncanakan: CKD",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "edukasi dahulu pemilihan modalitas RRT",
+      "Langsung pasang CDL",
+      "Mulai persiapan CAPD",
+      "Langsung pasang cimino",
+      "Preemptive transplant ginjal"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Pada CKD G4 dengan eGFR 22, lakukan edukasi shared decision-making, penilaian prognosis, dan perencanaan akses/modalitas bila risiko gagal ginjal tinggi. Pemasangan catheter, fistula, atau CAPD tidak dilakukan otomatis hanya berdasarkan eGFR. Rujukan: PAPDI VII 2024; Pedoman Pengelolaan PGK PERNEFRI; KDIGO CKD 2024.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Langsung pasang CDL' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hemodialisis Kronik & Adekuasi Dialisis, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Mulai persiapan CAPD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hemodialisis Kronik & Adekuasi Dialisis, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Langsung pasang cimino' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hemodialisis Kronik & Adekuasi Dialisis, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Preemptive transplant ginjal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hemodialisis Kronik & Adekuasi Dialisis, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hemodialisis",
+        "av fistula",
+        "cimino",
+        "adekuasi hd"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hemodialisis Kronik & Adekuasi Dialisis merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-059",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien hamil dengan tekanan darah tinggi tidak terkontrol. Ada keluhan nyeri kepala.",
+    "leadIn": "Tata laksana lanjutan:",
+    "options": [
+      "Edema cerebri",
+      "Demyelinisasi",
+      "Dehidrasi",
+      "Peningkatan TIK",
+      "Verapamil – Kategori C"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi berat dengan nyeri kepala pada kehamilan adalah severe feature yang membutuhkan rawat inap, antihipertensi kerja cepat, dan MgSO₄. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 20. Hiponatremia 114 dikasih NaCl 3% besoknya jadi 137, tapi jadi ada penurunan kesadaran. Apa patofisiologinya? Hiponatremia Penjelasan: Koreksi natrium 23 mEq/L dalam sekitar satu hari menyebabkan osmotic demyelination syndrome. Batas koreksi umumnya tidak lebih dari 8 mEq/L/24 jam pada pasien berisiko tinggi. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 49",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Edema cerebri' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Dehidrasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Peningkatan TIK' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Verapamil – Kategori C' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-060",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-2-2",
+    "subtopic": "Diskalemia & Kegawatdaruratan Hiperkalemia",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki2 dengan hipomagnesemi, hipokalemia, hipocalciuri, diagnosis ...",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Piperacilin tazo 14 hari",
+      "Sulfametoxazole 28 hari",
+      "Cipro 28 hari",
+      "Levofloxcasine 14 hari",
+      "Nitrofurantoin 7 hari"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipokalemia, hipomagnesemia, dan hipokalsiuria merupakan pola khas Gitelman; Bartter lebih sering menyebabkan hiperkalsiuria. Rujukan: PAPDI VII 2024 dan guideline organ- spesifik terkait. 2. Kasus laki2 geriatri, dengan keluhan ISK berulang. Pilihan antibiotik yang sesuai : Penjelasan: ISK berulang pada laki-laki geriatri harus dicari sumber anatomis dan prostatitis. Fluorokuinolon 4–6 minggu digunakan untuk prostatitis kronik bila kultur sensitif; bila hanya complicated UTI tanpa prostatitis, durasinya biasanya lebih pendek. Keyakinan sedang karena diagnosis tidak dijelaskan. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Piperacilin tazo 14 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Sulfametoxazole 28 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Levofloxcasine 14 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Nitrofurantoin 7 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Diskalemia & Kegawatdaruratan Hiperkalemia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hiperkalemia",
+        "hipokalemia",
+        "t tall",
+        "kalsium glukonas"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Diskalemia & Kegawatdaruratan Hiperkalemia merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-061",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-3",
+    "subtopic": "Klasifikasi & Evaluasi Proteinuria",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Wanita hamil 20 mingguan, riwayat HT sudah 2 tahun, TD saat ini 155/98 mmHg, lain2 DBN.",
+    "leadIn": "UL proteinuria 2+, diagnosis :",
+    "options": [
+      "Hipertensi superimposed preeklampsia",
+      "Hipertensi gestasional",
+      "Hipertensi kronik",
+      "Preeklampsia",
+      "...."
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi telah ada sebelum hamil dan setelah 20 minggu terdapat proteinuria baru. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Hipertensi gestasional' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Hipertensi kronik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Preeklampsia' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan '....' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "proteinuria",
+        "albuminuria",
+        "uacr",
+        "protein urin 24 jam"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Klasifikasi & Evaluasi Proteinuria merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-062",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-1-3",
+    "subtopic": "Klasifikasi & Evaluasi Proteinuria",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien usia muda, proteinuria, hematuria, lain2 lupa, diagnosis",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Acute on CKD",
+      "CKD stage 1",
+      "AKI stage 1",
+      "AKI stage 2",
+      "AKD"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Kombinasi proteinuria dan hematuria pada usia muda lebih menunjukkan proses proliferatif/nephritic-nephrotic daripada MCD atau membranosa. Namun IgA nephropathy juga sangat mungkin dan tidak tersedia dalam opsi; biopsi diperlukan. Keyakinan rendah karena data soal sangat kurang. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025. 5. Laki2 usia muda membawa hasil USG 4 bulan yang lalu (multiple nefrolitiasis tanpa hidronefrosis), saat ini ur/cr normal, eGFR 115, diagnosis? Penjelasan: Kelainan struktural batu ginjal yang telah terdokumentasi selama ≥3 bulan dapat memenuhi definisi CKD walaupun eGFR 115 dan albuminuria normal. Kategorinya G1. Bila batu tidak terbukti persisten, diagnosis CKD harus ditunda. Rujukan: PAPDI VII 2024; Pedoman Pengelol...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Acute on CKD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'AKI stage 1' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'AKI stage 2' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'AKD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Klasifikasi & Evaluasi Proteinuria, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "proteinuria",
+        "albuminuria",
+        "uacr",
+        "protein urin 24 jam"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Klasifikasi & Evaluasi Proteinuria merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-063",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-5-1",
+    "subtopic": "Penyakit Ginjal Kronik (PGK) & Nefropati Diabetik",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien dengan CKD st V dengan Hb 9,8, SI 50, TIBC 254, Ferritin 181. Tatalaksana yang paling tepat adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Asam folat",
+      "Vitamin B12",
+      "Transfuse PRC",
+      "Transfusi besi & Eritropoeitin",
+      "Transfusi Besi intravena"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "dan indikasi ESA terpenuhi. Penjelasan: TSAT = 50/254 ×100% ≈19,7% dan ferritin 181 ng/mL menunjukkan ketersediaan besi rendah. KDIGO 2026 menyarankan iron pada CKD G5HD bila ferritin ≤500 dan TSAT ≤30%. ESA dipertimbangkan pada pasien dialisis saat Hb sekitar ≤9–10 g/dL setelah penyebab reversibel dikoreksi; jadi bila pasien sudah HD, IV iron + ESA dapat rasional, tetapi dari data yang tersedia IV iron adalah intervensi pasti. Keyakinan sedang. Rujukan: Pedoman Anemia pada PGK PERNEFRI; KDIGO Anemia in CKD 2026.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Asam folat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Penyakit Ginjal Kronik (PGK) & Nefropati Diabetik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'Vitamin B12' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Penyakit Ginjal Kronik (PGK) & Nefropati Diabetik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'Transfuse PRC' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Penyakit Ginjal Kronik (PGK) & Nefropati Diabetik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'Transfusi besi & Eritropoeitin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Penyakit Ginjal Kronik (PGK) & Nefropati Diabetik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "pgk",
+        "ckd",
+        "stadium pgk",
+        "nefropati diabetik"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Penyakit Ginjal Kronik (PGK) & Nefropati Diabetik merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-064",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-7-1",
+    "subtopic": "Hipertensi Primer & Kerusakan Organ Target",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Wanita 25 tahun sedang hamil anak pertama dengan usia kehamilan 20 minggu. Riwayat hipertensi sejak 2 tahun yang lalu. Pemeriksaan tanda vital didapatkan tekanan darah 154/96 mmH, denyut nadi 96 kali per mnt, frekuensi napas 22 kali/mnt suhu afebris. Pemeriksaan fisis lain dlam batas normal. Hasil laboratorium didapatkan leukosit 5600, Hb 11,0 gr/dl, Ur 45 mg/dl, Cr 0,7 r/dI, Urinalisis Protein +2, eritrosit negative.",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Hipertensi superimposed preeklampsia",
+      "Hipertensi gestational",
+      "Hipertensi Kronik",
+      "preeklampsia",
+      "Edema cerebri"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipertensi sudah ada 2 tahun sebelum kehamilan dan pada 20 minggu timbul proteinuria +2. Ini paling sesuai dengan superimposed preeklampsia. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Hipertensi gestational' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Hipertensi Kronik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'preeklampsia' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Hipertensi Primer & Kerusakan Organ Target, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Edema cerebri' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "hipertensi primer",
+        "tekanan darah",
+        "hmod",
+        "kerusakan organ target"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Hipertensi Primer & Kerusakan Organ Target merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-065",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang pria 71 tahun datang dengan keluhan sulit diajak berkomunikasi sejak 2 hari yang lalu. Riwayat diare (+) 10 kali dalam sehari. TTV tensi normal , HR tidak takikardi. Didapatkan natrium serum 110 mmol/L. Terapi rehidrasi yang paling tepat A hipertonik dengan target kenaikan 5 meq/L dalam 1 jam",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Albumin",
+      "Hipertonik dengan target 10meq/L dalam 1 jam",
+      "Hipertonik dengan target 1 meq/L dalam 24 jam",
+      "Isotonik 1meq per L dengan maksimal 10meq/L dalam 24 jam",
+      "Isotonik 0,5meq/L hinggahingga 5 meq/L dalam 24 jam"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hiponatremia 110 mEq/L dengan gangguan neurologis memerlukan bolus saline hipertonik terawasi. Tujuan awal adalah perbaikan gejala, bukan normalisasi; batasi total koreksi umumnya ≤8 mEq/L dalam 24 jam pada pasien berisiko. Dari opsi, target 5 mEq/L dalam 1 jam paling tepat. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. 500 CC NAIKIN 10 MEQ SEHARI MAKSIMAL NAIKIN 8 MEQ",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Hipertonik dengan target 10meq/L dalam 1 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Hipertonik dengan target 1 meq/L dalam 24 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Isotonik 1meq per L dengan maksimal 10meq/L dalam 24 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Isotonik 0,5meq/L hinggahingga 5 meq/L dalam 24 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-066",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-6-1",
+    "subtopic": "Batu Saluran Kemih & Nefropati Obstruktif",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien datang ke poliklinik dengan keluhan nyeri pinggang yang menjalar. Riwayat kencing berpasir (+) pada pemeriksaan fisik didapatkan ketok cva (+). Dari pemeriksaan penunjang (BOF) didapatkan hidronefrosis ginjal kiri dan gambaran radioopaque pada 1/3 ureter distal. Tindakan apa yang dilakukan selanjutnya",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Konsul Urologi Untuk dilakukan Percutaneus Nefrostomy",
+      "Konsul Urologi Untuk dilakukan Percutaneus litotipsi",
+      "Konsul Urologi Untuk dilakukan ureterolitotripsi",
+      "Uretrogram",
+      "Urinalisis"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Batu radioopak di ureter distal dengan hidronefrosis memerlukan deobstruksi dan terapi batu. URS/ureterolithotripsy memberikan stone-free rate tinggi untuk batu ureter distal; nefrostomi diprioritaskan bila terdapat infeksi/sepsis, gagal ginjal berat, atau obstruksi yang perlu drainase emergensi. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Konsul Urologi Untuk dilakukan Percutaneus Nefrostomy' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Konsul Urologi Untuk dilakukan Percutaneus litotipsi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Uretrogram' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Urinalisis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Batu Saluran Kemih & Nefropati Obstruktif, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "batu ginjal",
+        "nefrolitiasis",
+        "urolitiasis",
+        "kalsium oksalat"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Batu Saluran Kemih & Nefropati Obstruktif merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-067",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-2",
+    "subtopic": "Sindrom Nefritik & Glomerulonefritis Akut",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Wanita usia muda, barusan menikah, nyeri saat BAK disertai nyeri ketok CVA (+), nyeri suprapubik (-). Diagnosis yang tepat",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Pyelonefritis",
+      "Uretritis",
+      "Cystitis",
+      "glomerulonefritis",
+      "Berikan rituksimab segera sebelum hasil kultur darah tuntas"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Nyeri saat berkemih disertai nyeri ketok CVA menunjukkan keterlibatan traktus urinarius atas, meskipun nyeri suprapubik tidak ada. Demam dan urinalisis/kultur akan memperkuat diagnosis. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Uretritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Cystitis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'glomerulonefritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefritik & Glomerulonefritis Akut, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Berikan rituksimab segera sebelum hasil kultur darah tuntas' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefritik",
+        "gnaps",
+        "glomerulonefritis",
+        "astoo"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefritik & Glomerulonefritis Akut merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-068",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Seorang laki-laki usia 25 tahun pergi ke klinik untuk pemeriksaan kesehatan rutin. Pada pemeriksaan fisik tidak ada temuan yang abnormal. Pada pemeriksaan urinalisis didapatkan darah 3+, protein 2+, dan glukosa dan nitrit negatif, dan sedimen didapatkan eritrosit tanpa silinder eritrosit. Kemudian dilakukan biopsi ginjal dan pada pemeriksaan mikroskopis didapatkan hiperseluleritas glomerulus dan pemeriksaan imunofluoresensi didapatkan deposit IgA pada mesangial.",
+    "leadIn": "Manakah luaran klinis berikut ini yang paling sesuai dengan pasien ini ?",
+    "options": [
+      "Perkembangan menjadi gagal ginjal secara cepat",
+      "Perkembangan menjadi gagal ginjal kronik yang lambat",
+      "Peningkatan kerentanan terhadap infeksi oportunistik",
+      "Mengalami resolusi lengkap setelah terapi kortikosteroid",
+      "Mengalami resolusi secara spontan"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Penjelasan: IgA nephropathy memiliki perjalanan heterogen; sebagian mengalami remisi, tetapi kelompok berisiko dapat mengalami penurunan eGFR progresif selama bertahun-tahun hingga gagal ginjal. Rapidly progressive course tidak merupakan luaran paling khas tanpa crescent luas. Rujukan: PAPDI VII 2024; KDIGO IgA Nephropathy/IgA Vasculitis 2025. IgA mesangial = perjalanan kronik lambat, sedangkan crescent + kreatinin naik cepat = RPGN IgA. IgA yg jadi RPGN Cuma 5%, 20% berkembang lambat IgA mostly ga jadi RPGN, tapi ada juga yang bisa jadi RPGN",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Perkembangan menjadi gagal ginjal secara cepat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Peningkatan kerentanan terhadap infeksi oportunistik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Mengalami resolusi lengkap setelah terapi kortikosteroid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Mengalami resolusi secara spontan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-069",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Laki-laki 20 th dengan keluhan kelemahan pada ekstrimitas. TTV dalam batas normal. Pemeriksaan lab dengan K: 2,2, Mg: 1,1 (rendah), BGA: pH 7,53, HCO3: 32 (tinggi).",
+    "leadIn": "Manakah pemeriksaan yang dapat digunakan menegakkan diagnosis pada pasien?",
+    "options": [
+      "Albumin creatinine urine",
+      "Natrium urine",
+      "Kalsium urine (gittelman/barter)",
+      "Kortisol",
+      "Albumin"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Hipokalemia, hipomagnesemia, dan alkalosis metabolik mengarah ke Gitelman/Bartter. Hipokalsiuria mendukung Gitelman, sedangkan hiperkalsiuria mendukung Bartter; karena itu pemeriksaan kalsium urin membantu membedakan. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Albumin creatinine urine' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Natrium urine' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Kortisol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Albumin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-070",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-4-1",
+    "subtopic": "Sindrom Nefrotik Dewasa",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Pasien wanita 26 tahun dengan keluhan bengkak pada wajah dan kedua tungkai. TD: 110/80 mmHg, N: 84x/m, RR20 x/m. albumin serum: 2,8 mg/dl. Ur/Cr: 32,8/ 0,9. Urinalisis: Protein +2, Glukosa: -.",
+    "leadIn": "Hasil biopsi manakah yang paling sesuai dengan gambaran klinis tersebut?",
+    "options": [
+      "Minimal change",
+      "Fokal segmental glomerulosklerosis",
+      "Glomerulonefritis akut",
+      "Membranosa",
+      "Membranoproliferative glomerulonefritis"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Penjelasan: Perempuan muda dengan edema, hipoalbuminemia, fungsi ginjal normal, dan sedimen yang tidak disebut aktif paling sesuai dengan MCD. Namun proteinuria +2 belum cukup membuktikan sindrom nefrotik dan histologi tidak dapat dipastikan tanpa biopsi; membranosa tetap diagnosis banding pada dewasa. Keyakinan sedang. Rujukan: PAPDI VII 2024; KDIGO Glomerular Diseases 2021 beserta pembaruan 2024–2025.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Fokal segmental glomerulosklerosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Glomerulonefritis akut' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Membranosa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Membranoproliferative glomerulonefritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Nefrotik Dewasa, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sindrom nefrotik",
+        "minimal change",
+        "fsgs",
+        "membranosa"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Nefrotik Dewasa merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "nefro-board-071",
+    "divisionId": "ginjal-hipertensi",
+    "moduleId": "nefro-3-1",
+    "subtopic": "Kriteria KDIGO & Diferensiasi AKI",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board PDF",
+    "vignette": "Laki-laki usia 87 th dengan keluhan ISK berulang. Antibiotik yang sesuai",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Piperacillin tazobactam 14 hari",
+      "Sulfametoxazole 28 hari",
+      "Ciprofloxasin untuk 28 hari",
+      "Levofloxasin untuk 14 hari",
+      "Nitrofurantoin 7 hari"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "kronik. Penjelasan: Pada laki-laki usia lanjut dengan ISK berulang, evaluasi obstruksi, batu, residu urin, dan prostatitis harus dilakukan. Prostatitis kronik memerlukan antibiotik dengan penetrasi prostat 4–6 minggu berdasarkan kultur; untuk complicated UTI biasa, durasi umumnya lebih singkat. Keyakinan sedang. Rujukan: PAPDI VII 2024 dan guideline organ-spesifik terkait. Rujukan utama yang digunakan 1. Alwi I, dkk. Buku Ajar Ilmu Penyakit Dalam PAPDI, Edisi VII. Interna Publishing, 2024. 2. PERNEFRI. Konsensus Gangguan Ginjal Akut; Pedoman Pengelolaan Penyakit Ginjal Kronik; Konsensus Dialisis; Pedoman Penatalaksanaan Anemia pada Penyakit Ginjal Kronik; Konsensus Nutrisi pada PGK. 3. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. 4. KD...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Piperacillin tazobactam 14 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Sulfametoxazole 28 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Levofloxasin untuk 14 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Nitrofurantoin 7 hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kriteria KDIGO & Diferensiasi AKI, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aki",
+        "gagal ginjal akut",
+        "kdigo",
+        "aki prerenal"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kriteria KDIGO & Diferensiasi AKI merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  }
+]

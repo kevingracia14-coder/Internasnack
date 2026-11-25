@@ -1,0 +1,207 @@
+{
+  "status": "success",
+  "total_extracted_questions": 1530,
+  "divisions": {
+    "alergi-imunologi": {
+      "count": 81,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_alergi-imunologi.json",
+      "modules": {
+        "alergi-1-1": 46,
+        "alergi-3-1": 14,
+        "alergi-1-2": 8,
+        "alergi-1-4": 7,
+        "alergi-1-3": 4,
+        "alergi-2-1": 1,
+        "alergi-2-2": 1
+      }
+    },
+    "endokrin-metabolik": {
+      "count": 227,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_endokrin-metabolik.json",
+      "modules": {
+        "endo-2-3": 11,
+        "endo-3-1": 20,
+        "endo-1-2": 13,
+        "endo-2-2": 11,
+        "endo-1-3": 13,
+        "endo-5-1": 32,
+        "endo-1-1": 23,
+        "endo-3-4": 14,
+        "endo-4-1": 25,
+        "endo-3-2": 9,
+        "endo-4-3": 35,
+        "endo-2-1": 8,
+        "endo-4-2": 10,
+        "endo-3-3": 3
+      }
+    },
+    "gastroenterohepatologi": {
+      "count": 260,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_gastroenterohepatologi.json",
+      "modules": {
+        "geh-3-2": 44,
+        "geh-2-2": 7,
+        "geh-4-1": 42,
+        "geh-3-3": 38,
+        "geh-5-1": 32,
+        "geh-4-2": 5,
+        "geh-1-2": 18,
+        "geh-1-1": 17,
+        "geh-1-4": 7,
+        "geh-2-4": 10,
+        "geh-2-1": 5,
+        "geh-4-3": 14,
+        "geh-1-3": 5,
+        "geh-2-3": 5,
+        "geh-3-4": 6,
+        "geh-3-1": 5
+      }
+    },
+    "geriatri": {
+      "count": 134,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_geriatri.json",
+      "modules": {
+        "geri-2-2": 10,
+        "geri-2-3": 25,
+        "geri-1-1": 64,
+        "geri-3-2": 2,
+        "geri-1-2": 12,
+        "geri-2-1": 9,
+        "geri-2-4": 12
+      }
+    },
+    "ginjal-hipertensi": {
+      "count": 71,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_ginjal-hipertensi.json",
+      "modules": {
+        "nefro-6-1": 7,
+        "nefro-6-2": 1,
+        "nefro-4-2": 4,
+        "nefro-7-3": 3,
+        "nefro-7-1": 9,
+        "nefro-1-1": 17,
+        "nefro-2-2": 2,
+        "nefro-2-1": 3,
+        "nefro-4-1": 4,
+        "nefro-6-3": 3,
+        "nefro-1-3": 6,
+        "nefro-2-3": 2,
+        "nefro-3-1": 7,
+        "nefro-8-1": 1,
+        "nefro-5-3": 1,
+        "nefro-5-1": 1
+      }
+    },
+    "hematologi-onkologi": {
+      "count": 99,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_hematologi-onkologi.json",
+      "modules": {
+        "hom-4-1": 8,
+        "hom-2-2": 19,
+        "hom-1-1": 22,
+        "hom-5-1": 8,
+        "hom-3-3": 2,
+        "hom-1-2": 13,
+        "hom-1-4": 7,
+        "hom-4-3": 1,
+        "hom-4-2": 1,
+        "hom-2-1": 7,
+        "hom-3-4": 1,
+        "hom-3-1": 6,
+        "hom-3-2": 2,
+        "hom-1-3": 2
+      }
+    },
+    "kardiologi": {
+      "count": 185,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_kardiologi.json",
+      "modules": {
+        "cardio-ccs-dyslipidemia": 17,
+        "cardio-stemi": 11,
+        "cardio-valvular-rf": 15,
+        "cardio-aorta-pad": 51,
+        "cardio-vt-svt": 24,
+        "cardio-chronic-hf": 21,
+        "cardio-pe": 6,
+        "cardio-nsteacs": 9,
+        "cardio-shock": 3,
+        "cardio-brady-avb": 2,
+        "cardio-ie-myopericarditis": 12,
+        "cardio-ht-crisis": 1,
+        "cardio-adhf": 5,
+        "cardio-ht-essential": 4,
+        "cardio-af-rvr": 4
+      }
+    },
+    "psikosomatik-paliatif": {
+      "count": 135,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_psikosomatik-paliatif.json",
+      "modules": {
+        "psiko-3-1": 1,
+        "psiko-1-1": 73,
+        "psiko-3-2": 2,
+        "psiko-1-3": 59
+      }
+    },
+    "pulmonologi": {
+      "count": 79,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_pulmonologi.json",
+      "modules": {
+        "pulmo-2-2": 19,
+        "pulmo-1-1": 16,
+        "pulmo-2-1": 8,
+        "pulmo-1-2": 7,
+        "pulmo-1-3": 15,
+        "pulmo-3-1": 1,
+        "pulmo-5-2": 4,
+        "pulmo-5-1": 2,
+        "pulmo-3-2": 1,
+        "pulmo-4-3": 1,
+        "pulmo-4-2": 2,
+        "pulmo-2-3": 1,
+        "pulmo-3-3": 2
+      }
+    },
+    "reumatologi": {
+      "count": 58,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_reumatologi.json",
+      "modules": {
+        "reuma-2-2": 6,
+        "reuma-2-1": 22,
+        "reuma-1-3": 2,
+        "reuma-1-1": 6,
+        "reuma-1-2": 8,
+        "reuma-3-1": 4,
+        "reuma-3-2": 5,
+        "reuma-2-4": 1,
+        "reuma-4-2": 1,
+        "reuma-4-1": 1,
+        "reuma-3-3": 2
+      }
+    },
+    "tropik-infeksi": {
+      "count": 201,
+      "file": "/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/scratch/board_bank_tropik-infeksi.json",
+      "modules": {
+        "tropik-3-1": 32,
+        "tropik-2-1": 23,
+        "tropik-6-4": 2,
+        "tropik-4-1": 14,
+        "tropik-4-3": 9,
+        "tropik-1-1": 31,
+        "tropik-4-4": 5,
+        "tropik-3-2": 13,
+        "tropik-2-2": 26,
+        "tropik-4-2": 14,
+        "tropik-1-3": 15,
+        "tropik-5-3": 4,
+        "tropik-6-2": 5,
+        "tropik-6-3": 3,
+        "tropik-6-1": 2,
+        "tropik-2-4": 1,
+        "tropik-5-2": 1,
+        "tropik-5-1": 1
+      }
+    }
+  }
+}

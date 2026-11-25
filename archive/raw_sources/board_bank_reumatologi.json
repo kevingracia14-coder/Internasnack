@@ -1,0 +1,2148 @@
+[
+  {
+    "id": "reuma-board-001",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-2",
+    "subtopic": "Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita dengan keluhan kulit mengeras, tangan berubah menjadi warna pucat ketika terkena udara dingin.",
+    "leadIn": "Apa diagnosis yang paling mungkin?",
+    "options": [
+      "SLE",
+      "Sjogren",
+      "Sklerosis sistemik",
+      "Rheumatoid arthritis",
+      "Localized scleroderma"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Keluhan kulit mengeras disertai perubahan warna tangan menjadi pucat saat terkena dingin mengarah ke fenomena Raynaud. Fenomena Raynaud yang disertai penebalan/kekerasan kulit sangat khas untuk sklerosis sistemik. Pada sklerosis sistemik dapat ditemukan skin thickening, Raynaud phenomenon, ulkus digital, telangiektasis, gangguan esofagus, dan keterlibatan paru/ginjal. ---",
+      "distractorAnalysis": {
+        "0": "Pilihan 'SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Sjogren' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Rheumatoid arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Localized scleroderma' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sklerosis sistemik",
+        "skleroderma",
+        "raynaud",
+        "sjogren"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-002",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien dengan SLE sudah rutin konsumsi methylprednisolone, hydroxychloroquine, dan mycophenolate mofetil. Pasien memiliki riwayat nefritis lupus yang dikatakan sudah membaik. Saat ini pasien hamil dengan hasil urin protein +4.",
+    "leadIn": "Apa saran terapi?",
+    "options": [
+      "Methylprednisolone dilanjutkan, hydroxychloroquine dan mycophenolate mofetil stop",
+      "Methylprednisolone dan hydroxychloroquine dilanjutkan, mycophenolate mofetil diganti siklofosfamid",
+      "Methylprednisolone dan hydroxychloroquine dilanjutkan, mycophenolate mofetil diganti azathioprine",
+      "Methotrexate dan Leflunomide",
+      "NSAID dan TNF-α inhibitor"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Pada pasien SLE hamil, hydroxychloroquine sebaiknya dilanjutkan karena membantu mengontrol aktivitas SLE dan relatif aman dalam kehamilan. Kortikosteroid seperti methylprednisolone juga dapat digunakan bila diperlukan. Mycophenolate mofetil harus dihentikan karena bersifat teratogenik. Obat imunosupresan yang lebih aman pada kehamilan adalah azathioprine. Siklofosfamid umumnya dihindari pada kehamilan kecuali kondisi sangat berat dan mengancam nyawa. ---",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Methylprednisolone dilanjutkan, hydroxychloroquine dan mycop' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Methylprednisolone dan hydroxychloroquine dilanjutkan, mycop' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Methotrexate dan Leflunomide' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'NSAID dan TNF-α inhibitor' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-003",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-3",
+    "subtopic": "Spondiloartritis Aksial & Artritis Psoriatik",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita nyeri punggung membaik dengan aktivitas sejak 3 bulan. Rontgen pelvis menunjukkan sakroiliitis grade 2 bilateral, HLA-B27 negatif.",
+    "leadIn": "Apa diagnosis?",
+    "options": [
+      "Spondiloartritis aksial non-radiografik",
+      "Spondilitis ankilosing",
+      "Non-radiographic axial spondyloarthritis",
+      "Ankylosing spondylitis",
+      "Sakroiliitis infeksius"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Nyeri punggung yang membaik dengan aktivitas merupakan ciri nyeri punggung inflamasi. Bila pada foto pelvis sudah ditemukan sakroiliitis grade 2 bilateral, maka termasuk radiographic axial spondyloarthritis, atau secara klasik disebut spondilitis ankilosing. HLA-B27 negatif tidak menyingkirkan diagnosis. Non-radiographic axial spondyloarthritis digunakan bila gejala khas tetapi rontgen belum menunjukkan sakroiliitis.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Spondiloartritis aksial non-radiografik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Spondiloartritis Aksial & Artritis Psoriatik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Non-radiographic axial spondyloarthritis' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Ankylosing spondylitis' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Sakroiliitis infeksius' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "ankylosing spondylitis",
+        "hla-b27",
+        "bamboo spine",
+        "sakroiliitis"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Spondiloartritis Aksial & Artritis Psoriatik merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-004",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-1",
+    "subtopic": "Artritis Reumatoid (RA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita 63 tahun datang dengan keluhan nyeri punggung dan membawa hasil BMD dengan hasil:",
+    "leadIn": "L1 = -0,999 L2 = -1,2 L3 = -1,5 L4 = -1,7 Apa interpretasi pada pasien?",
+    "options": [
+      "Normal",
+      "Osteopenia",
+      "Osteoporosis",
+      "Osteoporosis berat",
+      "Leflunomide"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Pada wanita usia 63 tahun, interpretasi BMD menggunakan T-score. Kategori BMD: - T-score ≥ -1,0 = normal - T-score antara -1,0 sampai -2,5 = osteopenia - T-score ≤ -2,5 = osteoporosis - Osteoporosis + fraktur fragilitas = osteoporosis berat/established osteoporosis Pada soal, nilai vertebra berada di sekitar -1 sampai -1,7, sehingga masuk kategori osteopenia. Catatan penting: dalam praktik, interpretasi lumbar spine idealnya menggunakan nilai total L1-L4 yang valid, bukan satu vertebra saja. Namun dari pilihan soal, jawaban paling sesuai adalah osteopenia. ---",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Normal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Osteoporosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Osteoporosis berat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Leflunomide' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis reumatoid",
+        "ra",
+        "anti-ccp",
+        "rheumatoid factor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Reumatoid (RA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-005",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita dengan nyeri persendian pada digiti manus bilateral dan pergelangan tangan. Terdapat kaku sendi pagi hari, nyeri bertambah saat istirahat. Pemeriksaan ANA IF negatif, RF negatif, asam urat 7,5.",
+    "leadIn": "Apa diagnosis?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Gout arthritis",
+      "SLE",
+      "Peningkatan sintesis purin akibat hiperglikemia kronik—putra salah",
+      "Penurunan ekskresi asam urat ginjal akibat peningkatan reabsorpsi tubular – Akhta Benar"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Nyeri sendi kecil pada jari tangan bilateral, pergelangan tangan, kaku pagi hari, dan nyeri yang bertambah saat istirahat menunjukkan pola artritis inflamasi. Lokasi sendi kecil tangan dan pergelangan tangan sangat khas untuk rheumatoid arthritis. RF negatif tidak menyingkirkan RA, karena dapat terjadi seronegative rheumatoid arthritis. Asam urat 7,5 saja tidak cukup untuk mendiagnosis gout, apalagi pola sendinya tidak khas gout. ---",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Gout arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Peningkatan sintesis purin akibat hiperglikemia kronik—putra salah' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Penurunan ekskresi asam urat ginjal akibat peningkatan reabsorpsi tubular – Akhta Benar' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-006",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Laki-laki 26 tahun nyeri lutut kanan sejak 3 hari.",
+    "leadIn": "Pemeriksaan awal untuk mencari etiologi adalah?",
+    "options": [
+      "Analisa cairan sendi",
+      "Serum asam urat",
+      "USG genu",
+      "Aktivasi inflammasome oleh jaringan adiposa visceral---pada rheumatoid arthritis referat odie",
+      "Peningkatan degradasi ATP pada jaringan otot"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Pada monoartritis akut, terutama pada sendi besar seperti lutut, pemeriksaan awal paling penting adalah analisa cairan sendi. Pemeriksaan ini dapat membedakan penyebab seperti artritis septik, gout, pseudogout, atau inflamasi lain. Analisa cairan sendi meliputi jumlah sel, dominasi PMN, Gram stain, kultur, dan pemeriksaan kristal. Serum asam urat tidak cukup untuk diagnosis karena bisa tinggi tanpa gout dan bisa normal saat serangan gout akut. ---",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Serum asam urat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'USG genu' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Aktivasi inflammasome oleh jaringan adiposa visceral---pada rheumatoid arthritis referat odie' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Peningkatan degradasi ATP pada jaringan otot' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-007",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita post pengobatan nefritis lupus. Didapatkan hasil urinalisa membaik dari sebelumnya, protein +1. Pasien sudah mendapatkan methylprednisolone dan cyclophosphamide.",
+    "leadIn": "Tatalaksana selanjutnya?",
+    "options": [
+      "Mycophenolate mofetil",
+      "Methotrexate",
+      "Hydroxychloroquine",
+      "Anti-dsDNA",
+      "HLA-B27"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Pada nefritis lupus, terapi dibagi menjadi fase induksi dan maintenance. Cyclophosphamide biasanya digunakan sebagai terapi induksi pada nefritis lupus berat. Bila sudah membaik, terapi dilanjutkan ke fase maintenance, salah satunya dengan mycophenolate mofetil. Azathioprine juga dapat menjadi pilihan maintenance, terutama bila pasien hamil atau merencanakan kehamilan. Methotrexate bukan terapi untuk nefritis lupus. Hydroxychloroquine tetap penting pada SLE, tetapi tidak cukup sebagai terapi maintenance nefritis lupus tunggal. ---",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Methotrexate' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Hydroxychloroquine' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Anti-dsDNA' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'HLA-B27' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-008",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-1",
+    "subtopic": "Artritis Reumatoid (RA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita usia muda dengan nyeri punggung, memiliki riwayat penggunaan inhalasi steroid namun hanya saat kambuh. Terdapat riwayat operasi hemikolektomi. Dokter menyarankan pemeriksaan BMD.",
+    "leadIn": "Apa alasannya?",
+    "options": [
+      "Penggunaan steroid",
+      "Riwayat operasi hemikolektomi",
+      "L3–L4",
+      "Z-score",
+      "Etorocoxib"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Pembahasan: Pemeriksaan BMD pada usia muda dipertimbangkan bila ada faktor risiko osteoporosis sekunder. Pada soal, penggunaan steroid hanya berupa inhalasi dan hanya saat kambuh, sehingga bukan faktor risiko sekuat penggunaan kortikosteroid sistemik jangka panjang. Riwayat hemikolektomi dapat mengarah pada kondisi gastrointestinal kronik, malabsorpsi, atau penyakit inflamasi usus yang berhubungan dengan risiko penurunan massa tulang. Karena itu alasan yang lebih kuat untuk pemeriksaan BMD pada soal ini adalah riwayat operasi hemikolektomi. Catatan: Bila pada soal disebutkan penggunaan steroid sistemik jangka panjang, misalnya prednison ≥3 bulan, maka alasan pemeriksaan BMD adalah penggunaan steroid. -- Version:1.0 StartHTML:0000000156 EndHTML:0002198261 StartFragment:0000000469 EndFragmen...",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Penggunaan steroid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'L3–L4' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "3": "Pilihan 'Z-score' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar.",
+        "4": "Pilihan 'Etorocoxib' kurang tepat untuk skenario klinis pada kasus ini dibandingkan opsi yang benar."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis reumatoid",
+        "ra",
+        "anti-ccp",
+        "rheumatoid factor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Reumatoid (RA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-009",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-1",
+    "subtopic": "Artritis Reumatoid (RA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang laki-laki berusia 42 tahun datang ke poliklinik dengan keluhan nyeri dan kaku pada persendian tangan sejak 6 bulan terakhir. Keluhan terutama dirasakan pada sendi metakarpofalangeal (MCP) dan proksimal interfalangeal (PIP), terutama pada pagi hari dan berlangsung lebih dari 1 jam. Keluhan membaik secara perlahan dengan aktivitas. Pasien mengaku sendi tampak membengkak dan sulit digerakkan saat pagi hari. Pemeriksaan laboratorium menunjukkan Rheumatoid Factor (RF) yang tinggi. Pemeriksaan radiologi tangan menunjukkan adanya erosi marginal pada sendi MCP. Faktor prognosis buruk pada pasien ini adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "RF tinggi dan erosi marginal",
+      "Laki-laki dan erosi marginal",
+      "Usia dan RF tinggi",
+      "RF tinggi dan laki-laki",
+      "Usia dan erosi marginal"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Titer Autoantibodi Tinggi: Positivitas Rheumatoid Factor (RF) titer tinggi dan/atau Anti-CCP (ACPA) titer tinggi. Kerusakan Radiologis Dini: Adanya erosi sendi dini / erosi marginal pada pemeriksaan radiografi konvensional. Aktivitas Penyakit yang Tinggi: Jumlah sendi bengkak/nyeri yang banyak, serta peningkatan reaktan fase akut (LED dan CRP) yang persisten tinggi. Manifestasi Ekstraartikular: Misalnya nodul reumatoid, vaskulitis, atau keterlibatan paru (ILD).",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Laki-laki dan erosi marginal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Usia dan RF tinggi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'RF tinggi dan laki-laki' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Usia dan erosi marginal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis reumatoid",
+        "ra",
+        "anti-ccp",
+        "rheumatoid factor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Reumatoid (RA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-010",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita berusia 28 tahun datang ke poliklinik dengan keluhan nyeri punggung bawah yang dirasakan sejak 3 bulan terakhir. Keluhan memburuk saat pagi hari dan membaik dengan aktivitas. Pasien juga mengeluhkan nyeri di tumit dan persendian lutut kanan. Selain itu, pasien menyebut pernah mengalami nyeri dan kemerahan pada salah satu matanya disertai pandangan kabur. Pemeriksaan fisik menunjukkan Schober test positif. Terapi utama yang sesuai untuk kondisi pasien ini adalah… (SpA)",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "NSAID dan Methotrexate",
+      "Methotrexate dan Leflunomide",
+      "NSAID dan TNF-α inhibitor",
+      "Steroid dan Methotrexate",
+      "Steroid dan Sulfasalazine"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'NSAID dan Methotrexate' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Methotrexate dan Leflunomide' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Steroid dan Methotrexate' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Steroid dan Sulfasalazine' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-011",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-3",
+    "subtopic": "Spondiloartritis Aksial & Artritis Psoriatik",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria usia 30 tahun datang dengan keluhan nyeri punggung bawah yang telah berlangsung lebih dari 3 bulan. Nyeri membaik dengan aktivitas dan memburuk saat istirahat. Foto radiologi menunjukkan gambaran sacroiliitis kanan grade 2. Dari MRI didapatkan syndesmophyte vertebral lumbal dan sacroiliitis.",
+    "leadIn": "Apa kemungkinan diagnosis pasien ini?",
+    "options": [
+      "Non-radiographic axial spondyloarthritis",
+      "Ankylosing spondylitis",
+      "Sakroiliitis infeksius",
+      "Psoriatic arthritis aksial",
+      "Reactive arthritis"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Ankylosing spondylitis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Spondiloartritis Aksial & Artritis Psoriatik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Sakroiliitis infeksius' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Spondiloartritis Aksial & Artritis Psoriatik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Psoriatic arthritis aksial' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Spondiloartritis Aksial & Artritis Psoriatik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Reactive arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Spondiloartritis Aksial & Artritis Psoriatik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "ankylosing spondylitis",
+        "hla-b27",
+        "bamboo spine",
+        "sakroiliitis"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Spondiloartritis Aksial & Artritis Psoriatik merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-012",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria usia 50 tahun datang ke poliklinik penyakit dalam dengan riwayat nyeri dan bengkak berulang pada sendi metatarsophalangeal (MTP) 1 kanan. Nyeri membaik dengan kolkisin dan NSAID. Saat ini pasien tidak sedang nyeri sendi, namun mengeluhkan kekambuhan yang sering. Kadar serum urat 9,6 mg/dL, dan serum kreatinin (SK) 2 mg/dL. USG abdomen didapatkan batu ginjal.",
+    "leadIn": "Apa obat hipourisemik yang paling tepat diberikan?",
+    "options": [
+      "Kolkisin",
+      "Allopurinol",
+      "Febuxostat",
+      "Probenesid",
+      "NSAID"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Kolkisin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Allopurinol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Probenesid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'NSAID' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-013",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria berusia 55 tahun datang ke IGD dengan keluhan nyeri hebat dan bengkak pada sendi metatarsofalangeal (MTP) pertama kaki kanan sejak 1 hari yang lalu. Pasien merasa nyeri sangat mengganggu saat berjalan, disertai kemerahan dan rasa panas di sekitar sendi. Hasil pemeriksaan laboratorium menunjukkan Asam urat: 10,2 mg/dL, Kreatinin serum: 2,2 mg/dL. Pemeriksaan fisik menunjukkan sendi MTP I kanan tampak eritem, bengkak, nyeri tekan, dan hangat. Tidak ditemukan tanda infeksi sistemik.",
+    "leadIn": "Apa terapi yang paling tepat untuk diberikan pada pasien ini?",
+    "options": [
+      "Allopurinol",
+      "Paracetamol",
+      "NSAID",
+      "Injeksi intraartikular triamcinolone",
+      "Febuxostat"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi D merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Allopurinol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Paracetamol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'NSAID' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Febuxostat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-014",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-1",
+    "subtopic": "Artritis Reumatoid (RA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita usia 32 tahun datang ke poliklinik dengan keluhan nyeri dan kaku pada kedua pergelangan tangan serta jari-jari tangan terutama saat pagi hari sejak beberapa bulan terakhir. Pasien baru saja melahirkan 2 bulan yang lalu dan saat ini masih menyusui bayinya secara eksklusif. Pemeriksaan fisik menunjukkan pembengkakan dan nyeri tekan pada sendi MCP dan PIP bilateral. Pemeriksaan laboratorium menunjukkan RF (+), anti-CCP (+), dan LED meningkat. Dokter mendiagnosis pasien dengan rheumatoid arthritis aktif.",
+    "leadIn": "Terapi yang paling tepat diberikan pada pasien ini adalah:",
+    "options": [
+      "Methotrexate",
+      "Leflunomide",
+      "Sulfasalazine",
+      "Etanercept",
+      "Rituximab"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Methotrexate' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Leflunomide' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Etanercept' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Rituximab' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis reumatoid",
+        "ra",
+        "anti-ccp",
+        "rheumatoid factor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Reumatoid (RA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-015",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita usia 28 tahun, G1P0A0, hamil 10 minggu, datang untuk kontrol kehamilan ke poliklinik penyakit dalam. Pasien memiliki riwayat lupus nefritis dan selama ini menjalani pengobatan dengan mikofenolat mofetil (MMF), hidroksiklorokuin, dan prednison. Saat ini tidak ada keluhan, dan tekanan darah serta fungsi ginjal dalam batas normal.",
+    "leadIn": "Terapi yang tepat pada pasien ini adalah:",
+    "options": [
+      "Melanjutkan steroid saja",
+      "Melanjutkan hidroksiklorokuin saja",
+      "Menghentikan semua obat",
+      "Mengganti MMF ke siklosporin",
+      "Mengganti MMF ke siklofosfamid"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi D merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Melanjutkan steroid saja' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "1": "Pilihan 'Melanjutkan hidroksiklorokuin saja' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "2": "Pilihan 'Menghentikan semua obat' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D.",
+        "4": "Pilihan 'Mengganti MMF ke siklofosfamid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi D."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-016",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-1",
+    "subtopic": "Artritis Reumatoid (RA)",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita usia 70 tahun datang untuk skrining o. Dokter melakukan pemeriksaan densitometri tulang (BMD) dengan DEXA scan. Hasilnya sebagai berikut:",
+    "leadIn": "Lokasi yang dapat digunakan untuk interpretasi diagnosis osteoporosis adalah:",
+    "options": [
+      "L1–L4",
+      "L2–L4",
+      "L1–L2",
+      "L3–L4",
+      "Z-score"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'L2–L4' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'L1–L2' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'L3–L4' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Z-score' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis reumatoid",
+        "ra",
+        "anti-ccp",
+        "rheumatoid factor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Reumatoid (RA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-017",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita usia 42 tahun datang ke poliklinik dengan keluhan nyeri dan kaku pagi pada sendi tangan dan pergelangan selama lebih dari 6 minggu. Nyeri dirasakan terutama pada sendi MCP dan PIP bilateral. Tidak terdapat keluhan demam. Pemeriksaan fisik menunjukkan adanya pembengkakan dan nyeri tekan pada sendi MCP dan PIP. Hasil rontgen tampak erosi marginal.",
+    "leadIn": "Pemeriksaan apa yang paling spesifik dan dapat menegakkan diagnosis pada kasus ini?",
+    "options": [
+      "Anti-CCP",
+      "ANA",
+      "ASO titer",
+      "Anti-dsDNA",
+      "HLA-B27"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'ANA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'ASO titer' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Anti-dsDNA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'HLA-B27' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-018",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-1",
+    "subtopic": "Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang laki-laki berusia 72 tahun datang untuk evaluasi risiko fraktur setelah sebelumnya mengalami jatuh di kamar mandi. Pasien mengalami kesulitan menelan dan saat ini sedang menggunakan NGT untuk nutrisi. Tidak ada riwayat fraktur panggul sebelumnya. Hasil BMD T-score -2,0. Hasil FRAX Score tanpa BMD menunjukkan risiko fraktur mayor 15%, risiko fraktur panggul: 3%.",
+    "leadIn": "Terapi yang paling sesuai untuk pasien ini adalah:",
+    "options": [
+      "Suplementasi kalsium dan vitamin D saja",
+      "Bifosfonat oral",
+      "Bifosfonat intravena",
+      "Rehabilitasi",
+      "Observasi keluhan"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Suplementasi kalsium dan vitamin D saja' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Bifosfonat oral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Rehabilitasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Observasi keluhan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "vaskulitis",
+        "takayasu",
+        "arteritis temporalis",
+        "pan"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-019",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita berusia 25 tahun datang dengan keluhan kelemahan pada kedua tungkai bawah sejak 3 hari terakhir. Ia juga mengeluh rambut rontok berlebihan dan terdapat ulkus di rongga mulut yang tidak nyeri. Pemeriksaan fisik menunjukkan paraparese inferior dan alopesia difus. Hasil lab menunjukkan ANA: positif (+), anti-dsDNA: positif (+), Komplement C3 dan C4: normal. Hb, leukosit, trombosit, ureum, kreatinin: dalam batas normal.",
+    "leadIn": "Tidak terdapat proteinuria Apa terapi awal yang paling tepat?",
+    "options": [
+      "Methylprednisolone (MP) pulse dose 500 mg IV selama 3 hari + cyclophosphamide",
+      "Methylprednisolone 125 mg IV selama 3 hari + cyclophosphamide",
+      "Methylprednisolone 62.5 mg IV selama 3 hari + azathioprine",
+      "Methylprednisolone 250 mg IV selama 3 hari + MMF",
+      "Hidroksiklorokuin dan prednison oral 1 mg/kgBB"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Methylprednisolone 125 mg IV selama 3 hari + cyclophosphamid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Methylprednisolone 62.5 mg IV selama 3 hari + azathioprine' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Methylprednisolone 250 mg IV selama 3 hari + MMF' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Hidroksiklorokuin dan prednison oral 1 mg/kgBB' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-020",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-2",
+    "subtopic": "Osteoartritis (OA)",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita berusia 35 tahun datang ke poliklinik dengan keluhan nyeri di pergelangan tangan kanan bagian sisi ibu jari yang dirasakan sejak 1 minggu terakhir. Pasien bekerja sebagai penjahit. Pada pemeriksaan fisik didapatkan nyeri saat gerakan menekuk ibu jari ke dalam telapak tangan lalu menggenggam tangan dan memutar pergelangan ke arah ulnar (tes Finkelstein positif), nyeri tinnel test negatif.",
+    "leadIn": "Apa diagnosis paling mungkin?",
+    "options": [
+      "Tenosinovitis De Quervain",
+      "Sindrom Terowongan Karpal",
+      "Rheumatoid Arthritis",
+      "Tendinitis fleksor jari",
+      "Osteoartritis pergelangan tangan"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Sindrom Terowongan Karpal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Rheumatoid Arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Tendinitis fleksor jari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Osteoartritis pergelangan tangan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "osteoartritis",
+        "oa",
+        "kellgren-lawrence",
+        "penyempitan celah sendi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Osteoartritis (OA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-021",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria muda datang dengan keluhan nyeri sendi yang menetap pada lutut dan pergelangan tangan sejak 2 minggu yang lalu. Ia mengatakan sebelumnya sempat mengalami demam dan ruam di tubuh selama beberapa hari, tetapi keluhan tersebut telah hilang, hanya keluhan nyeri sendinya tetap. Saat ini, hanya nyeri sendi yang masih mengganggu. Beberapa anggota keluarganya juga mengalami keluhan serupa berupa demam dan ruam pada waktu yang bersamaan.",
+    "leadIn": "Apa diagnosis paling mungkin?",
+    "options": [
+      "Reactive arthritis",
+      "Viral arthritis",
+      "Rheumatoid arthritis",
+      "Systemic lupus erythematosus (SLE)",
+      "Septic arthritis"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Reactive arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Rheumatoid arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Systemic lupus erythematosus (SLE)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Septic arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-022",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria 28 tahun datang dengan keluhan nyeri dan bengkak pada lutut kanan serta pergelangan kaki kiri yang telah berlangsung selama beberapa minggu. Tidak terdapat keluhan nyeri punggung bawah kronik. Pasien merupakan pasien rutin kontrol dokter spesialis DVE dengan psoriasis. Pemeriksaan menunjukkan adanya artritis asimetris pada ekstremitas bawah.",
+    "leadIn": "Apakah terapi yang paling tepat untuk kasus ini?",
+    "options": [
+      "NSAID",
+      "NSAID dan Methotrexate",
+      "Methotrexate",
+      "Steroid",
+      "TNF alfpha"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi E merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'NSAID' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'NSAID dan Methotrexate' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'Methotrexate' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'Steroid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-023",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 25 tahun didiagnosis Systemic Lupus Erythematosus (SLE) dengan manifestasi mukokutan berupa ruam malar dan ulkus oral, serta keluhan nyeri pada beberapa sendi kecil. Pemeriksaan laboratorium menunjukkan penurunan kadar komplemen C3 dan C4, serta antibodi anti-dsDNA positif.",
+    "leadIn": "Apakah mekanisme patofisiologis utama yang mendasari gejala pasien ini?",
+    "options": [
+      "Deposisi kompleks imun di dermoepidermal junction dan sinovium",
+      "Peningkatan produksi dan aktivasi komplemen yang berlebihan",
+      "Aktivasi sel T sitotoksik terhadap jaringan kulit dan sinovium",
+      "Hipersensitivitas tipe IV terhadap antigen nuklear",
+      "Aktivasi langsung komplemen oleh autoantibodi terhadap membran sel"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Lupus, ambil soal, dari pathogenesis: biopsy pada gromerulus, kulit ---kompleks antigen antibody (self antigen); bila banyak complemen turun – aktivitas tinggi --protein uri kehamilan: nefritis atau preeklamsia Baca juga RA---- IL6 TNF Alpha Anti hipertensi hamil ace arb",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Peningkatan produksi dan aktivasi komplemen yang berlebihan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Aktivasi sel T sitotoksik terhadap jaringan kulit dan sinovi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Hipersensitivitas tipe IV terhadap antigen nuklear' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Aktivasi langsung komplemen oleh autoantibodi terhadap membr' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-024",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-2",
+    "subtopic": "Osteoartritis (OA)",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita berusia 62 tahun datang dengan keluhan nyeri lutut kanan sejak 6 bulan terakhir. Nyeri memberat saat berjalan dan membaik dengan istirahat. Tidak disertai bengkak atau kemerahan. Pemeriksaan fisik menunjukkan krepitasi saat mobilisasi sendi, disertai keterbatasan gerak. Riwayat trauma disangkal.",
+    "leadIn": "Apakah temuan radiologis yang paling mungkin ditemukan pada pasien ini?",
+    "options": [
+      "Erosi marginal--- RA,",
+      "Sklerosis subkondral (+osteofit, penyempitan celah sendi)---OA",
+      "Kondrokalsinosis ---CPPD",
+      "Hook-like erosion--- hemokromatosis",
+      "Penipisan korteks tulang-- osteoporosis"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "SLE Jaccoud athropathy Saat berjalan---nyeri mekanik ------ OA OM- involokrum",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Erosi marginal--- RA,' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Kondrokalsinosis ---CPPD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Hook-like erosion--- hemokromatosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Penipisan korteks tulang-- osteoporosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "osteoartritis",
+        "oa",
+        "kellgren-lawrence",
+        "penyempitan celah sendi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Osteoartritis (OA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-025",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien datang dengan nyeri sendi di jari lutut siku ankle dan tendon achilles. Nyeri sendi sudah 2 thn semakin memberat. Anak ada psoriasis.",
+    "leadIn": "Apa diagnosis yang paling mungkin?",
+    "options": [
+      "RA",
+      "PsA –belum memenuhi caspar >=3",
+      "SpA perifer",
+      "Gout",
+      "SLE"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'RA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'PsA –belum memenuhi caspar >=3' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Gout' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-026",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien wanita usia 30an tahun dengan nyeri pinggang 1 jam pagi hari membaik saat aktivitas (inflamasi), punggung kaku. Schober + (aksial). Ada nyeri tekan tendon achilles. Apa terapi awal",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Anti IL1",
+      "Anti IL6",
+      "Anti TNF alfa",
+      "Steroid",
+      "Metotrexat/sulfasalazin lupa"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Anti IL1' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Anti IL6' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Steroid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Metotrexat/sulfasalazin lupa' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-027",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien SLE mendapat terapi MP 1 x 8 mg, HCQ 1 x 200 mg, MPA 2x1, captopril 2 x 12,5 mg, saat ini didapatkan hamil 3 bulan. Saat pemeriksaan protein urine kuantitatif 1000 mg/24 jam (tidak remisi).",
+    "leadIn": "Apa rekomendasinya?",
+    "options": [
+      "Terminasi kehamilan",
+      "Lanjutkan kehamilan, MP dan HCQ dapat dilanjutkan, captopril dan MPA dihentikan",
+      "Lanjutkan kehamilan, MP dan HCQ dapat dilanjutkan, captopril dihentikan, MPA diganti dengan AZA",
+      "Lanjutkan kehamilan, MP dinaikkan dosis 1 mg/kgBB/hari",
+      "Lanjutkan kehamilan, MP captopril dan HCQ dapat dilanjutkan, MPA dihentikan"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Disease activity? Kalo tinggi 500-1000 MP pulse Kehamilan 10 w bila seperti ini, kesejahteraan janin pakai?",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Terminasi kehamilan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Lanjutkan kehamilan, MP dan HCQ dapat dilanjutkan, captopril' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Lanjutkan kehamilan, MP dinaikkan dosis 1 mg/kgBB/hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Lanjutkan kehamilan, MP captopril dan HCQ dapat dilanjutkan,' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-028",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-1",
+    "subtopic": "Artritis Reumatoid (RA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Wanita 42 tahun mengeluhkan nyeri dan bengkak pada sendi di jari kedua tangan, siku, dan pergelangan kaki sejak 6 bulan yang lalu. Keluhan cenderung agak membaik saat mengkonsumsi naproxen. Pemeriksaan fisik didapatkan nyeri tekan dan bengkak pada sendi PIP II dan III bilateral, MCP II sampai V bilateral, pergelangan tangan kiri, siku kanan, dan pergelangan kaki kanan. Pemeriksaan lab didapatkan hasil rheumatoid factor yang positif (85 U/ml) dan antibodi anti-cyclic citrullinated peptide yang juga positif. Pemeriksaan radiografi pada tangan menunjukkan adanya periarticular osteopenia pada sendi MCP.",
+    "leadIn": "Terapi awal yang dapat diberikan pada pasien ini adalah:",
+    "options": [
+      "Etorocoxib",
+      "Hidroksiklorokuin",
+      "Metotreksat",
+      "Rituximab",
+      "Tofacitinib"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "TNF ALPHA DAN IL 6 naik IL 6 naikkan hepsidin, hepsidin tinggi anemia TNF alpha dominan--- blok rank-l sehingga osteopenia Misal sudah diberikan MTX dan leflu--- LED 100 naik-------- bisa berikan JAK-I (tofacitinib/ baricitinib)",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Etorocoxib' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Hidroksiklorokuin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Rituximab' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Tofacitinib' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Reumatoid (RA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis reumatoid",
+        "ra",
+        "anti-ccp",
+        "rheumatoid factor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Reumatoid (RA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-029",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-4",
+    "subtopic": "Sindrom Antifosfolipid (APS)",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien perempuan usia muda, ada nyeri sendi sendi kecil, tidak ada ruam atau rambut rontok. Ada riwayat keguguran, klinis lain ga ada.",
+    "leadIn": "ANA 1:1000, anti dsDNA normal, C3 90, anti smith positif, ACA positif lupus antikoagulan positif, diagnosis?",
+    "options": [
+      "SLE",
+      "RA",
+      "APS primer",
+      "Sjogren",
+      "SS"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Misal pasien ingin hamil--- sebelum remisi control disease activity HCQ, Aspilet 2 bulan sebelum hamil terus, Obat yang sesuai Nefritis lupus 6 bulan , NP 12 bulan harus remissi baru boleh hamil Keguguran + belum APL ab--- aspilet Ada APL ab—dobel Keguguran > 3-- dobel",
+      "distractorAnalysis": {
+        "1": "Pilihan 'RA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Antifosfolipid (APS), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'APS primer' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Antifosfolipid (APS), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Sjogren' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Antifosfolipid (APS), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'SS' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sindrom Antifosfolipid (APS), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "aps",
+        "antifosfolipid",
+        "antikardiolipin",
+        "lupus antikoagulan"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sindrom Antifosfolipid (APS) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-030",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-2",
+    "subtopic": "Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang laki-laki 42 tahun, bekerja sebagai operator mesin tekstil, datang ke poliklinik dengan keluhan tangan kaku sehingga sulit menggenggam sejak 6 bulan yang lalu. Sejak 7 tahun yang lalu pasien memiliki keluhan ujung jari membiru bila terkena udara dingin. Pasien juga mengeluh nyeri sendi. Pada pemeriksaan fisik didapatkan penebalan kulit pada jari kedua tangan mulai dari sendi metakarpofalang (MCP) ke proksimal dan telangiektasis pada wajah. Hasil laboratorium menunjukkan Hb 13 g/dL, hematokrit 39%, leukosit 8.000/μL, trombosit 195.000/μL, LED 12 mm/jam, faktor reumatoid negatif, anti CCP negatif, ANA positif, anti Scl-70 negatif, anti sentromer positif, anti U1-RNP negatif, anti Jo-1 negatif.",
+    "leadIn": "Diagnosis yang paling tepat pada pasien ini adalah:",
+    "options": [
+      "Sklerosis sistemik",
+      "Localized scleroderma",
+      "Lupus eritematosus sistemik",
+      "Hand-arm vibration syndrome",
+      "Mixed connective tissue disease (MCTD)"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Anti sentromer +-- ss dan Ph (ingat anti topoisomerase I juga---ss dan ILD) Raynaud+ antibody spesifik >= 9 terpenuhi SS",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Sklerosis sistemik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'Localized scleroderma' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'Lupus eritematosus sistemik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'Hand-arm vibration syndrome' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sklerosis sistemik",
+        "skleroderma",
+        "raynaud",
+        "sjogren"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-031",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-2",
+    "subtopic": "Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien RA minum kalau tidak salah MTX HCQ sudah 6 bulan gangguan penglihatan. Tidak ada mata merah.",
+    "leadIn": "Apa patogenesis gangguan penglihatan pada kasus ini?",
+    "options": [
+      "Sjogren",
+      "Retinopati karena HCQ",
+      "Uveitis pada RA",
+      "ESO MTX—putra jawab ini",
+      "Gangguan refraksi"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Kerja MTX---- hambat dehidrogenas as. Folat, menghambat pembelahan sel inflamasi—apoptosis—defisiensi folat Sulfasalazin imunomodulator Cholcicine --- hambat pergerakan neutrofil",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Sjogren' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Uveitis pada RA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'ESO MTX—putra jawab ini' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Gangguan refraksi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sklerosis sistemik",
+        "skleroderma",
+        "raynaud",
+        "sjogren"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-032",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien SLE dengan prednison 10 mg/minggu, HCQ, dan 1 obat imunosupresan lain. Saat ini keluhan nyeri-nyeri sendi, kesemutan dan kebas pada tangan dan kaki.",
+    "leadIn": "Pemeriksaan apa yang dapat dilakukan untuk evaluasi komplikasi?",
+    "options": [
+      "Rontgen vertebra torakolumbal",
+      "Kadar vitamin D 25-OH",
+      "Kadar kalsium",
+      "cek BMD",
+      "Cek PTH"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Steroid menghambat kalsium Osteoporosis karena tiroidetomik pth, tiroid, calcium, Pada extremitas tertentu kebas (di tgn kanan, atau kaki) --- jgn pikir ini sistemik; jepitan syaraf",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Rontgen vertebra torakolumbal' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'Kadar vitamin D 25-OH' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'Kadar kalsium' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'cek BMD' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-033",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang laki-laki 69 tahun datang ke poliklinik dengan keluhan nyeri pada lutut kiri sejak 3 bulan terakhir. Nyeri dirasakan memberat bila pasien naik tangga dan berjalan jauh. Kaku pagi hari dirasakan 15-20 menit. Pasien memiliki hipertensi dan diabetes melitus yang terkontrol dengan obat. Pasien pernah dilakukan pemasangan stent jantung 2 tahun yang lalu. Pada pemeriksaan fisik didapatkan VAS 5, tampak gait antalgik dengan menggunakan tongkat, ballon sign (Efusi Genue) positif pada genu sinistra disertai krepitasi genu bilateral. Tidak ditemukan kemerahan atau perabaan hangat pada lutut. Hasil pemeriksaan rontgen genu kiri menunjukkan gambar berikut:",
+    "leadIn": "Tatalaksana yang tepat untuk pasien pada kasus adalah:",
+    "options": [
+      "Injeksi hyaluronat intraartikular",
+      "Injeksi steroid intraartikular",
+      "Metilprednisolon 3x8 mg",
+      "Gabapentin 1x300 mg--- tidak bisa pada antalgic gait (gg keseimbangan instability)",
+      "Etoricoxib 1x90 mg--nsaid"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Komorbid dm ht Kontraindikasi nsaid, steroid oral",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Injeksi hyaluronat intraartikular' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Metilprednisolon 3x8 mg' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Gabapentin 1x300 mg--- tidak bisa pada antalgic gait (gg kes' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Etoricoxib 1x90 mg--nsaid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-034",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pasien dengan sindrom metabolik mengalami hiperurisemia persisten. Hubungan antara resistensi insulin dan hiperurisemia terutama disebabkan oleh",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Peningkatan sintesis purin akibat hiperglikemia kronik—putra salah",
+      "Penurunan ekskresi asam urat ginjal akibat peningkatan reabsorpsi tubular – Akhta Benar",
+      "Aktivasi inflammasome oleh jaringan adiposa visceral---pada rheumatoid arthritis referat odie",
+      "Peningkatan degradasi ATP pada jaringan otot",
+      "Gangguan metabolisme fruktosa di hepar"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "AML, ALL----turn over sel tinggi, pemecahan sel berinti— asam nukleat DNA RNA----purin naik Psoariatic sering gout??--- proliferasi, hyperkeratosis, inflamasi respon--- sel inflamasi proliferasi—turn over cepat----- purin naik Kenapa psoriatic sering pada pasien HIV?",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Peningkatan sintesis purin akibat hiperglikemia kronik—putra' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Aktivasi inflammasome oleh jaringan adiposa visceral---pada' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Peningkatan degradasi ATP pada jaringan otot' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Gangguan metabolisme fruktosa di hepar' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-035",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria 60 tahun dengan gout kronik dan hipertensi mendapat terapi diuretik thiazide. Secara patofisiologis, peningkatan kadar asam urat akibat obat ini terutama disebabkan oleh",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Peningkatan produksi asam urat di hepar melalui aktivasi xanthine oxidase--- tdk berhubungan",
+      "Kompetisi antara urat dan natrium pada proses filtrasi glomerulus----",
+      "Peningkatan reabsorpsi asam urat di tubulus proksimal akibat hipovolemia relative- bisa",
+      "Penurunan degradasi asam urat oleh enzim uricase—tdk bs",
+      "Peningkatan absorpsi purin dari traktus gastrointestinal--- tdk bs"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Diuretik--- hiperosmoler---hiperurisemia relatif HCT lewat OAT 1 tukar Na + h20 dengan asam urat",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Peningkatan produksi asam urat di hepar melalui aktivasi xan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Kompetisi antara urat dan natrium pada proses filtrasi glome' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Penurunan degradasi asam urat oleh enzim uricase—tdk bs' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Peningkatan absorpsi purin dari traktus gastrointestinal---' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-036",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pasien dengan gout kronik tofaceus memiliki kadar asam urat serum persistently tinggi meskipun asupan purin rendah. Mekanisme patofisiologi yang paling sering mendasari kondisi ini adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Overproduksi purin akibat defisiensi HGPRT parsial--- usianya muda",
+      "Penurunan ekskresi asam urat di tubulus proksimal ginjal---CKD?, Batu ginjal,",
+      "Peningkatan aktivitas xanthine oxidase hepatik",
+      "Peningkatan absorpsi purin usus akibat disbiosis",
+      "Gangguan konjugasi asam urat di hepar"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Soal tidak jelas, Gout: intake-----pengolahan xanthine----ekskresi menurun Intake disebut dah kurang, kalo yang salah pengolahan ada defisiensi----- culprit di ekskresi (singkirkan batu ginjal,",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Overproduksi purin akibat defisiensi HGPRT parsial--- usiany' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Peningkatan aktivitas xanthine oxidase hepatik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Peningkatan absorpsi purin usus akibat disbiosis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Gangguan konjugasi asam urat di hepar' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-037",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-4-2",
+    "subtopic": "Farmakoterapi Reumatologi Lanjut & Agen Biologik",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien Sjögren syndrome dengan renal tubular acidosis distal (tipe 1) tanpa keterlibatan organ mayor lain. Pendekatan tatalaksana awal yang paling tepat adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Cyclophosphamide intravena",
+      "Koreksi asidosis metabolik dengan alkali",
+      "Rituximab intravena",
+      "NSAID jangka panjang",
+      "Artificial tears dan saliva substitute"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Sjorgen dengan RTA—lihat aktvitas essdai dulu, bila ringan simtomatik",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Cyclophosphamide intravena' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Farmakoterapi Reumatologi Lanjut & Agen Biologik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'Koreksi asidosis metabolik dengan alkali' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Farmakoterapi Reumatologi Lanjut & Agen Biologik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'Rituximab intravena' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Farmakoterapi Reumatologi Lanjut & Agen Biologik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'NSAID jangka panjang' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Farmakoterapi Reumatologi Lanjut & Agen Biologik, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "dmard",
+        "biologik",
+        "anti-tnf",
+        "jak inhibitor"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Farmakoterapi Reumatologi Lanjut & Agen Biologik merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-038",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang perempuan 52 tahun dengan Sjögren syndrome primer mengalami keratitis akibat mata kering berat yang tidak membaik dengan artificial tears. Langkah tatalaksana selanjutnya yang paling tepat adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Pemberian kortikosteroid sistemik dosis rendah",
+      "Penambahan hydroxychloroquine oral",
+      "Pemberian topical cyclosporine eye drop",
+      "Pemberian pilocarpine oral",
+      "Observasi dan kontrol berkala"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Pemberian kortikosteroid sistemik dosis rendah' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Penambahan hydroxychloroquine oral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Pemberian pilocarpine oral' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Observasi dan kontrol berkala' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-039",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-1",
+    "subtopic": "Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pasien Sjögren syndrome dengan keluhan artralgia persisten dan fatigue berat, tanpa keterlibatan organ mayor, menunjukkan CRP normal dan tidak ada vaskulitis. Terapi sistemik lini pertama yang paling tepat adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Kortikosteroid dosis tinggi jangka panjang",
+      "Hydroxychloroquine",
+      "Cyclophosphamide",
+      "Rituximab",
+      "Mycophenolate mofetil"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Kortikosteroid dosis tinggi jangka panjang' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Cyclophosphamide' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Rituximab' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Mycophenolate mofetil' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "vaskulitis",
+        "takayasu",
+        "arteritis temporalis",
+        "pan"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-040",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang perempuan 47 tahun datang dengan mata kering dan mulut kering. Ia juga mengeluh fotosensitivitas dan ruam malar. Anti-Ro positif, anti-dsDNA positif, C3 dan C4 rendah. Pendekatan diagnostik paling tepat adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Menegakkan diagnosis Sjögren syndrome primer",
+      "Menegakkan diagnosis Sjögren syndrome sekunder",
+      "Menilai kemungkinan SLE dengan manifestasi sicca",
+      "Menyimpulkan sindrom overlap RA–Sjögren",
+      "Menyingkirkan Sjögren karena anti-dsDNA positif"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi E merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Menegakkan diagnosis Sjögren syndrome primer' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'Menegakkan diagnosis Sjögren syndrome sekunder' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'Menilai kemungkinan SLE dengan manifestasi sicca' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'Menyimpulkan sindrom overlap RA–Sjögren' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-041",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-2",
+    "subtopic": "Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pada pasien dengan keluhan sicca syndrome, temuan laboratorium berikut yang PALING mengarah ke Sjögren syndrome dibandingkan skleroderma sistemik adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "ANA positif pola nuklear",
+      "Anti-centromere antibody positif",
+      "Anti-Ro/SSA positif",
+      "Fenomena Raynaud",
+      "Disfagia esofagus"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'ANA positif pola nuklear' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Anti-centromere antibody positif' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Fenomena Raynaud' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Disfagia esofagus' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sklerosis sistemik",
+        "skleroderma",
+        "raynaud",
+        "sjogren"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-042",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-2",
+    "subtopic": "Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pada evaluasi pasien dengan keluhan sicca syndrome, kombinasi temuan berikut yang PALING mengarah ke diagnosis Sjögren syndrome dibanding penyebab lain adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Xerostomia dan diabetes mellitus tidak terkontrol",
+      "Xerophthalmia pada pasien usia lanjut dengan penggunaan antikolinergik",
+      "Xerostomia, anti-Ro/SSA positif, dan hipergamaglobulinemia",
+      "Mulut kering pada pasien dengan riwayat radioterapi kepala-leher",
+      "Mata kering episodik pada pasien alergi"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Xerostomia dan diabetes mellitus tidak terkontrol' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Xerophthalmia pada pasien usia lanjut dengan penggunaan anti' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Mulut kering pada pasien dengan riwayat radioterapi kepala-l' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Mata kering episodik pada pasien alergi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sklerosis sistemik",
+        "skleroderma",
+        "raynaud",
+        "sjogren"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-043",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-2",
+    "subtopic": "Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang perempuan 46 tahun datang dengan keluhan mata kering, mulut kering, dan nyeri sendi ringan. Hasil pemeriksaan anti-Ro/SSA positif, namun Schirmer test normal. Berdasarkan kriteria ACR/EULAR 2016, interpretasi yang paling tepat adalah",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Diagnosis Sjögren syndrome telah dapat ditegakkan",
+      "Diagnosis Sjögren syndrome tidak mungkin",
+      "Diperlukan satu pemeriksaan objektif tambahan untuk memenuhi kriteria",
+      "Diagnosis mengarah ke Sjögren syndrome sekunder",
+      "Pemeriksaan biopsi saliva minor merupakan satu-satunya pilihan"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Diagnosis Sjögren syndrome telah dapat ditegakkan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Diagnosis Sjögren syndrome tidak mungkin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Diagnosis mengarah ke Sjögren syndrome sekunder' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Pemeriksaan biopsi saliva minor merupakan satu-satunya pilih' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sklerosis sistemik",
+        "skleroderma",
+        "raynaud",
+        "sjogren"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Sklerosis Sistemik (Skleroderma) & Sindrom Sjogren merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-044",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-2",
+    "subtopic": "Osteoartritis (OA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pada pasien dengan nyeri sendi kronik, gambaran radiologis berupa penyempitan celah sendi sentral (central erosion) dan deformitas “gull-wing” paling mengarah ke diagnosis:",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Osteoartritis erosif (Gamabrans seperti burung camar digambar anak kecil ya gaes)",
+      "Rheumatoid arthritis",
+      "Psoriatic arthritis",
+      "Gout kronik",
+      "Septic arthritis kronik"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Rheumatoid arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Psoriatic arthritis' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Gout kronik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Septic arthritis kronik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "osteoartritis",
+        "oa",
+        "kellgren-lawrence",
+        "penyempitan celah sendi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Osteoartritis (OA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-045",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-2",
+    "subtopic": "Osteoartritis (OA)",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 62 tahun dengan nyeri lutut kronik didiagnosis osteoartritis.",
+    "leadIn": "Proses patofisiologi utama yang berperan pada kerusakan kartilago artikular pada osteoartritis adalah:",
+    "options": [
+      "Apoptosis kondrosit akibat deposisi kompleks imun – SLE",
+      "Aktivasi kondrosit yang meningkatkan produksi matrix metalloproteinase",
+      "Penurunan aktivitas osteoklas pada tulang subkondral–Pada OA stadium lanjut, remodeling tulang subkondral justru meningkat ditandai dengan sklerosis subkondral, peningkatan densitas tulang, dan pembentukan osteofit, bukan penurunan aktivitas osteoklas semata.",
+      "Proliferasi sinoviosit dengan pembentukan pannus –Ciri patognomonik dari Rheumatoid Arthritis (RA) kronis.",
+      "Deposisi kristal monosodium urat pada kartilago — Gout"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Apoptosis kondrosit akibat deposisi kompleks imun – SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Penurunan aktivitas osteoklas pada tulang subkondral–Pada OA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Proliferasi sinoviosit dengan pembentukan pannus –Ciri patog' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Deposisi kristal monosodium urat pada kartilago — Gout' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "osteoartritis",
+        "oa",
+        "kellgren-lawrence",
+        "penyempitan celah sendi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Osteoartritis (OA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-046",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-2",
+    "subtopic": "Osteoartritis (OA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Mediator yang berperan langsung dalam degradasi matriks kartilago pada osteoartritis adalah:",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Antibodi terhadap kolagen tipe II – RA",
+      "Matrix metalloproteinase dan aggrecanase",
+      "Interferon-gamma — RA",
+      "Komplemen C3 dan C4 – SLE",
+      "Prostaglandin E2 sebagai mediator Tunggal –tidak bekerja sebagai mediator tunggal dan bukan enzim pemecah langsung rantai serat matriks kartilago."
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Antibodi terhadap kolagen tipe II – RA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Interferon-gamma — RA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Komplemen C3 dan C4 – SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Prostaglandin E2 sebagai mediator Tunggal –tidak bekerja seb' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Osteoartritis (OA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "osteoartritis",
+        "oa",
+        "kellgren-lawrence",
+        "penyempitan celah sendi"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Osteoartritis (OA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-047",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-4-1",
+    "subtopic": "Kedaruratan Reumatologi (Artritis Septik & Krisis Lupus)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Mengapa Staphylococcus aureus memiliki kecenderungan paling tinggi menyebabkan artritis septik dibandingkan bakteri lain?",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Kemampuan menghindari fagositosis melalui kapsul polisakarida",
+      "Produksi endotoksin yang memicu respons inflamasi sistemik",
+      "Kemampuan adhesi terhadap matriks ekstraseluler sendi dan kartilago  — memiliki persenjataan virulensi permukaan yang sangat adaptif terhadap jaringan muskuloskeletal",
+      "Tropisme khusus terhadap jaringan sinovial yang tidak tervaskularisasi",
+      "Pertumbuhan lambat yang memicu inflamasi kronik"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Kemampuan menghindari fagositosis melalui kapsul polisakarid' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kedaruratan Reumatologi (Artritis Septik & Krisis Lupus), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Produksi endotoksin yang memicu respons inflamasi sistemik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kedaruratan Reumatologi (Artritis Septik & Krisis Lupus), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Tropisme khusus terhadap jaringan sinovial yang tidak tervas' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kedaruratan Reumatologi (Artritis Septik & Krisis Lupus), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Pertumbuhan lambat yang memicu inflamasi kronik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Kedaruratan Reumatologi (Artritis Septik & Krisis Lupus), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "artritis septik",
+        "analisis cairan sendi",
+        "krisis lupus",
+        "serebritis lupus"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Kedaruratan Reumatologi (Artritis Septik & Krisis Lupus) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-048",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pada infeksi Hepatitis B–related arthritis, patofisiologi utama yang mendasari manifestasi sendi adalah:",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Replikasi virus hepatitis di jaringan sinovial",
+      "Aktivasi langsung neutrofil oleh antigen virus",
+      "Deposisi kompleks imun HBsAg–anti-HBs — Spti Hipersensivitas tipe III",
+      "Reaksi hipersensitivitas tipe I",
+      "Aktivasi makrofag melalui interferon-gamma"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Replikasi virus hepatitis di jaringan sinovial' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Aktivasi langsung neutrofil oleh antigen virus' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Reaksi hipersensitivitas tipe I' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Aktivasi makrofag melalui interferon-gamma' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-049",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 28 tahun, G2P0A1, usia kehamilan 10 minggu, datang untuk kontrol antenatal. Pasien memiliki riwayat Systemic Lupus Erythematosus sejak 3 tahun lalu. Pasien juga memiliki riwayat keguguran sebanyak 2 kali pada usia kehamilan <12 minggu. Saat ini pasien dalam kondisi stabil dan rutin mengonsumsi metilprednisolon dan hidroksiklorokuin. Pemeriksaan laboratorium sebelumnya menunjukkan ANA positif, anti-dsDNA meningkat, dan C3 serta C4 rendah.",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Aspirin dosis tinggi saja",
+      "Heparin saja",
+      "Kombinasi heparin dan aspirin dosis rendah",
+      "Warfarin selama kehamilan",
+      "Tidak perlu terapi tambahan"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Aspirin dosis tinggi saja' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Heparin saja' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Warfarin selama kehamilan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Tidak perlu terapi tambahan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-050",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 25 tahun dengan riwayat Systemic Lupus Erythematosus datang dengan keluhan bengkak pada kedua tungkai sejak 2 minggu terakhir. Pemeriksaan menunjukkan tekanan darah meningkat. Urinalisis didapatkan proteinuria 4+, hematuria (+), dan silinder eritrosit. Pemeriksaan laboratorium menunjukkan peningkatan anti-dsDNA dan penurunan kadar C3 serta C4.",
+    "leadIn": "Apakah tatalaksana yang paling tepat pada pasien ini?",
+    "options": [
+      "Prednison 0,5 mg/kgBB/hari sebagai monoterapi",
+      "Methylprednisolone 500–1000 mg IV/hari selama 3 hari dilanjutkan prednison 0,5–1 mg/kgBB/hari tanpa imunosupresan",
+      "Methylprednisolone 500–1000 mg IV/hari selama 3 hari dilanjutkan prednison 0,5–1 mg/kgBB/hari + mycopheno late mofetil 2–3 g/hari atau cyclophosphamide IV 500–1000 mg/m²",
+      "Hidroksiklorokuin 200–400 mg/hari sebagai terapi utama",
+      "NSAID dan observasi"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Prednison 0,5 mg/kgBB/hari sebagai monoterapi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Methylprednisolone 500–1000 mg IV/hari selama 3 hari dilanju' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Hidroksiklorokuin 200–400 mg/hari sebagai terapi utama' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'NSAID dan observasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-051",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-1",
+    "subtopic": "Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Saat ini pasien dalam kondisi stabil dengan perbaikan proteinuria dan fungsi ginjal.",
+    "leadIn": "Apakah terapi lanjutan (maintenance therapy) yang paling tepat pada pasien ini?",
+    "options": [
+      "Cyclophosphamide IV 500–1000 mg/m² tiap bulan jangka panjang",
+      "Azathioprine 1–2 mg/kgBB/hari atau mycophenolate mofetil 1–2 g/hari + prednison dosis rendah",
+      "Methylprednisolone 500–1000 mg IV/hari selama 3 hari berulang",
+      "NSAID dan observasi",
+      "Menghentikan semua terapi karena sudah remisi"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Cyclophosphamide IV 500–1000 mg/m² tiap bulan jangka panjang' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Methylprednisolone 500–1000 mg IV/hari selama 3 hari berulan' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'NSAID dan observasi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Menghentikan semua terapi karena sudah remisi' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "vaskulitis",
+        "takayasu",
+        "arteritis temporalis",
+        "pan"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-052",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-1",
+    "subtopic": "Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA)",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pemeriksaan fisik menunjukkan ronki halus pada basal paru. Foto toraks menunjukkan fibrosis paru bilateral.",
+    "leadIn": "Autoantibodi manakah yang paling mungkin ditemukan pada pasien ini?",
+    "options": [
+      "Anti-citrullinated peptide antibody",
+      "Anti-topoisomerase I (Scl-70)",
+      "Antimitochondrial antibody",
+      "Antineutrophil cytoplasmic antibody (ANCA)",
+      "Anti-synthetase antibody"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Anti-citrullinated peptide antibody' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Antimitochondrial antibody' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Antineutrophil cytoplasmic antibody (ANCA)' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'Anti-synthetase antibody' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "vaskulitis",
+        "takayasu",
+        "arteritis temporalis",
+        "pan"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Vaskulitis Sistemik (Besar, Sedang & Kecil/ANCA) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-053",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 45 tahun datang dengan keluhan sesak napas saat aktivitas. Pasien memiliki riwayat Raynaud sejak lama. Tidak ditemukan kelainan pada foto toraks. Pemeriksaan ekokardiografi menunjukkan peningkatan tekanan arteri pulmonalis.",
+    "leadIn": "Autoantibodi yang paling mungkin ditemukan adalah:",
+    "options": [
+      "Anti-topoisomerase I",
+      "Anti-centromere",
+      "Anti-dsDNA",
+      "Anti-CCP",
+      "ANCA"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi B merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Anti-topoisomerase I' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "2": "Pilihan 'Anti-dsDNA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "3": "Pilihan 'Anti-CCP' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B.",
+        "4": "Pilihan 'ANCA' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi B."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-054",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Diagnosis",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 40 tahun dengan Raynaud dan kelemahan otot proksimal datang dengan keluhan sesak napas. Pemeriksaan menunjukkan peningkatan CK.",
+    "leadIn": "Autoantibodi yang paling mungkin:",
+    "options": [
+      "Anti-centromere – SSc",
+      "Anti-Scl-70 – SSc",
+      "Anti-synthetase antibody / Jo1",
+      "Anti-dsDNA -  SLE",
+      "Anti-Sm – SLE"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Anti-centromere – SSc' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Anti-Scl-70 – SSc' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Anti-dsDNA -  SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'Anti-Sm – SLE' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-055",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-3",
+    "subtopic": "Nyeri Muskuloskeletal Non-Artikular & Fibromialgia",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Pemeriksaan fisik menunjukkan multiple tender points tanpa tanda inflamasi sendi. Pemeriksaan laboratorium dalam batas normal. Apakah terapi farmakologis yang paling tepat untuk pasien ini? (Fibromyalgia) — kalo ada inflamasi PMR",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Amitriptyline 10–25 mg pada malam hari",
+      "Carbamazepine 200 mg/hari",
+      "Methotrexate 10 mg/minggu",
+      "Kolkisin 0,5 mg/hari",
+      "Oksikodon 5 mg tiap 6 jam"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Carbamazepine 200 mg/hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Methotrexate 10 mg/minggu' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Kolkisin 0,5 mg/hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Oksikodon 5 mg tiap 6 jam' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fibromialgia",
+        "tender point",
+        "myofascial",
+        "nyeri kronis"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Nyeri Muskuloskeletal Non-Artikular & Fibromialgia merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-056",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-2-1",
+    "subtopic": "Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 36 tahun dengan keluhan nyeri menyeluruh, gangguan tidur, dan kelelahan. Pemeriksaan normal. Pasien belum pernah mendapatkan terapi sebelumnya. Apakah terapi awal yang paling tepat? (Sindroma lelah Kronik)",
+    "leadIn": "Apakah langkah tatalaksana atau diagnosis selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "Amitriptyline",
+      "Duloxetine",
+      "Edukasi dan latihan aerobik bertahap",
+      "Pregabalin",
+      "NSAID"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi C merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Amitriptyline' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "1": "Pilihan 'Duloxetine' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "3": "Pilihan 'Pregabalin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C.",
+        "4": "Pilihan 'NSAID' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi C."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "sle",
+        "lupus",
+        "ana",
+        "anti-dsdna"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Lupus Eritematosus Sistemik (SLE) & Nefritis Lupus merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-057",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-3-3",
+    "subtopic": "Nyeri Muskuloskeletal Non-Artikular & Fibromialgia",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang wanita 40 tahun datang ke poliklinik dengan keluhan nyeri menyeluruh pada tubuh sejak 8 bulan terakhir. Nyeri disertai kelelahan, gangguan tidur, dan sulit berkonsentrasi. Pasien juga memiliki riwayat irritable bowel syndrome. Pemeriksaan fisik menunjukkan multiple tender points tanpa tanda inflamasi sendi. Pemeriksaan laboratorium dalam batas normal. Pasien telah mendapatkan edukasi, latihan aerobik bertahap, serta terapi amitriptilin 10 mg/hari selama 3 bulan, namun keluhan tidak membaik.",
+    "leadIn": "Apakah tatalaksana selanjutnya yang paling tepat pada pasien ini?",
+    "options": [
+      "NSAID oral (ibuprofen 400 mg tiap 8 jam)",
+      "Methotrexate 10–15 mg/minggu",
+      "Duloxetine 30–60 mg/hari — Duloxetine bekerja meningkatkan kadar norepinefrin dan serotonin pada jalur inhibisi nyeri desenden di kornu dorsalis medula spinalis. Obat ini sangat efektif untuk pasien fibromyalgia yang disertai kelelahan kronik (fatigue), disfungsi kognitif (fibro fog / sulit berkonsentrasi), serta komorbiditas fungsional seperti Irritable Bowel Syndrome (IBS).",
+      "Kolkisin 0,5 mg/hari",
+      "Prednison 10 mg/hari"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi A merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "1": "Pilihan 'Methotrexate 10–15 mg/minggu' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "2": "Pilihan 'Duloxetine 30–60 mg/hari — Duloxetine bekerja meningkatkan k' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "3": "Pilihan 'Kolkisin 0,5 mg/hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A.",
+        "4": "Pilihan 'Prednison 10 mg/hari' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Nyeri Muskuloskeletal Non-Artikular & Fibromialgia, pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi A."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "fibromialgia",
+        "tender point",
+        "myofascial",
+        "nyeri kronis"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Nyeri Muskuloskeletal Non-Artikular & Fibromialgia merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  },
+  {
+    "id": "reuma-board-058",
+    "divisionId": "reumatologi",
+    "moduleId": "reuma-1-2",
+    "subtopic": "Artritis Kristal (Gout & Pseudogout/CPPD)",
+    "category": "Tatalaksana",
+    "difficulty": "Board Standard",
+    "sourceType": "board",
+    "boardSource": "Board Exam",
+    "vignette": "Seorang pria 30 tahun datang dengan keluhan nyeri hebat dan bengkak pada pergelangan kaki kanan sejak 8 jam yang lalu. Nyeri muncul mendadak pada malam hari hingga membangunkan pasien dari tidur. Pasien memiliki riwayat serangan serupa 4 bulan yang lalu dan saat ini rutin mengonsumsi allopurinol. Pada pemeriksaan fisik didapatkan sendi pergelangan kaki kanan tampak eritem, hangat, dan terdapat edema. Pemeriksaan laboratorium menunjukkan kadar asam urat 7 mg/dL.",
+    "leadIn": "Apakah tatalaksana yang paling tepat pada pasien ini?",
+    "options": [
+      "Kolkisin",
+      "OAINS + PPI",
+      "OAINS + kolkisin",
+      "Allopurinol + urikosurik",
+      "Allopurinol + kolkisin — Panduan ACR (American College of Rheumatology) secara tegas merekomendasikan: jika serangan gout akut terjadi pada pasien yang sudah dalam terapi penurun asam urat (Urate-Lowering Therapy / ULT), allopurinol HARUS DILANJUTKAN dengan dosis yang sama, tidak boleh dihentikan maupun dinaikkan secara mendadak saat fase akut."
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Buku Ajar Ilmu Penyakit Dalam PAPDI Edisi VII dan bukti klinis terkini, opsi E merupakan pilihan yang paling tepat untuk indikasi klinis pada pasien ini.",
+      "distractorAnalysis": {
+        "0": "Pilihan 'Kolkisin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "1": "Pilihan 'OAINS + PPI' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "2": "Pilihan 'OAINS + kolkisin' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E.",
+        "3": "Pilihan 'Allopurinol + urikosurik' bukan pilihan tepat pada konteks klinis ini. Sesuai panduan tatalaksana standar Artritis Kristal (Gout & Pseudogout/CPPD), pilihan jawaban yang paling sesuai dengan indikasi dan evidence-based adalah opsi E."
+      },
+      "guidelineAnchor": "Buku Ajar PAPDI Edisi VII & Konsensus Nasional PAPDI",
+      "keywords": [
+        "gout",
+        "pirai",
+        "asam urat",
+        "allopurinol"
+      ],
+      "clinicalPearl": "Poin Kunci Board: Identifikasi dini gejala klinis dan kesesuaian tatalaksana lini pertama pada Artritis Kristal (Gout & Pseudogout/CPPD) merupakan kompetensi utama dokter spesialis penyakit dalam."
+    }
+  }
+]

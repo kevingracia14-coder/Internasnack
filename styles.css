@@ -1,0 +1,2039 @@
+/* ==========================================================================
+   Interna Snack v2 — Apple HIG Clinical Design System
+   Liquid Glass Navigation | Grouped Elevated Surfaces | Spring Physics
+   Anchored on Buku Ajar PAPDI Edisi VII (2024)
+   ========================================================================== */
+
+/* 1. Theme Tokens & Dynamic Reading Scale */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --reading-scale: 1;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Plus Jakarta Sans', 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'JetBrains Mono', SFMono-Regular, monospace;
+
+  --ease-apple: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-apple-spring: cubic-bezier(0.32, 1.25, 0.56, 1);
+
+  --bg-canvas: #F2F2F7;          /* iOS Grouped Canvas */
+  --bg-surface: #FFFFFF;         /* Pure Elevated Card Surface */
+  --bg-surface-subtle: #EFEFF4;  /* iOS Secondary System Fill */
+  --bg-surface-elevated: #FFFFFF;
+  --bg-glass: rgba(249, 249, 251, 0.78);
+
+  --text-primary: #0F172A;       /* High-Contrast Clinical Ink */
+  --text-secondary: #334155;     /* Secondary Ink */
+  --text-muted: #64748B;         /* Muted Metadata Ink */
+
+  --border-subtle: rgba(60, 60, 67, 0.12);   /* Apple Hairline Separator */
+  --border-strong: rgba(60, 60, 67, 0.22);
+
+  --accent-primary: #007AFF;     /* Apple Clinical Blue */
+  --accent-primary-hover: #0051D5;
+  --on-accent-primary: #FFFFFF;
+  --accent-primary-soft: rgba(0, 122, 255, 0.09);
+  --accent-primary-border: rgba(0, 122, 255, 0.24);
+  --tint-teal-bg: var(--accent-primary-soft);
+  --tint-teal-border: var(--accent-primary-border);
+
+  --accent-secondary: #B45309;   /* Clinical Amber */
+  --accent-secondary-hover: #92400E;
+  --accent-secondary-soft: rgba(180, 83, 9, 0.09);
+  --accent-secondary-border: rgba(180, 83, 9, 0.24);
+
+  --accent-coral: #BE123C;       /* Clinical Crimson */
+  --accent-coral-hover: #9F1239;
+  --on-accent-coral: #FFFFFF;
+  --accent-coral-soft: rgba(190, 18, 60, 0.09);
+  --accent-coral-border: rgba(190, 18, 60, 0.24);
+
+  --viz-blue: #007AFF;           /* Apple System Blue */
+  --viz-blue-soft: rgba(0, 122, 255, 0.12);
+  --viz-purple: #5856D6;         /* Apple System Indigo */
+  --viz-purple-soft: rgba(88, 86, 214, 0.12);
+  --viz-green: #248A3D;          /* Apple System Green */
+  --viz-green-soft: rgba(36, 138, 61, 0.12);
+
+  --logo-bg: #F3F6FA;
+  --logo-border: rgba(15, 45, 74, 0.12);
+  --logo-ink: #0F2D4A;
+  --logo-book-stroke: #0F2D4A;
+  --logo-book: #1E73C9;
+  --logo-spine: #1659A1;
+  --logo-pages: #FAF3E6;
+  --logo-edge: #FF8A00;
+  --logo-organ: #FF9F1C;
+  --logo-heart: #FF6B00;
+
+  --focus-ring: #007AFF;
+
+  /* Legacy variable mappings for component compatibility */
+  --primary: var(--accent-primary);
+  --primary-hover: var(--accent-primary-hover);
+  --primary-lip: #0051D5;
+  --primary-soft: var(--accent-primary-soft);
+  --primary-border: var(--accent-primary-border);
+  --primary-text: var(--accent-primary);
+
+  --secondary: var(--text-secondary);
+  --secondary-lip: #1E293B;
+
+  --success: var(--accent-primary);
+  --success-soft: var(--accent-primary-soft);
+  --success-border: var(--accent-primary-border);
+
+  --warning: var(--accent-secondary);
+  --warning-soft: var(--accent-secondary-soft);
+  --warning-border: var(--accent-secondary-border);
+
+  --danger: var(--accent-coral);
+  --danger-lip: #881337;
+  --danger-soft: var(--accent-coral-soft);
+  --danger-border: var(--accent-coral-border);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+}
+
+html.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-canvas: #0B0F17;          /* Deep Elevated Dark Canvas */
+  --bg-surface: #161B26;         /* Apple Elevated Surface */
+  --bg-surface-subtle: #1F2636;  /* Secondary Dark Fill */
+  --bg-surface-elevated: #232B3D;
+  --bg-glass: rgba(22, 27, 38, 0.78);
+
+  --text-primary: #F5F5F7;       /* Apple Off-White Ink */
+  --text-secondary: #CBD5E1;
+  --text-muted: #8E98A8;
+
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.18);
+
+  --accent-primary: #0A84FF;     /* Apple Dark Clinical Blue */
+  --accent-primary-hover: #409CFF;
+  --on-accent-primary: #FFFFFF;
+  --accent-primary-soft: rgba(10, 132, 255, 0.14);
+  --accent-primary-border: rgba(10, 132, 255, 0.28);
+  --tint-teal-bg: var(--accent-primary-soft);
+  --tint-teal-border: var(--accent-primary-border);
+
+  --accent-secondary: #FBBF24;
+  --accent-secondary-hover: #FCD34D;
+  --accent-secondary-soft: rgba(251, 191, 36, 0.14);
+  --accent-secondary-border: rgba(251, 191, 36, 0.28);
+
+  --accent-coral: #FDA4AF;
+  --accent-coral-hover: #FECDD3;
+  --on-accent-coral: #FFFFFF;
+  --accent-coral-soft: rgba(251, 113, 133, 0.14);
+  --accent-coral-border: rgba(251, 113, 133, 0.28);
+
+  --viz-blue: #0A84FF;           /* Apple Dark System Blue */
+  --viz-blue-soft: rgba(10, 132, 255, 0.16);
+  --viz-purple: #5E5CE6;
+  --viz-purple-soft: rgba(94, 92, 230, 0.16);
+  --viz-green: #30D158;          /* Apple Dark System Green */
+  --viz-green-soft: rgba(48, 209, 88, 0.16);
+
+  --logo-bg: #172030;
+  --logo-border: rgba(147, 197, 253, 0.22);
+  --logo-ink: #CFE2FF;
+  --logo-book-stroke: #0B1D33;
+  --logo-book: #0A84FF;
+  --logo-spine: #005BBF;
+  --logo-pages: #F1E9DA;
+  --logo-edge: #FF9F0A;
+  --logo-organ: #FFB340;
+  --logo-heart: #FF7A2F;
+
+  --focus-ring: #0A84FF;
+
+  /* Legacy variable mappings */
+  --primary: var(--accent-primary);
+  --primary-hover: var(--accent-primary-hover);
+  --primary-lip: #0051D5;
+  --primary-soft: var(--accent-primary-soft);
+  --primary-border: var(--accent-primary-border);
+  --primary-text: var(--accent-primary);
+
+  --secondary: var(--text-secondary);
+  --secondary-lip: var(--text-muted);
+
+  --success: var(--accent-primary);
+  --success-soft: var(--accent-primary-soft);
+  --success-border: var(--accent-primary-border);
+
+  --warning: var(--accent-secondary);
+  --warning-soft: var(--accent-secondary-soft);
+  --warning-border: var(--accent-secondary-border);
+
+  --danger: #E11D48;
+  --danger-lip: #BE123C;
+  --danger-soft: var(--accent-coral-soft);
+  --danger-border: var(--accent-coral-border);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.28);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.38);
+  --shadow-lg: 0 18px 44px rgba(0, 0, 0, 0.52);
+}
+
+/* Dynamic User Font Scale Levels (UI chrome stays stable, reading surfaces scale cleanly) */
+:root[data-font-size="normal"],
+html[data-font-size="normal"] {
+  --reading-scale: 1;
+}
+
+:root[data-font-size="large"],
+html[data-font-size="large"] {
+  --reading-scale: 1.15;
+}
+
+:root[data-font-size="xlarge"],
+html[data-font-size="xlarge"] {
+  --reading-scale: 1.3;
+}
+
+/* 2. Global Resets, Accessibility & Typography */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-padding-top: 4.75rem; /* WCAG 2.2 Focus Not Obscured behind sticky header */
+}
+
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  min-height: 100vh;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Clean Clinical Headings (Eliminate cramped serif clutter on small cards) */
+h1, h2, h3 {
+  font-family: var(--font-sans);
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+/* Tabular Figures & Lab Values: Monospace */
+.tabular-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 3. Study Prose & Lesson Reading Constraints (Scaled via --reading-scale + Fluid Mobile Clamp) */
+.study-prose {
+  font-family: var(--font-sans);
+  font-size: calc(clamp(0.88rem, 2.5vw, 1rem) * var(--reading-scale));
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 68ch; /* Optimal reading line measure to prevent eye fatigue */
+  width: 100%;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.study-prose p {
+  margin-bottom: 0.95rem;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.study-prose h3,
+.study-prose h4 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: calc(clamp(0.95rem, 2.7vw, 1.1rem) * var(--reading-scale));
+  color: var(--text-primary);
+  letter-spacing: -0.015em;
+  margin-top: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+
+.study-prose h4:first-child,
+.study-prose h3:first-child {
+  margin-top: 0;
+}
+
+.study-prose ul,
+.study-prose ol {
+  margin: 0.5rem 0 1rem 0;
+  padding-left: 1.35rem;
+}
+
+.study-prose ul {
+  list-style-type: disc;
+}
+
+.study-prose ol {
+  list-style-type: decimal;
+}
+
+.study-prose li {
+  margin-bottom: 0.45rem;
+  color: var(--text-secondary);
+}
+
+.study-prose li strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Clinical Vignette & Lead-in Area */
+.vignette-text {
+  font-family: var(--font-sans);
+  font-size: calc(clamp(0.9rem, 2.5vw, 1.02rem) * var(--reading-scale));
+  line-height: 1.75;
+  color: var(--text-primary);
+  max-width: 68ch;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leadin-text {
+  font-family: var(--font-sans);
+  font-size: calc(clamp(0.88rem, 2.5vw, 1rem) * var(--reading-scale));
+  line-height: 1.55;
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.vignette-highlight {
+  background-color: var(--accent-secondary-soft);
+  border-bottom: 2px solid var(--accent-secondary);
+  padding: 0 4px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* 4. High-Yield Summary Boxes & Callouts */
+.exam-pitfall-box {
+  background-color: var(--accent-coral-soft);
+  border-left: 3px solid var(--accent-coral);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.95rem 1.15rem;
+  margin: 1rem 0;
+  font-size: calc(0.93rem * var(--reading-scale));
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.exam-pitfall-box strong {
+  color: var(--accent-coral);
+}
+
+.contraindication-box {
+  background-color: var(--accent-coral-soft);
+  border-left: 4px solid var(--accent-coral);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.95rem 1.15rem;
+  margin: 1rem 0;
+  font-size: calc(0.93rem * var(--reading-scale));
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.contraindication-box strong {
+  color: var(--accent-coral);
+}
+
+.exam-pearl-box,
+.clinical-pearl-box {
+  background-color: var(--accent-primary-soft);
+  border-left: 3px solid var(--accent-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.95rem 1.15rem;
+  margin: 1rem 0;
+  font-size: calc(0.93rem * var(--reading-scale));
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.exam-pearl-box strong,
+.clinical-pearl-box strong {
+  color: var(--accent-primary);
+}
+
+.clinical-note-box {
+  background-color: var(--accent-secondary-soft);
+  border-left: 3px solid var(--accent-secondary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.95rem 1.15rem;
+  margin: 1rem 0;
+  font-size: calc(0.93rem * var(--reading-scale));
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.clinical-note-box strong {
+  color: var(--accent-secondary);
+}
+
+/* 5. Apple Grouped Elevated Cards & Containers */
+.med-card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.24s var(--ease-apple), background-color 0.24s var(--ease-apple), box-shadow 0.28s var(--ease-apple), transform 0.24s var(--ease-apple);
+}
+
+.pathway-node {
+  position: relative;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.15rem;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.24s var(--ease-apple), background-color 0.24s var(--ease-apple), box-shadow 0.28s var(--ease-apple), transform 0.24s var(--ease-apple);
+}
+
+.pathway-node:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-md);
+}
+
+.pathway-node:active {
+  transform: scale(0.988);
+}
+
+/* 5b. Apple-Style UISegmentedControl Font Size Stepper */
+.font-size-stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+}
+
+.font-size-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 28px;
+  padding: 0 0.45rem;
+  border-radius: 7px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.22s var(--ease-apple), color 0.22s var(--ease-apple), box-shadow 0.22s var(--ease-apple), transform 0.16s var(--ease-apple);
+}
+
+.font-size-btn:hover {
+  color: var(--text-primary);
+}
+
+.font-size-btn:active {
+  transform: scale(0.94);
+}
+
+.font-size-btn.active {
+  background-color: var(--bg-surface);
+  color: var(--accent-primary);
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.module-title-compact {
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
+}
+
+.module-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+/* 6. Clean Medical Tables */
+.med-table-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
+  margin: 1rem 0;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-surface);
+}
+
+.med-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: calc(0.88rem * var(--reading-scale));
+  text-align: left;
+}
+
+.med-table th {
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-primary);
+  font-weight: 700;
+  padding: 0.65rem 0.95rem;
+  border-bottom: 1px solid var(--border-subtle);
+  white-space: nowrap;
+}
+
+.med-table td {
+  padding: 0.65rem 0.95rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.med-table tr:last-child td {
+  border-bottom: none;
+}
+
+.med-table td strong {
+  color: var(--text-primary);
+}
+
+/* 7. Apple Tactile Pill & Rounded Controls */
+.btn-duo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  font-weight: 600;
+  font-size: 0.84rem;
+  border-radius: 12px;
+  padding: 0.58rem 1rem;
+  min-height: 40px;
+  cursor: pointer;
+  transition: background-color 0.22s var(--ease-apple), border-color 0.22s var(--ease-apple), color 0.22s var(--ease-apple), box-shadow 0.22s var(--ease-apple), transform 0.18s var(--ease-apple);
+  user-select: none;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.btn-duo:active:not(:disabled) {
+  transform: scale(0.965);
+}
+
+.btn-duo:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Primary Button: Deep Medical Teal */
+.btn-duo-primary {
+  background-color: var(--accent-primary);
+  color: var(--on-accent-primary);
+  border: 1px solid var(--accent-primary);
+}
+
+.btn-duo-primary:hover:not(:disabled) {
+  background-color: var(--accent-primary-hover);
+  border-color: var(--accent-primary-hover);
+}
+
+/* Outline Button: Crisp Surface Border */
+.btn-duo-outline {
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.btn-duo-outline:hover:not(:disabled) {
+  background-color: var(--bg-surface-subtle);
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.btn-duo-danger {
+  background-color: var(--danger);
+  color: var(--on-accent-coral);
+}
+
+.btn-duo-danger:hover:not(:disabled) {
+  background-color: var(--danger-lip);
+}
+
+/* 8. Multiple Choice Options (A–E) */
+.option-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  width: 100%;
+  text-align: left;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1.1rem;
+  min-height: 48px; /* Mobile tap target friendly */
+  font-size: calc(0.96rem * var(--reading-scale));
+  line-height: 1.55;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.22s var(--ease-apple), background-color 0.22s var(--ease-apple), box-shadow 0.22s var(--ease-apple), transform 0.18s var(--ease-apple);
+  color: var(--text-primary);
+}
+
+.option-card:active:not(.locked):not(:disabled) {
+  transform: scale(0.985);
+}
+
+.option-card .option-body {
+  font-size: calc(0.96rem * var(--reading-scale));
+  line-height: 1.55;
+}
+
+.option-card:hover:not(.locked) {
+  border-color: var(--accent-primary);
+  background-color: var(--accent-primary-soft);
+}
+
+.option-card.selected:not(.locked) {
+  border-color: var(--accent-primary);
+  background-color: var(--accent-primary-soft);
+}
+
+.option-card.correct {
+  border-color: var(--accent-primary) !important;
+  background-color: var(--accent-primary-soft) !important;
+}
+
+.option-card.wrong {
+  border-color: var(--accent-coral) !important;
+  background-color: var(--accent-coral-soft) !important;
+}
+
+.option-card.locked {
+  cursor: default;
+}
+
+.option-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.82rem;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+
+.option-card.selected .option-letter {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: var(--on-accent-primary);
+}
+
+.option-card.correct .option-letter {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: var(--on-accent-primary);
+}
+
+.option-card.wrong .option-letter {
+  background-color: var(--danger);
+  border-color: var(--danger);
+  color: #ffffff;
+}
+
+/* 9. Specialty & Competency Badges */
+.badge-specialty,
+.badge-kki {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-secondary);
+}
+
+.badge-kki-4 {
+  border-color: var(--accent-primary-border);
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+}
+
+.badge-kki-3b {
+  border-color: var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-secondary);
+}
+
+/* 10. Progress Bar */
+.duo-progress-track {
+  width: 100%;
+  height: 6px;
+  background-color: var(--bg-surface-subtle);
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+
+.duo-progress-fill {
+  height: 100%;
+  background-color: var(--accent-primary);
+  border-radius: 999px;
+  transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 11. Apple Liquid Glass Navigation */
+.glass-nav {
+  background-color: var(--bg-glass);
+  backdrop-filter: saturate(180%) blur(22px);
+  -webkit-backdrop-filter: saturate(180%) blur(22px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.glass-bottom-nav {
+  background-color: var(--bg-glass);
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  border-top: 1px solid var(--border-subtle);
+  height: 56px;
+}
+
+.glass-bottom-nav button {
+  transition: color 0.22s var(--ease-apple), transform 0.18s var(--ease-apple);
+}
+.glass-bottom-nav button:active {
+  transform: scale(0.92);
+}
+
+/* Tap target constraint for mobile controls */
+@media (max-width: 768px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Keyboard hint pill */
+.kbd-shortcut {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.4rem;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 4px;
+  background-color: var(--bg-surface-subtle);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+}
+
+/* Apple Spring Animation Utilities */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(8px) scale(0.985); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes appleViewEnter {
+  0% { opacity: 0; transform: translateY(10px) scale(0.99); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-pop {
+  animation: fadeIn 0.32s var(--ease-apple) forwards;
+}
+
+.apple-view-enter {
+  animation: appleViewEnter 0.34s var(--ease-apple) forwards;
+}
+
+/* Mobile Modal & Card Touch Polish */
+@media (max-width: 640px) {
+  #carousel-modal-card {
+    padding: 0.9rem !important;
+  }
+
+  .study-prose {
+    font-size: calc(clamp(0.84rem, 2.4vw, 0.94rem) * var(--reading-scale));
+    line-height: 1.62;
+  }
+}
+
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+/* 13. Gamification & Progression System Tokens */
+/* Clinical Tiers Colors */
+.tier-1 { color: #57534E; }
+.tier-2 { color: #0F766E; }
+.tier-3 { color: #1D4ED8; }
+.tier-4 { color: #2D6A4F; }
+.tier-5 { color: #3F6212; }
+.tier-6 { color: #C2410C; }
+.tier-7 { color: #B45309; }
+.tier-8 { color: #D97706; }
+
+html.dark .tier-1, [data-theme="dark"] .tier-1 { color: #A8A29E; }
+html.dark .tier-2, [data-theme="dark"] .tier-2 { color: #2DD4BF; }
+html.dark .tier-3, [data-theme="dark"] .tier-3 { color: #60A5FA; }
+html.dark .tier-4, [data-theme="dark"] .tier-4 { color: #52B788; }
+html.dark .tier-5, [data-theme="dark"] .tier-5 { color: #A3E635; }
+html.dark .tier-6, [data-theme="dark"] .tier-6 { color: #FB923C; }
+html.dark .tier-7, [data-theme="dark"] .tier-7 { color: #FBBF24; }
+html.dark .tier-8, [data-theme="dark"] .tier-8 { color: #F59E0B; }
+
+html.dark input:not([type="checkbox"]):not([type="radio"]),
+html.dark select,
+html.dark textarea,
+[data-theme="dark"] input:not([type="checkbox"]):not([type="radio"]),
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  color: var(--text-primary);
+}
+
+/* Linear Quiz Speed Bar */
+.speed-bar-container {
+  height: 2px;
+  background-color: var(--border-subtle);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.speed-bar-fill {
+  height: 100%;
+  background-color: var(--accent-secondary);
+  transition: width 0.1s linear;
+}
+
+/* Editorial Stamps & Badges */
+.stamp-personal-best {
+  border: 1.5px dashed var(--accent-secondary);
+  color: var(--accent-secondary);
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.division-accordion-header {
+  padding: 0.85rem 1.15rem;
+  border-radius: 12px;
+  background: var(--bg-surface-subtle);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.division-accordion-header:hover {
+  border-color: var(--border-strong);
+  background: var(--bg-surface);
+}
+
+
+
+
+/* ==========================================================================
+   KAHOOT-STYLE CLINICAL BATTLE ARENA
+   ========================================================================== */
+.battle-card {
+  border-radius: var(--radius-lg);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.battle-lobby-pin {
+  font-family: var(--font-mono);
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  color: var(--accent-primary);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.battle-timer-bar {
+  height: 6px;
+  background: var(--border-subtle);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.battle-timer-fill {
+  height: 100%;
+  background: var(--accent-primary);
+  transition: width 1s linear, background-color 0.3s ease;
+}
+
+.battle-timer-fill.critical {
+  background: var(--accent-coral);
+}
+
+/* Kahoot-Style 4 Options with Editorial Elegance */
+.battle-opt-btn {
+  padding: 1.25rem 1rem;
+  border-radius: var(--radius-lg);
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  border: 2px solid transparent;
+  min-height: 72px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.battle-opt-btn:active {
+  transform: scale(0.98);
+}
+
+/* Option Theme A (Kahoot Red: Triangle) */
+.battle-opt-a {
+  background: #E21B3C !important;
+  border-color: #C01431 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 0 #9E0F28, 0 6px 14px rgba(226, 27, 60, 0.35) !important;
+}
+.battle-opt-a:hover {
+  background: #ED2546 !important;
+}
+
+/* Option Theme B (Kahoot Blue: Diamond) */
+.battle-opt-b {
+  background: #1368CE !important;
+  border-color: #0F53A6 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 0 #0B3E7D, 0 6px 14px rgba(19, 104, 206, 0.35) !important;
+}
+.battle-opt-b:hover {
+  background: #1D75DF !important;
+}
+
+/* Option Theme C (Kahoot Yellow/Gold: Circle) */
+.battle-opt-c {
+  background: #D89E00 !important;
+  border-color: #B58400 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 0 #8C6600, 0 6px 14px rgba(216, 158, 0, 0.35) !important;
+}
+.battle-opt-c:hover {
+  background: #E5A805 !important;
+}
+
+/* Option Theme D (Kahoot Green: Square) */
+.battle-opt-d {
+  background: #26890C !important;
+  border-color: #1E6F09 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 0 #165306, 0 6px 14px rgba(38, 137, 12, 0.35) !important;
+}
+.battle-opt-d:hover {
+  background: #2D9E10 !important;
+}
+
+/* Option Theme E (Kahoot Purple: Star) */
+.battle-opt-e {
+  background: #7C3AED !important;
+  border-color: #6D28D9 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 4px 0 #4C1D95, 0 6px 14px rgba(124, 58, 237, 0.35) !important;
+}
+.battle-opt-e:hover {
+  background: #8B5CF6 !important;
+}
+
+/* Option Shapes (Triangle, Diamond, Circle, Square) */
+.battle-shape {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-weight: 900;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.22);
+  color: #FFFFFF;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.battle-opt-btn.selected {
+  outline: 3px solid var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Scoreboard podium animation */
+@keyframes podiumRise {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-podium {
+  animation: podiumRise 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* 14. Interactive Clinical Widgets & Osmosis-Smooth SVG Motion System */
+:root {
+  --ease-osmosis: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.45, 0.64, 1);
+}
+
+.viz-widget {
+  margin-top: 1.25rem;
+  padding: clamp(0.85rem, 2.4vw, 1.25rem);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  font-size: calc(clamp(0.78rem, 2.2vw, 0.9rem) * var(--reading-scale));
+  line-height: 1.55;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: border-color 240ms var(--ease-apple), box-shadow 240ms var(--ease-apple);
+}
+
+.viz-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--border-subtle);
+  min-width: 0;
+}
+
+.viz-title {
+  font-size: calc(clamp(0.78rem, 2.1vw, 0.88rem) * var(--reading-scale));
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  min-width: 0;
+  flex: 1 1 180px;
+  overflow-wrap: anywhere;
+}
+
+.viz-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.22rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid var(--accent-primary-border);
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+  font-family: var(--font-mono);
+  font-size: clamp(0.62rem, 1.8vw, 0.68rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
+.viz-svg-frame {
+  width: 100%;
+  background-color: var(--bg-surface-subtle);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  padding: 0.6rem 0.5rem 0.45rem 0.5rem;
+  overflow: hidden;
+}
+
+.viz-svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Osmosis-style SVG Animation Primitives */
+@keyframes osmSvgEnter {
+  from {
+    opacity: 0.25;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes osmReadoutEnter {
+  from {
+    opacity: 0.35;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes osmStrokeDraw {
+  from {
+    stroke-dashoffset: var(--osm-len, 180);
+    opacity: 0.3;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes osmCalloutIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes osmPulseRing {
+  0%, 100% {
+    opacity: 0.55;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.16;
+    transform: scale(1.12);
+  }
+}
+
+@keyframes osmBreathe {
+  0%, 100% {
+    transform: scale(0.99);
+  }
+  50% {
+    transform: scale(1.015);
+  }
+}
+
+@keyframes osmDashFlow {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+.osm-svg-enter {
+  animation: osmSvgEnter 260ms var(--ease-osmosis) both;
+}
+
+.osm-readout-enter {
+  animation: osmReadoutEnter 220ms var(--ease-osmosis) both;
+}
+
+.osm-draw {
+  stroke-dasharray: var(--osm-len, 180);
+  stroke-dashoffset: var(--osm-len, 180);
+  animation: osmStrokeDraw 520ms var(--ease-osmosis) forwards;
+  animation-delay: calc(var(--osm-i, 0) * 60ms);
+}
+
+.osm-callout {
+  animation: osmCalloutIn 260ms var(--ease-osmosis) both;
+  animation-delay: calc(var(--osm-i, 0) * 55ms);
+}
+
+.osm-pulse-dot,
+.osm-lesion-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: osmPulseRing 2.1s ease-in-out infinite;
+}
+
+.osm-breathe {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: osmBreathe 3.8s ease-in-out infinite;
+}
+
+.osm-axon-flow {
+  stroke-dasharray: 6 6;
+  animation: osmDashFlow 1.15s linear infinite;
+}
+
+.viz-smooth-bar {
+  transition: opacity 240ms var(--ease-osmosis), stroke-width 220ms var(--ease-osmosis), fill 220ms var(--ease-osmosis);
+}
+
+.viz-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  margin-top: 0.6rem;
+  padding: 0.45rem 0.65rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  font-size: calc(0.78rem * var(--reading-scale));
+  color: var(--text-secondary);
+}
+
+.viz-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.viz-swatch {
+  width: 12px;
+  height: 3.5px;
+  border-radius: 9999px;
+  flex-shrink: 0;
+}
+
+.viz-controls {
+  margin-top: 0.75rem;
+  padding: 0.75rem 0.85rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface);
+}
+
+.viz-slider-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.viz-slider-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.viz-slider-label {
+  font-size: calc(clamp(0.74rem, 2vw, 0.82rem) * var(--reading-scale));
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.viz-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  min-height: 32px;
+  padding: 0.24rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid var(--accent-primary-border);
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+  font-family: var(--font-sans);
+  font-size: calc(0.74rem * var(--reading-scale));
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms var(--ease-spring), background-color 180ms var(--ease-osmosis), color 180ms var(--ease-osmosis), box-shadow 180ms var(--ease-osmosis);
+}
+
+.viz-play-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.viz-play-btn:active {
+  transform: scale(0.96);
+}
+
+.viz-play-btn.playing {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: var(--on-accent-primary);
+}
+
+.viz-value-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  font-family: var(--font-mono);
+  font-size: calc(clamp(0.7rem, 1.9vw, 0.78rem) * var(--reading-scale));
+  font-weight: 700;
+  background-color: var(--accent-primary-soft);
+  color: var(--accent-primary);
+  border: 1px solid var(--accent-primary-border);
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+  transition: background-color 220ms var(--ease-osmosis), color 220ms var(--ease-osmosis), border-color 220ms var(--ease-osmosis);
+}
+
+.viz-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 36px;
+  margin: 0.1rem 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.viz-range:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: 9999px;
+}
+
+.viz-range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--viz-track-bg, var(--border-strong));
+}
+
+.viz-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  margin-top: -11px;
+  border-radius: 9999px;
+  background-color: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: transform 180ms var(--ease-apple), box-shadow 180ms var(--ease-apple);
+}
+
+.viz-range:hover::-webkit-slider-thumb,
+.viz-range:active::-webkit-slider-thumb {
+  transform: scale(1.08);
+  box-shadow: 0 0 0 6px var(--accent-primary-soft), 0 3px 10px rgba(0, 0, 0, 0.22);
+}
+
+.viz-range::-moz-range-track {
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--viz-track-bg, var(--border-strong));
+}
+
+.viz-range::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 9999px;
+  background-color: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: transform 180ms var(--ease-apple), box-shadow 180ms var(--ease-apple);
+}
+
+.viz-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin-top: 0.45rem;
+}
+
+.viz-pill-btn {
+  min-height: 34px;
+  padding: 0.32rem 0.72rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: calc(clamp(0.7rem, 1.8vw, 0.76rem) * var(--reading-scale));
+  font-weight: 600;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.25;
+  cursor: pointer;
+  transition: background-color 200ms var(--ease-apple), color 200ms var(--ease-apple), border-color 200ms var(--ease-apple), transform 160ms var(--ease-apple), box-shadow 200ms var(--ease-apple);
+}
+
+.viz-pill-btn:hover {
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.viz-pill-btn:active {
+  transform: scale(0.95);
+}
+
+.viz-pill-btn:focus-visible,
+.viz-play-btn:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.viz-pill-btn.active {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  color: var(--on-accent-primary);
+  box-shadow: 0 2px 10px var(--accent-primary-border);
+}
+
+.viz-readout {
+  margin-top: 0.85rem;
+  padding: clamp(0.75rem, 2.2vw, 0.95rem) clamp(0.85rem, 2.4vw, 1.1rem);
+  border-radius: 14px;
+  border: 1px solid var(--border-subtle);
+  border-left: 3.5px solid var(--accent-primary);
+  background-color: var(--bg-surface-subtle);
+  font-size: calc(clamp(0.76rem, 2.1vw, 0.86rem) * var(--reading-scale));
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+  min-width: 0;
+  overflow-wrap: anywhere;
+  transition: background-color 280ms var(--ease-apple), border-color 280ms var(--ease-apple), border-left-color 280ms var(--ease-apple);
+}
+
+.viz-readout[data-tone="warning"] {
+  border-color: rgba(245, 158, 11, 0.24);
+  border-left-color: var(--accent-secondary);
+  background-color: var(--accent-secondary-soft);
+}
+
+.viz-readout[data-tone="danger"] {
+  border-color: rgba(239, 68, 68, 0.24);
+  border-left-color: var(--accent-coral);
+  background-color: var(--accent-coral-soft);
+}
+
+.viz-readout[data-tone="info"] {
+  border-color: var(--accent-primary-border);
+  border-left-color: var(--accent-primary);
+  background-color: var(--accent-primary-soft);
+}
+
+.viz-readout-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem 0.85rem;
+  margin-top: 0.45rem;
+}
+
+/* Apple Inset Grouped Calculator Components & Health Gauges */
+.viz-calc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.viz-calc-checklist {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface);
+}
+
+.viz-calc-check {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  padding: 0.55rem 0.78rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface);
+  color: var(--text-primary);
+  font-size: calc(clamp(0.74rem, 2vw, 0.82rem) * var(--reading-scale));
+  line-height: 1.38;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+  transition: background-color 180ms var(--ease-apple), border-color 180ms var(--ease-apple), transform 140ms var(--ease-apple);
+}
+
+.viz-calc-checklist .viz-calc-check {
+  border: none;
+  border-bottom: 1px solid var(--border-subtle);
+  border-radius: 0;
+  padding: 0.62rem 0.88rem;
+}
+
+.viz-calc-checklist .viz-calc-check:last-child {
+  border-bottom: none;
+}
+
+.viz-calc-check:hover {
+  background-color: var(--bg-surface-subtle);
+  border-color: var(--border-strong);
+}
+
+.viz-calc-check:active {
+  transform: scale(0.988);
+}
+
+.viz-calc-checklist .viz-calc-check:active {
+  transform: none;
+  background-color: var(--bg-surface-subtle);
+}
+
+.viz-calc-check input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  accent-color: var(--accent-primary);
+  cursor: pointer;
+}
+
+.viz-calc-check:has(input:checked) {
+  border-color: var(--accent-primary-border);
+  background-color: var(--accent-primary-soft);
+}
+
+.viz-calc-input {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 0.44rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: calc(0.84rem * var(--reading-scale));
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-overflow: ellipsis;
+  transition: background-color 180ms var(--ease-apple), border-color 180ms var(--ease-apple), box-shadow 180ms var(--ease-apple);
+}
+
+.viz-calc-input:focus {
+  outline: none;
+  background-color: var(--bg-surface);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3.5px var(--accent-primary-soft);
+}
+
+.viz-slider-block .viz-calc-input {
+  background-color: var(--bg-surface);
+}
+
+select.viz-calc-input {
+  -webkit-appearance: none;
+  appearance: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 2rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  cursor: pointer;
+}
+
+.viz-gauge-wrap {
+  margin-top: 0.65rem;
+}
+
+.viz-gauge-bar {
+  transition: width 360ms var(--ease-osmosis), fill 260ms var(--ease-osmosis);
+}
+
+.viz-gauge-needle {
+  transition: transform 360ms var(--ease-spring);
+}
+
+@media (max-width: 640px) {
+  .viz-widget {
+    padding: 0.8rem 0.65rem;
+  }
+  .viz-svg-frame {
+    padding: 0.42rem 0.28rem 0.32rem 0.28rem;
+  }
+  .viz-readout-grid,
+  .viz-calc-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.study-prose .viz-widget p {
+  margin-bottom: 0.35rem;
+  font-size: calc(0.86rem * var(--reading-scale));
+  line-height: 1.5;
+}
+
+.study-prose .viz-widget p:last-child {
+  margin-bottom: 0;
+}
+
+.viz-banner {
+  margin-bottom: 0.65rem;
+  padding: 0.48rem 0.72rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--accent-coral-border);
+  background-color: var(--accent-coral-soft);
+  color: var(--accent-coral);
+  font-size: calc(0.8rem * var(--reading-scale));
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.viz-subtabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.65rem;
+}
+
+.viz-svg [onclick],
+.viz-svg [role="button"] {
+  cursor: pointer;
+}
+
+.viz-svg-tile {
+  transition: opacity 220ms var(--ease-osmosis), stroke-width 200ms var(--ease-osmosis), transform 200ms var(--ease-spring);
+}
+
+.viz-svg-tile:hover {
+  opacity: 0.92;
+}
+
+/* 15. Apple Vibrancy Sidebar Shell & Responsive Main Layout */
+.osm-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 248px;
+  z-index: 45;
+  background-color: var(--bg-glass);
+  backdrop-filter: saturate(180%) blur(24px);
+  -webkit-backdrop-filter: saturate(180%) blur(24px);
+  border-right: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 320ms var(--ease-apple), background-color 0.25s var(--ease-apple), border-color 0.25s var(--ease-apple);
+  box-shadow: var(--shadow-lg);
+  overflow-y: auto;
+}
+
+.osm-sidebar.is-open {
+  transform: translateX(0);
+}
+
+.osm-sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 44;
+  background: rgba(15, 23, 42, 0.36);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 280ms var(--ease-apple);
+}
+
+.osm-sidebar-backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#app-main {
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  transition: padding-left 320ms var(--ease-apple);
+}
+
+@media (min-width: 768px) {
+  .osm-sidebar {
+    transform: translateX(0);
+    box-shadow: none;
+  }
+  .osm-sidebar-backdrop {
+    display: none;
+  }
+  #app-main {
+    padding-left: 248px;
+  }
+}
+
+.osm-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.625rem 0.875rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 200ms var(--ease-apple), color 200ms var(--ease-apple), border-color 200ms var(--ease-apple), transform 160ms var(--ease-apple);
+}
+
+.osm-nav-item:active {
+  transform: scale(0.97);
+}
+
+.osm-nav-item:hover {
+  background-color: var(--bg-surface-subtle);
+  color: var(--text-primary);
+}
+
+.osm-nav-item.is-active {
+  background-color: var(--tint-teal-bg);
+  color: var(--accent-primary);
+  font-weight: 700;
+  border-color: var(--tint-teal-border);
+}
+
+.osm-nav-item:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* 16. Gamification Visuals: Streak Pulse, Ranks, Quiz Animations & Confetti */
+.streak-flame-glow {
+  animation: streakPulse 2.4s ease-in-out infinite;
+}
+
+@keyframes streakPulse {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0 rgba(217, 119, 6, 0)); }
+  50% { transform: scale(1.09); filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.45)); }
+}
+
+.quiz-wrong-shake {
+  animation: quizShake 380ms cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@keyframes quizShake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+.quiz-correct-pop {
+  animation: quizPop 340ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes quizPop {
+  0% { transform: scale(0.985); }
+  55% { transform: scale(1.015); }
+  100% { transform: scale(1); }
+}
+
+.rank-badge-s {
+  background: linear-gradient(135deg, #0F766E 0%, #0D9488 55%, #14B8A6 100%);
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px -6px rgba(15, 118, 110, 0.45);
+}
+
+.rank-badge-a {
+  background: linear-gradient(135deg, #0284C7 0%, #2563EB 100%);
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px -6px rgba(37, 99, 235, 0.35);
+}
+
+.rank-badge-b {
+  background: linear-gradient(135deg, #D97706 0%, #F59E0B 100%);
+  color: #FFFFFF;
+}
+
+.rank-badge-c {
+  background: var(--bg-surface-subtle);
+  color: var(--text-primary);
+  border: 1.5px solid var(--border-subtle);
+}
+
+.confetti-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.confetti-dot {
+  position: absolute;
+  top: -8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  animation: confettiDrop 1.8s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+@keyframes confettiDrop {
+  0% { transform: translateY(0) rotate(0deg) scale(0.8); opacity: 0.95; }
+  80% { opacity: 0.9; }
+  100% { transform: translateY(150px) rotate(320deg) scale(1); opacity: 0; }
+}
+
+/* 17. Accessibility: Reduced Motion Anchor moved to bottom for full cascade */
+
+/* 18. Mobile Thumb-Zone Navigation (WCAG AAA >= 48x48px) */
+#mobile-nav {
+  min-height: 56px;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.touch-target {
+  min-width: 48px;
+  min-height: 48px;
+  position: relative;
+}
+
+/* 19. CBT Exam UX: Manual Vignette Highlighter */
+mark.clinical-hl {
+  background-color: rgba(250, 204, 21, 0.38);
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.dark mark.clinical-hl {
+  background-color: rgba(250, 204, 21, 0.25);
+}
+mark.clinical-hl:hover {
+  background-color: rgba(239, 68, 68, 0.25);
+  text-decoration: line-through;
+}
+
+/* 20. Apple Accordion Rationale & Smooth Sheet Reveal */
+@keyframes accordionReveal {
+  0% { opacity: 0; transform: translateY(-4px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+details.rationale-accordion {
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  background: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: border-color 0.24s var(--ease-apple), box-shadow 0.24s var(--ease-apple);
+}
+details.rationale-accordion[open] {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-md);
+}
+details.rationale-accordion > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.86rem;
+  color: var(--text-primary);
+  user-select: none;
+  transition: background-color 0.2s var(--ease-apple);
+}
+details.rationale-accordion > summary:hover {
+  background-color: var(--bg-surface-subtle);
+}
+details.rationale-accordion > summary::-webkit-details-marker {
+  display: none;
+}
+details.rationale-accordion > summary .acc-chevron {
+  transition: transform 0.28s var(--ease-apple);
+}
+details.rationale-accordion[open] > summary .acc-chevron {
+  transform: rotate(180deg);
+}
+details.rationale-accordion .acc-body {
+  padding: 0.85rem 1rem 1rem 1rem;
+  border-top: 1px solid var(--border-subtle);
+  animation: accordionReveal 0.26s var(--ease-apple) forwards;
+}
+
+/* 21. Apple Modal Sheet Styling (Carousel, Lab, TOC, Search) */
+@keyframes appleBackdropIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes appleSheetIn {
+  0% { opacity: 0; transform: translateY(14px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+#global-search-modal:not(.hidden) {
+  backdrop-filter: saturate(150%) blur(10px);
+  -webkit-backdrop-filter: saturate(150%) blur(10px);
+  animation: appleBackdropIn 220ms var(--ease-apple) forwards;
+}
+
+#carousel-modal-card,
+#lab-modal > div > div,
+#toc-modal > div > div,
+#tryout-grid-modal > div > div,
+#tryout-finish-modal > div > div,
+#profile-modal > div > div,
+#global-search-modal > div {
+  border-radius: 22px;
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-lg);
+  animation: appleSheetIn 340ms var(--ease-apple) forwards;
+}
+
+/* 22. Global Search Modal (Cmd + K) */
+.gs-item {
+  transition: background-color 0.18s var(--ease-apple), border-color 0.18s var(--ease-apple), transform 0.14s var(--ease-apple);
+}
+.gs-item:active {
+  transform: scale(0.985);
+}
+.gs-item.active {
+  background-color: var(--accent-primary-soft);
+  border-color: var(--accent-primary);
+}
+
+/* 23. Cinematic Click-to-Click Directional & Stagger Transitions */
+:root {
+  --vt-duration: 420ms;
+  --vt-slide-dist: 24px;
+}
+
+/* Fallback CSS Directional Enter Classes */
+.vt-enter-fade {
+  animation: vtFadeIn var(--vt-duration) var(--ease-apple) both;
+}
+.vt-enter-next {
+  animation: vtSlideNextIn var(--vt-duration) var(--ease-apple) both;
+}
+.vt-enter-prev {
+  animation: vtSlidePrevIn var(--vt-duration) var(--ease-apple) both;
+}
+
+/* Native View Transitions / GPU-composited Keyframes */
+@keyframes vtFadeOut {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(0.99); }
+}
+@keyframes vtFadeIn {
+  from { opacity: 0; transform: scale(1.008); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes vtSlideNextOut {
+  from { opacity: 1; transform: translate3d(0, 0, 0); }
+  to { opacity: 0; transform: translate3d(calc(var(--vt-slide-dist) * -1), 0, 0); }
+}
+@keyframes vtSlideNextIn {
+  from { opacity: 0; transform: translate3d(var(--vt-slide-dist), 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+@keyframes vtSlidePrevOut {
+  from { opacity: 1; transform: translate3d(0, 0, 0); }
+  to { opacity: 0; transform: translate3d(var(--vt-slide-dist), 0, 0); }
+}
+@keyframes vtSlidePrevIn {
+  from { opacity: 0; transform: translate3d(calc(var(--vt-slide-dist) * -1), 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+/* Subtle Stagger on Option Cards */
+.option-card {
+  animation: appleViewEnter 380ms var(--ease-apple) backwards;
+}
+.option-card:nth-child(1) { animation-delay: 20ms; }
+.option-card:nth-child(2) { animation-delay: 50ms; }
+.option-card:nth-child(3) { animation-delay: 80ms; }
+.option-card:nth-child(4) { animation-delay: 110ms; }
+.option-card:nth-child(5) { animation-delay: 140ms; }
+
+/* 24. Accessibility: Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "id": "demam",
+    "no": 82,
+    "title": "Demam",
+    "author": "Erni Juwita Nelwan, Ronald Herman Hendrik Nelwan",
+    "pageIndex": 696,
+    "bookPage": 669
+  },
+  {
+    "id": "dengue-dbd",
+    "no": 83,
+    "title": "Demam Berdarah Dengue",
+    "author": "Suhendro, Leonard Nainggolan, Lie Khie Chen, Herdiman Theodorus Pohan",
+    "pageIndex": 703,
+    "bookPage": 675
+  },
+  {
+    "id": "demam-tifoid",
+    "no": 84,
+    "title": "Demam Tifoid",
+    "author": "Djoko Widodo, Adityo Susilo",
+    "pageIndex": 713,
+    "bookPage": 685
+  },
+  {
+    "id": "amebiasis",
+    "no": 85,
+    "title": "Amebiasis",
+    "author": "Franciscus Ginting",
+    "pageIndex": 723,
+    "bookPage": 695
+  },
+  {
+    "id": "diare-akut-infeksi",
+    "no": 86,
+    "title": "Diare Akut karena Infeksi",
+    "author": "Robert Sinto, Erni Juwita Nelwan, Sharifah Shakinah",
+    "pageIndex": 731,
+    "bookPage": 703
+  },
+  {
+    "id": "malaria",
+    "no": 87,
+    "title": "Malaria",
+    "author": "Paul N. Harijanto, Erni Juwita Nelwan, Kurnia Fitri Jamil",
+    "pageIndex": 737,
+    "bookPage": 709
+  },
+  {
+    "id": "toksoplasma",
+    "no": 88,
+    "title": "Toksoplasma",
+    "author": "Rizka Humardewayanti Asdie",
+    "pageIndex": 761,
+    "bookPage": 733
+  },
+  {
+    "id": "leptospirosis",
+    "no": 89,
+    "title": "Leptospirosis",
+    "author": "Erni Juwita Nelwan, Nur Farhanah",
+    "pageIndex": 777,
+    "bookPage": 749
+  },
+  {
+    "id": "tetanus",
+    "no": 90,
+    "title": "Tetanus",
+    "author": "I Made Susila Utama",
+    "pageIndex": 786,
+    "bookPage": 758
+  },
+  {
+    "id": "difteri",
+    "no": 91,
+    "title": "Difteri",
+    "author": "Bramantono, Brian Eka Rachman",
+    "pageIndex": 791,
+    "bookPage": 763
+  },
+  {
+    "id": "infeksi-cacing",
+    "no": 92,
+    "title": "Infeksi Cacing",
+    "author": "Dap Sri Masyeni",
+    "pageIndex": 802,
+    "bookPage": 774
+  },
+  {
+    "id": "infeksi-jamur",
+    "no": 93,
+    "title": "Infeksi Jamur",
+    "author": "Adityo Susilo",
+    "pageIndex": 814,
+    "bookPage": 785
+  },
+  {
+    "id": "influenza",
+    "no": 94,
+    "title": "Influenza",
+    "author": "Primal Sudjana, Susantina Prodjosoewojo, Hadi Jusuf",
+    "pageIndex": 818,
+    "bookPage": 789
+  },
+  {
+    "id": "mers-cov",
+    "no": 95,
+    "title": "Middle East Respiratory Syndrome Coronavirus",
+    "author": "Lie Khie Chen, Hadiyanti",
+    "pageIndex": 828,
+    "bookPage": 799
+  },
+  {
+    "id": "antraks",
+    "no": 96,
+    "title": "Antraks",
+    "author": "Dhani Redhono Harioputro",
+    "pageIndex": 833,
+    "bookPage": 804
+  },
+  {
+    "id": "mumps",
+    "no": 97,
+    "title": "Mumps",
+    "author": "Carta Agrawanto Gunawan",
+    "pageIndex": 838,
+    "bookPage": 809
+  },
+  {
+    "id": "bruselosis",
+    "no": 98,
+    "title": "Bruselosis",
+    "author": "Erni Juwita Nelwan",
+    "pageIndex": 843,
+    "bookPage": 814
+  },
+  {
+    "id": "cryptococcus",
+    "no": 99,
+    "title": "Cryptococcus",
+    "author": "Erni Juwita Nelwan",
+    "pageIndex": 850,
+    "bookPage": 821
+  },
+  {
+    "id": "histoplasma",
+    "no": 100,
+    "title": "Histoplasma",
+    "author": "Robert Sinto, Adeline Pasaribu, Sharifah Shakinah",
+    "pageIndex": 856,
+    "bookPage": 827
+  },
+  {
+    "id": "cacing-hati",
+    "no": 101,
+    "title": "Cacing Hati",
+    "author": "Yosia Ginting",
+    "pageIndex": 863,
+    "bookPage": 834
+  },
+  {
+    "id": "sistosomiasis",
+    "no": 102,
+    "title": "Sistosomiasis",
+    "author": "Abdul Halim Mubin, Risna Halim Mubin",
+    "pageIndex": 868,
+    "bookPage": 839
+  },
+  {
+    "id": "taeniasis",
+    "no": 103,
+    "title": "Taeniasis",
+    "author": "Agung Nugroho",
+    "pageIndex": 875,
+    "bookPage": 846
+  },
+  {
+    "id": "filariasis",
+    "no": 104,
+    "title": "Filariasis",
+    "author": "Erni Juwita Nelwan, Herdiman Theodorus Pohan",
+    "pageIndex": 884,
+    "bookPage": 855
+  },
+  {
+    "id": "pneumosistis",
+    "no": 105,
+    "title": "Pneumosistis",
+    "author": "Anak Agung Ayu Yuli Gayatri",
+    "pageIndex": 890,
+    "bookPage": 861
+  },
+  {
+    "id": "kandidiasis",
+    "no": 106,
+    "title": "Kandidiasis",
+    "author": "Erni Juwita Nelwan",
+    "pageIndex": 897,
+    "bookPage": 868
+  },
+  {
+    "id": "reemerging-virus",
+    "no": 107,
+    "title": "Re-emerging Virus",
+    "author": "Lie Khie Chen, Edwin Leopold Jim",
+    "pageIndex": 905,
+    "bookPage": 876
+  },
+  {
+    "id": "cytomegalovirus",
+    "no": 108,
+    "title": "Cytomegalovirus",
+    "author": "Rizka Humardewayanti Asdie, Rudi Wisaksana",
+    "pageIndex": 908,
+    "bookPage": 879
+  },
+  {
+    "id": "ebola",
+    "no": 109,
+    "title": "Ebola",
+    "author": "Erni Juwita Nelwan",
+    "pageIndex": 921,
+    "bookPage": 892
+  },
+  {
+    "id": "rabies",
+    "no": 110,
+    "title": "Rabies",
+    "author": "I Ketut Agus Somia",
+    "pageIndex": 927,
+    "bookPage": 898
+  },
+  {
+    "id": "herpes-simpleks",
+    "no": 111,
+    "title": "Herpes Simpleks",
+    "author": "Soeharyo Hadisaputro, Yanri Wijayanti Subronto",
+    "pageIndex": 936,
+    "bookPage": 907
+  },
+  {
+    "id": "hiv",
+    "no": "126-133",
+    "title": "HIV",
+    "author": "Samsuridjal Djauzi, Tuti Parwati Merati, Evy Yunihastuti, Rudi Wisaksana, dkk.",
+    "pageIndex": 1049,
+    "bookPage": 1015
+  }
+]
