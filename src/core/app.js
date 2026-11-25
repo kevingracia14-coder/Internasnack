@@ -463,6 +463,10 @@
       html.classList.remove("dark");
       html.setAttribute("data-theme", "light");
     }
+    const metaTheme = typeof document.querySelector === "function"
+      ? document.querySelector('meta[name="theme-color"]')
+      : null;
+    if (metaTheme) metaTheme.setAttribute("content", isDark ? "#0B0F17" : "#F2F2F7");
 
     updateThemeToggleUI(isDark);
     applyFontSize();
@@ -751,6 +755,7 @@
       currentSlideIndex: safeIdx
     };
 
+    pushAppHistory("carousel");
     renderCarouselModal();
   }
 
@@ -822,7 +827,7 @@
     const slideHeading = currentSlide.title || currentSlide.slideTitle || `Bagian ${currentIdx + 1}`;
 
     modal.innerHTML = `
-      <div class="fixed inset-0 z-50 bg-[var(--bg-canvas)] flex flex-col w-screen overflow-hidden animate-fade-in" style="height: 100vh; height: 100dvh;">
+      <div role="dialog" aria-modal="true" aria-label="${escapeHtml(activeCarousel.moduleTitle)}" class="fixed inset-0 z-50 bg-[var(--bg-canvas)] flex flex-col w-screen overflow-hidden animate-fade-in" style="height: 100vh; height: 100dvh;">
         
         <!-- Top Sticky App Bar (Dynamic Stepper + Compact Title + Font Control + Close) -->
         <header class="w-full bg-[var(--bg-surface)] border-b border-[var(--border-subtle)] px-3 sm:px-8 pt-3 pb-3 shrink-0 z-20 space-y-2.5">
@@ -3301,7 +3306,7 @@
             ${svgIcon("clipboard", "w-5 h-5")}
             ${
               analytics.mistakesCount > 0
-                ? `<span class="absolute -top-1 -right-2.5 px-1 py-0.2 rounded-full text-[9px] font-mono bg-[var(--accent-coral)] text-white font-bold leading-none">${analytics.mistakesCount}</span>`
+                ? `<span class="absolute -top-1 -right-2.5 px-1 py-0.5 rounded-full text-[9px] font-mono bg-[var(--accent-coral)] text-[var(--on-accent-coral)] font-bold leading-none">${analytics.mistakesCount}</span>`
                 : ""
             }
           </div>
@@ -4754,8 +4759,8 @@
     modal.classList.remove("hidden");
 
     modal.innerHTML = `
-      <div class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
-        <div class="med-card max-w-md w-full p-6 space-y-5 animate-pop border border-[var(--border-subtle)]">
+      <div role="dialog" aria-modal="true" aria-label="Edit Profil Klinis" class="fixed inset-0 z-[55] bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="med-card max-w-md w-full p-6 space-y-5 animate-pop border border-[var(--border-subtle)] max-h-[88dvh] overflow-y-auto">
           <div class="flex items-center justify-between pb-3 border-b border-[var(--border-subtle)]">
             <div class="flex items-center gap-2.5">
               ${renderProfileAvatarSvg(currentAvatar, "w-7 h-7")}
@@ -4856,8 +4861,8 @@
     if (!modal) return;
     modal.classList.remove("hidden");
     modal.innerHTML = `
-      <div class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
-        <div class="med-card max-w-lg w-full p-5 space-y-3 animate-pop max-h-[85vh] overflow-y-auto">
+      <div role="dialog" aria-modal="true" aria-label="Nilai Normal Lab Dewasa" class="fixed inset-0 z-[55] bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="med-card max-w-lg w-full p-5 space-y-3 animate-pop max-h-[85dvh] overflow-y-auto">
           <div class="flex items-center justify-between pb-2 border-b">
             <h3 class="font-extrabold text-base">Nilai Normal Lab Dewasa</h3>
             <button onclick="document.getElementById('lab-modal').classList.add('hidden')" class="font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white">✕</button>
@@ -4954,8 +4959,8 @@
     });
 
     modal.innerHTML = `
-      <div class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4">
-        <div class="med-card max-w-2xl w-full p-5 space-y-4 animate-pop max-h-[88vh] flex flex-col">
+      <div role="dialog" aria-modal="true" aria-label="Daftar Isi Modul Interna Snack" class="fixed inset-0 z-[55] bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4">
+        <div class="med-card max-w-2xl w-full p-5 space-y-4 animate-pop max-h-[88dvh] flex flex-col">
           <!-- Header -->
           <div class="flex items-center justify-between pb-3 border-b border-[var(--border-subtle)]">
             <div>
@@ -5188,7 +5193,7 @@
         : "bg-sky-600 text-white border-sky-800";
     const t = document.createElement("div");
     t.setAttribute("role", type === "error" ? "alert" : "status");
-    t.className = `px-4 py-2.5 rounded-2xl shadow-lg border-b-4 font-bold text-xs max-w-sm animate-pop ${toneClass}`;
+    t.className = `pointer-events-auto px-4 py-2.5 rounded-2xl shadow-lg border-b-4 font-bold text-xs max-w-sm animate-pop ${toneClass}`;
     t.textContent = msg;
     c.appendChild(t);
     setTimeout(() => t.remove(), 4000);
@@ -6333,8 +6338,8 @@
     const doubtCount = Object.values(tryoutSession.doubtFlags).filter(Boolean).length;
 
     return `
-      <div class="fixed inset-0 z-50 bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 animate-pop">
-        <div class="med-card max-w-xl w-full p-5 sm:p-6 space-y-4 border-2 border-teal-500/40 max-h-[85vh] flex flex-col justify-between">
+      <div role="dialog" aria-modal="true" aria-label="Lembar Nomor Soal Try Out" class="fixed inset-0 z-[55] bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 animate-pop">
+        <div class="med-card max-w-xl w-full p-5 sm:p-6 space-y-4 border-2 border-teal-500/40 max-h-[85dvh] flex flex-col justify-between">
           <div class="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-slate-800">
             <div>
               <h3 class="font-extrabold text-base text-slate-900 dark:text-white">Lembar Nomor Soal Try Out</h3>
@@ -6408,7 +6413,7 @@
     const doubtCount = Object.values(tryoutSession.doubtFlags).filter(Boolean).length;
 
     return `
-      <div class="fixed inset-0 z-50 bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 animate-pop">
+      <div role="dialog" aria-modal="true" aria-label="Kumpulkan Lembar Jawaban" class="fixed inset-0 z-[60] bg-slate-950/75 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 animate-pop">
         <div class="med-card max-w-md w-full p-5 sm:p-6 space-y-4 border-2 border-teal-500/40">
           <div class="space-y-1 pb-3 border-b border-slate-200 dark:border-slate-800">
             <h3 class="font-extrabold text-lg text-slate-900 dark:text-white">Kumpulkan Lembar Jawaban?</h3>
@@ -6893,14 +6898,14 @@
     const modResults = [];
     const widgetResults = [];
 
-    // 1. Modules (111)
     const mods = getAllModules ? getAllModules() : [];
     for (let i = 0; i < mods.length; i++) {
       const m = mods[i];
-      const title = m.title || "";
-      const sub = m.subtitle || "";
+      const disp = typeof getModuleDisplayTitles === "function" ? getModuleDisplayTitles(m) : { title: m.title || "", subtitle: m.subtitle || "" };
+      const title = disp.title || m.title || "";
+      const sub = disp.subtitle || m.subtitle || "";
       const divLabel = getDivisionShortLabel ? getDivisionShortLabel(m.divisionId) : m.divisionId;
-      const hay = `${title} ${sub} ${divLabel} ${m.id}`.toLowerCase();
+      const hay = `${title} ${sub} ${m.title || ""} ${divLabel} ${m.id}`.toLowerCase();
       if (!q || hay.includes(q)) {
         modResults.push({
           type: "module",
@@ -6934,6 +6939,10 @@
   }
 
   function openGlobalSearch() {
+    if (sidebarMobileOpen) {
+      sidebarMobileOpen = false;
+      renderTopNav();
+    }
     globalSearchState.isOpen = true;
     globalSearchState.query = "";
     globalSearchState.activeIndex = 0;
@@ -6966,6 +6975,12 @@
     const item = globalSearchState.results[idx];
     if (!item) return;
     closeGlobalSearch();
+    const lm = document.getElementById("lab-modal");
+    if (lm) lm.classList.add("hidden");
+    const tm = document.getElementById("toc-modal");
+    if (tm) tm.classList.add("hidden");
+    const pm = document.getElementById("profile-modal");
+    if (pm) pm.classList.add("hidden");
     if (item.type === "module") {
       openMaterialCarousel(item.id, 0);
     } else if (item.type === "widget") {
@@ -7040,7 +7055,10 @@
   function renderGlobalSearchModal() {
     const modal = document.getElementById("global-search-modal");
     if (!modal || !globalSearchState.isOpen) return;
-    modal.className = "fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-4 bg-slate-950/60 backdrop-blur-sm";
+    modal.className = "fixed inset-0 z-[65] flex items-start justify-center pt-16 sm:pt-24 px-4 bg-slate-950/60 backdrop-blur-sm";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-label", "Pencarian Cepat");
     modal.innerHTML = `
       <div class="w-full max-w-xl bg-[var(--bg-surface)] border border-[var(--border-strong)] rounded-2xl shadow-2xl overflow-hidden animate-pop" onclick="event.stopPropagation()">
         <div class="flex items-center gap-3 px-4 py-3 border-b border-[var(--border-subtle)]">
@@ -7051,7 +7069,7 @@
             value="${escapeHtml(globalSearchState.query)}"
             oninput="window.InternaApp.updateGlobalSearchResults(this.value)"
             onkeydown="window.InternaApp.handleGlobalSearchKeydown(event)"
-            placeholder="Cari 111 modul materi, 109 widget klinis, atau kalkulator..."
+            placeholder="Cari ${getAllModules().length} modul materi, ${getWidgetCatalog().length} widget klinis, atau kalkulator..."
             class="w-full bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-muted)] focus:outline-none"
             autocomplete="off"
           />
@@ -7093,10 +7111,19 @@
     return true;
   }
 
+  function pushAppHistory(tag) {
+    try {
+      if (window.history && typeof window.history.pushState === "function") {
+        window.history.pushState({ internaTag: tag || "view" }, "");
+      }
+    } catch (e) {}
+  }
+
   window.InternaApp = {
     navigate(v) {
       const targetView = v === "mistakes" ? "tryout" : v === "flashcards" ? "home" : v;
       if (!cleanupInactiveTimers(targetView)) return;
+      if (activeView !== targetView) pushAppHistory(targetView);
       cancelAllVizAnimations();
       sidebarMobileOpen = false;
       runClickTransition(() => {
@@ -7246,6 +7273,27 @@
       }
     }, 60000);
     initManualVignetteHighlighter();
+    window.addEventListener("popstate", () => {
+      if (globalSearchState && globalSearchState.isOpen) { closeGlobalSearch(); return; }
+      const pm = document.getElementById("profile-modal");
+      if (pm && !pm.classList.contains("hidden")) { closeProfileModal(); return; }
+      const tfm = document.getElementById("tryout-finish-modal");
+      if (tfm && !tfm.classList.contains("hidden")) { toggleTryoutFinishModal(false); return; }
+      const tgm = document.getElementById("tryout-grid-modal");
+      if (tgm && !tgm.classList.contains("hidden")) { toggleTryoutGridModal(false); return; }
+      const tm = document.getElementById("toc-modal");
+      if (tm && !tm.classList.contains("hidden")) { toggleTocModal(false); return; }
+      const lm = document.getElementById("lab-modal");
+      if (lm && !lm.classList.contains("hidden")) { lm.classList.add("hidden"); return; }
+      if (activeCarousel && activeCarousel.isOpen) { closeMaterialCarousel(); return; }
+      if (activeView !== "home") { window.InternaApp.navigate("home"); }
+    });
+    window.addEventListener("beforeunload", (e) => {
+      if (tryoutSession && tryoutSession.isActive && !tryoutSession.isFinished) {
+        e.preventDefault();
+        e.returnValue = "";
+      }
+    });
     window.addEventListener("online", () => {
       renderTopNav();
       if (activeView === "battle") renderApp();

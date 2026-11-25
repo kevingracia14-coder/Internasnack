@@ -23,7 +23,7 @@
 
   --text-primary: #0F172A;       /* High-Contrast Clinical Ink */
   --text-secondary: #334155;     /* Secondary Ink */
-  --text-muted: #64748B;         /* Muted Metadata Ink */
+  --text-muted: #475569;         /* Muted Metadata Ink */
 
   --border-subtle: rgba(60, 60, 67, 0.12);   /* Apple Hairline Separator */
   --border-strong: rgba(60, 60, 67, 0.22);
@@ -131,7 +131,7 @@ html.dark,
 
   --accent-coral: #FDA4AF;
   --accent-coral-hover: #FECDD3;
-  --on-accent-coral: #FFFFFF;
+  --on-accent-coral: #1F0A10;
   --accent-coral-soft: rgba(251, 113, 133, 0.14);
   --accent-coral-border: rgba(251, 113, 133, 0.28);
 
@@ -741,7 +741,7 @@ h1, h2, h3 {
   backdrop-filter: saturate(180%) blur(24px);
   -webkit-backdrop-filter: saturate(180%) blur(24px);
   border-top: 1px solid var(--border-subtle);
-  height: 56px;
+  height: calc(56px + env(safe-area-inset-bottom, 0px));
 }
 
 .glass-bottom-nav button {
@@ -1853,8 +1853,34 @@ select.viz-calc-input {
 
 /* 18. Mobile Thumb-Zone Navigation (WCAG AAA >= 48x48px) */
 #mobile-nav {
-  min-height: 56px;
+  min-height: calc(56px + env(safe-area-inset-bottom, 0px));
   padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+#app-header,
+#carousel-modal > div > header {
+  padding-top: max(0.75rem, env(safe-area-inset-top, 0px));
+}
+@media (max-width: 767px) {
+  #toc-filter-input,
+  #gs-input,
+  #profile-name-input,
+  #profile-title-input,
+  #widget-search-input,
+  .viz-calc-input {
+    font-size: 16px !important;
+  }
+}
+.study-prose .text-xs {
+  font-size: calc(0.75rem * var(--reading-scale));
+  line-height: 1.55;
+}
+.study-prose .text-sm {
+  font-size: calc(0.875rem * var(--reading-scale));
+  line-height: 1.6;
+}
+.vignette-text {
+  font-size: calc(0.95rem * var(--reading-scale));
+  line-height: 1.65;
 }
 .touch-target {
   min-width: 48px;

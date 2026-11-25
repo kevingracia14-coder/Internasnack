@@ -1,15 +1,15 @@
 /* Interna Snack Service Worker — Offline-First PWA Support */
-const CACHE_NAME = "interna-snack-core-v1";
-const RUNTIME_CACHE = "interna-snack-runtime-v1";
+const CACHE_NAME = "interna-snack-core-c81699f9"; // AUTO-VERSIONED BY bundle_data.py
+const RUNTIME_CACHE = "interna-snack-runtime-c81699f9"; // AUTO-VERSIONED BY bundle_data.py
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./manifest.json",
+  "./tailwind.min.css",
   "./styles.css",
-  "./offline-fallback.css",
   "./gamification.js",
-  "./data.js",
+  "./data.js?v=c81699f9", // AUTO-VERSIONED BY bundle_data.py
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -31,7 +31,6 @@ const CORE_ASSETS = [
 ];
 
 const EXTERNAL_CACHE_HOSTS = new Set([
-  "cdn.tailwindcss.com",
   "fonts.googleapis.com",
   "fonts.gstatic.com",
   "unpkg.com"
@@ -41,7 +40,7 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(CACHE_NAME)
-      .then((cache) => cache.addAll(CORE_ASSETS))
+      .then((cache) => cache.addAll(CORE_ASSETS.map((u) => new Request(u, { cache: "reload" }))))
       .then(() => self.skipWaiting())
   );
 });

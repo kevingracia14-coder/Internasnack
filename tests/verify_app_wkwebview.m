@@ -9,11 +9,11 @@
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         NSString *js = @"(function() {"
-            "const errors = [];"
-            "window.addEventListener('error', e => errors.push(e.message));"
+            "const errors = Array.isArray(window.__BOOT_ERRORS__) ? window.__BOOT_ERRORS__.slice() : [];"
+            "window.addEventListener('error', e => errors.push(e.message || 'error'));"
             "try {"
             "  if (!window.INTERNA_DATA || !window.InternaApp || !window.InternaRuntime) {"
-            "    return JSON.stringify({ ok:false, error:'Missing globals' });"
+            "    return JSON.stringify({ ok:false, error:'Missing globals', jsErrors: errors });"
             "  }"
             "  const divs = window.INTERNA_DATA.divisions.length;"
             "  const qs = window.INTERNA_DATA.questions.length;"
@@ -44,6 +44,7 @@
             "  window.InternaApp.startTryout(25, ['tropik-infeksi','kardiologi','pulmonologi','gastroenterohepatologi','ginjal-hipertensi','endokrin-metabolik','hematologi-onkologi','reumatologi','geriatri','alergi-imunologi','psikosomatik-paliatif']);"
             "  window.InternaApp.openLabModal();"
             "  const labOpen = !document.getElementById('lab-modal').classList.contains('hidden');"
+            "  document.getElementById('lab-modal').classList.add('hidden');"
             "  window.InternaApp.toggleTocModal(true);"
             "  const tocOpen = !document.getElementById('toc-modal').classList.contains('hidden');"
             "  window.InternaApp.toggleTocModal(false);"
@@ -91,12 +92,20 @@ int main(int argc, const char * argv[]) {
         [NSApplication sharedApplication];
         WKWebViewConfiguration *cfg = [[WKWebViewConfiguration alloc] init];
         [cfg.preferences setValue:@YES forKey:@"allowFileAccessFromFileURLs"];
+        NSString *bootHook = @"window.__BOOT_ERRORS__ = [];"
+            "window.addEventListener('error', function(e){ window.__BOOT_ERRORS__.push((e && e.message) || 'script-error'); });"
+            "window.addEventListener('unhandledrejection', function(e){ window.__BOOT_ERRORS__.push((e && e.reason && e.reason.message) || String(e && e.reason || 'rejection')); });";
+        WKUserScript *earlyScript = [[WKUserScript alloc] initWithSource:bootHook injectionTime:WKUserScriptInjectionTimeAtDocumentStart forMainFrameOnly:YES];
+        [cfg.userContentController addUserScript:earlyScript];
         WKWebView *wv = [[WKWebView alloc] initWithFrame:NSMakeRect(0, 0, 1280, 900) configuration:cfg];
         FullTestDelegate *del = [[FullTestDelegate alloc] init];
         del.webView = wv;
         wv.navigationDelegate = del;
-        NSURL *base = [NSURL fileURLWithPath:@"/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/"];
-        NSURL *idx = [NSURL fileURLWithPath:@"/Users/kevgrac/.gemini/antigravity/scratch/internasnack v2/index.html"];
+        NSString *rootPath = (argc > 1 && argv[1])
+            ? [NSString stringWithUTF8String:argv[1]]
+            : [[NSFileManager defaultManager] currentDirectoryPath];
+        NSURL *base = [NSURL fileURLWithPath:rootPath isDirectory:YES];
+        NSURL *idx = [base URLByAppendingPathComponent:@"index.html"];
         [wv loadFileURL:idx allowingReadAccessToURL:base];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(18 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             printf("TIMEOUT\n");

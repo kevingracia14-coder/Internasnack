@@ -1045,6 +1045,93 @@ const PSIKO_EXTRA_WIDGET_SPECS = [];
     return `<img src="icons/icon.svg" class="${cls} shrink-0 rounded-xl" alt="Interna Snack" />`;
   }
 
+  const MODULE_DISPLAY_MAP = {
+    // Tropik Infeksi (20)
+    "tropik-1-1": { title: "Sepsis & Syok Septik", subtitle: "Sepsis-3, Bundle 1-Jam SSC & Vasopresor" },
+    "tropik-1-2": { title: "Demam Akut & FUO", subtitle: "Evaluasi FUO, Drug Fever & Hipertermia" },
+    "tropik-1-3": { title: "Infeksi Dengue", subtitle: "DF, DBD, DSS & Expanded Dengue Syndrome" },
+    "tropik-2-1": { title: "Demam Tifoid & MDRST", subtitle: "Kultur, Resistensi & Karier Kronik Salmonella" },
+    "tropik-2-2": { title: "Leptospirosis", subtitle: "Bentuk Anikterik & Sindrom Weil" },
+    "tropik-2-3": { title: "Tetanus & Profilaksis Luka", subtitle: "Tetanus Generalisata, Sefalik & TIG" },
+    "tropik-2-4": { title: "Zoonosis Bakterial", subtitle: "Difteri, Antraks & Bruselosis" },
+    "tropik-3-1": { title: "Malaria & Kemoprofilaksis", subtitle: "Tanpa Komplikasi, Malaria Berat & Artesunat" },
+    "tropik-3-2": { title: "Amebiasis & Abses Hati", subtitle: "Amebiasis Intestinal & AHA vs Piogenik" },
+    "tropik-4-1": { title: "HIV/AIDS & Terapi ARV", subtitle: "Diagnostik, TLD, PrEP/PEP, TPT & IRIS" },
+    "tropik-4-2": { title: "Infeksi Oportunistik SSP", subtitle: "Toksoplasmosis Serebri, Kriptokokus & Meningitis TB" },
+    "tropik-4-3": { title: "IO Pulmoner & Mukokutan", subtitle: "PCP, Kandidiasis & Histoplasmosis pada HIV" },
+    "tropik-4-4": { title: "IO Viral & IMS", subtitle: "CMV, HSV/VZV, Sifilis & Ulkus Genital" },
+    "tropik-5-1": { title: "Diare Akut Infeksius", subtitle: "Disentri Basiler, Kolera, Giardia & C. difficile" },
+    "tropik-5-2": { title: "Helmintiasis", subtitle: "STH, Filariasis, Taenia/Sistiserkosis & Trematoda" },
+    "tropik-5-3": { title: "Mikosis Sistemik Invasif", subtitle: "Aspergilosis (IPA/CAPA) & Mukormikosis" },
+    "tropik-6-1": { title: "Virus Respiratorik", subtitle: "Influenza, MERS/COVID-19 & Mumps" },
+    "tropik-6-2": { title: "Zoonosis Viral Berat", subtitle: "Rabies, Mpox & Demam Berdarah Ebola" },
+    "tropik-6-3": { title: "Infeksi Nosokomial & AMR", subtitle: "HAP/VAP, ISK/ASB, SSI, MRSA & CRE" },
+    "tropik-6-4": { title: "Vaksinasi Dewasa", subtitle: "Imunokompromais, Ibu Hamil & Travel Medicine" },
+    // Kardiologi (16)
+    "cardio-stemi": { title: "STEMI & Ekuivalen", subtitle: "Infark Elevasi ST, PPCI & Fibrinolitik" },
+    "cardio-nsteacs": { title: "NSTE-ACS", subtitle: "NSTEMI, Angina Tidak Stabil & Stratifikasi GRACE" },
+    "cardio-ccs-dyslipidemia": { title: "CCS & Dislipidemia", subtitle: "Angina Stabil, Target LDL & Pencegahan Sekunder" },
+    "cardio-adhf": { title: "Gagal Jantung Akut (ADHF)", subtitle: "Edema Paru Kardiogenik & Profil Hemodinamik" },
+    "cardio-shock": { title: "Syok Kardiogenik", subtitle: "Dukungan Hemodinamik & Komplikasi Mekanik" },
+    "cardio-chronic-hf": { title: "Gagal Jantung Kronik", subtitle: "HFrEF 4 Pilar, HFmrEF/HFpEF & Kardiomiopati" },
+    "cardio-vt-svt": { title: "Takiaritmia Tidak Stabil", subtitle: "VT/VF, SVT & Protokol Kardioversi/Defibrilasi" },
+    "cardio-af-rvr": { title: "Fibrilasi Atrium (AF RVR)", subtitle: "Kendali Laju/Irama & Antikoagulasi CHA2DS2-VA" },
+    "cardio-brady-avb": { title: "Bradiaritmia & AV Block", subtitle: "Disfungsi Nodus SA & Pacu Jantung" },
+    "cardio-valvular-rf": { title: "Penyakit Katup & PJR", subtitle: "Demam Reumatik, Stenosis/Regurgitasi & PJB Dewasa" },
+    "cardio-ie-myopericarditis": { title: "Endokarditis & Mioperikard", subtitle: "Duke-ISCVID, Perikarditis, Miokarditis & Kardio-Onkologi" },
+    "cardio-tamponade": { title: "Tamponade Jantung", subtitle: "Trias Beck, Ekokardiografi & Perikardiosentesis" },
+    "cardio-ht-essential": { title: "Hipertensi Esensial", subtitle: "ESC 2024, Terapi SPC, Resisten & Hipertensi Sekunder" },
+    "cardio-ht-crisis": { title: "Krisis Hipertensi", subtitle: "Hipertensi Emergensi vs Urgensi & Target MAP" },
+    "cardio-aorta-pad": { title: "Aorta, PAD & ALI", subtitle: "Diseksi Aorta, AAA, ABI/TBI & Iskemia Tungkai Akut" },
+    "cardio-pe": { title: "Emboli Paru Akut", subtitle: "Tromboemboli Vena, Skor Wells & Trombolisis" },
+    // Ginjal & Hipertensi (29)
+    "nefro-1-1": { title: "Fisiologi Filtrasi Ginjal", subtitle: "Hemodinamik Glomerulus & Regulasi Tubulus" },
+    "nefro-1-2": { title: "Sedimen Urin & Hematuria", subtitle: "Morfologi Eritrosit, Silinder & Urinalisis" },
+    "nefro-1-3": { title: "Evaluasi Proteinuria", subtitle: "Klasifikasi KDIGO, ACR/PCR & Selektivitas" },
+    "nefro-2-1": { title: "Disnatremia & Tonisitas", subtitle: "Hiponatremia, Hipernatremia & Batas Koreksi" },
+    "nefro-2-2": { title: "Diskalemia & Hiperkalemia", subtitle: "Stabilisasi Membran EKG & Redistribusi Kalium" },
+    "nefro-2-3": { title: "Analisis Gas Darah", subtitle: "Anion Gap, Delta-Delta & Koreksi Bikarbonat" },
+    "nefro-2-4": { title: "Renal Tubular Acidosis", subtitle: "RTA Tipe 1, 2, 4 & Gangguan Mineral" },
+    "nefro-3-1": { title: "AKI Prerenal vs ATN", subtitle: "Kriteria KDIGO, FENa & Indeks Urin" },
+    "nefro-3-2": { title: "AKI Spesifik & Nefrotoksin", subtitle: "Kontras, Rabdomiolisis & Cedera Obat" },
+    "nefro-3-3": { title: "Nefritis Interstisial", subtitle: "AIN Akut Akibat Obat vs TIN Kronik" },
+    "nefro-3-4": { title: "Inisiasi Dialisis Akut", subtitle: "Indikasi CITO (AEIOU) & Modalitas TPG" },
+    "nefro-4-1": { title: "Sindrom Nefrotik Dewasa", subtitle: "MCD, FSGS, Nefropati Membranosa & Steroid" },
+    "nefro-4-2": { title: "Sindrom Nefritik & GN", subtitle: "GN Pasca-Infeksi, Akut & Progresif" },
+    "nefro-4-3": { title: "Nefritis Lupus", subtitle: "Klasifikasi ISN/RPS I–VI & Induksi Imunosupresan" },
+    "nefro-4-4": { title: "RPGN & Glomerulopati", subtitle: "Vaskulitis ANCA, Nefropati IgA & Sindrom Goodpasture" },
+    "nefro-5-1": { title: "PGK & Nefropati Diabetik", subtitle: "Staging G1–G5 KDIGO, SGLT2i & RAAS" },
+    "nefro-5-2": { title: "Anemia Renal & CKD-MBD", subtitle: "Target Hb, ESA, Besi IV & Pengikat Fosfat" },
+    "nefro-5-3": { title: "Hemodialisis Kronik", subtitle: "Adekuasi Kt/V, Akses Vaskular & Etika TPG" },
+    "nefro-5-4": { title: "CAPD & Transplantasi Ginjal", subtitle: "Peritonitis Dialisis & Imunosupresi Transplant" },
+    "nefro-6-1": { title: "Nefrolitiasis & Obstruksi", subtitle: "Batu Saluran Kemih, Hidronefrosis & Dekompresi" },
+    "nefro-6-2": { title: "BPH & Disfungsi Berkemih", subtitle: "LUTD, Alfa-Blocker, 5-ARI & Kandung Kemih Neurogenik" },
+    "nefro-6-3": { title: "Infeksi Saluran Kemih", subtitle: "ISK Sederhana, Komplikata, Pielonefritis & Hamil" },
+    "nefro-7-1": { title: "Hipertensi Primer", subtitle: "Target TD, Kombinasi Obat & Deteksi HMOD" },
+    "nefro-7-2": { title: "Hipertensi Resisten & DM/PGK", subtitle: "Spironolakton & Penyesuaian Komorbid Kardio-Renal" },
+    "nefro-7-3": { title: "Krisis Hipertensi Renal", subtitle: "Hipertensi Emergensi vs Urgensi & Antihipertensi IV" },
+    "nefro-7-4": { title: "Hipertensi Sekunder & Hamil", subtitle: "Aldosteronisme, Stenosis Arteri & Preeklamsia" },
+    "nefro-8-1": { title: "Sindrom Kardiorenal & SHR", subtitle: "Klasifikasi SKR 1–5 & Protokol Terlipresin-Albumin" },
+    "nefro-8-2": { title: "Penyakit Ginjal Polikistik", subtitle: "ADPKD, Sindrom Alport & Kelainan Herediter" },
+    "nefro-8-3": { title: "Nefro-Onkologi & Geriatri", subtitle: "Cedera Ginjal Kemoterapi, Perioperatif & Lansia" },
+    "pulmo-1-1": { title: "Fisiologi Paru, Spirometri & AGD", subtitle: "Volume Paru, Obstruksi vs Restriksi, DLCO & Asam-Basa" },
+    "pulmo-1-2": { title: "Asma Bronkial & Status Asmatikus", subtitle: "GINA 2024, Fenotipe T2-High, MART & Manajemen Eksaserbasi" },
+    "pulmo-1-3": { title: "PPOK Stabil & Eksaserbasi Akut", subtitle: "GOLD ABE, Bronkodilator Ganda, Triple Therapy & Biologik" },
+    "pulmo-1-4": { title: "Bronkiektasis, Abses Paru & Hemoptisis", subtitle: "P. aeruginosa, Abses Anaerob vs Clindamycin & Hemoptisis Masif" },
+    "pulmo-2-1": { title: "Pneumonia Komunitas & Nosokomial", subtitle: "CAP (CURB-65/ATS), HAP, VAP, MRSA & Anti-Pseudomonas" },
+    "pulmo-2-2": { title: "Tuberkulosis Sensitif Obat (TB-SO)", subtitle: "TCM Xpert, Paduan 2HRZE/4HR, Efek Samping OAT/DILI & TB-HIV" },
+    "pulmo-2-3": { title: "TB Resisten Obat & Mikobakterium NTM", subtitle: "BPaLM/BPaL 6 Bulan, Klasifikasi Grup WHO & MAC/M. abscessus" },
+    "pulmo-2-4": { title: "Mikosis Paru & Aspergilosis", subtitle: "ABPA, Aspergilloma, CPA, IPA (Galactomannan) & PCP (HIV)" },
+    "pulmo-3-1": { title: "Efusi Pleura, Empiema & Kilotoraks", subtitle: "Kriteria Light, Pseudoeksudat, ADA TB, MIST2 tPA+DNase & RPE" },
+    "pulmo-3-2": { title: "Pneumotoraks & Tata Laksana WSD", subtitle: "Tension Dekompresi ATLS 10, BTS 2023, Undulasi WSD & Deep Sulcus" },
+    "pulmo-3-3": { title: "Mediastinum, SVCS & Mediastinitis", subtitle: "ITMIG 4T, Timoma-MG, Biopsi vs Stent SVCS & Sindrom Boerhaave" },
+    "pulmo-4-1": { title: "Penyakit Paru Interstisial (ILD)", subtitle: "IPF/UIP vs NSIP, Sarkoidosis (Lofgren) & Pneumokoniosis" },
+    "pulmo-4-2": { title: "Emboli Paru & Hipertensi Pulmonal", subtitle: "Wells/Age-Dimer/CTPA, High-Risk PE, PH 2022 & CTEPH/PEA" },
+    "pulmo-4-3": { title: "Onkologi Toraks & Paraneoplastik", subtitle: "SPN/Fleischner, NSCLC EGFR/ALK, SCLC, Pancoast-Horner & LEMS" },
+    "pulmo-5-1": { title: "Gagal Napas Akut, HFNC & ARDS", subtitle: "Tipe I-II, ROX Index, ARDSNet 6 mL/kg PBW, PROSEVA & Global 2024" },
+    "pulmo-5-2": { title: "Ventilasi Mekanik, NIV, Weaning & OSA", subtitle: "BiPAP/CPAP, Ppeak-Pplat, Auto-PEEP, RSBI & Pickwickian/OHS" }
+  };
+
   function getModuleDisplayTitles(mod) {
     if (!mod) return { title: "Modul Klinis", subtitle: "", fullTitle: "Modul Klinis" };
     const mapped = MODULE_DISPLAY_MAP[mod.id];
@@ -1055,11 +1142,12 @@ const PSIKO_EXTRA_WIDGET_SPECS = [];
     if (mod.shortTitle) {
       return { title: mod.shortTitle, subtitle: mod.subtitle || "", fullTitle: raw };
     }
-    if (raw.includes(":")) {
-      const idx = raw.indexOf(":");
-      return { title: raw.slice(0, idx).trim(), subtitle: raw.slice(idx + 1).trim(), fullTitle: raw };
+    const colonIdx = raw.indexOf(":");
+    const openParenIdx = raw.indexOf("(");
+    if (colonIdx !== -1 && (openParenIdx === -1 || colonIdx < openParenIdx)) {
+      return { title: raw.slice(0, colonIdx).trim(), subtitle: raw.slice(colonIdx + 1).trim(), fullTitle: raw };
     }
-    const parenIdx = raw.indexOf("(");
+    const parenIdx = openParenIdx;
     if (parenIdx > 8) {
       return {
         title: raw.slice(0, parenIdx).trim(),
