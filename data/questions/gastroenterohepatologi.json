@@ -6814,7 +6814,7 @@
   {
     "id": "geh-5-1-02",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Patogenesis Pankreatitis Akut: Aktivasi Prematur Tripsinogen Intraseluler",
     "category": "Teori Dasar",
     "difficulty": "Menengah PAPDI",
@@ -6846,7 +6846,7 @@
   {
     "id": "geh-5-1-03",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Nomenklatur Komplikasi Lokal Pankreatitis Akut menurut Kriteria Atlanta Revisi",
     "category": "Teori Dasar",
     "difficulty": "Menengah PAPDI",
@@ -6878,7 +6878,7 @@
   {
     "id": "geh-5-1-04",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-2",
     "subtopic": "Pembeda Klinis: Kolik Bilier vs Kolesistitis Akut",
     "category": "Diagnosis",
     "difficulty": "Esensial PAPDI",
@@ -6910,7 +6910,7 @@
   {
     "id": "geh-5-1-05",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-3",
     "subtopic": "Kriteria Diagnostik & Derajat Kolangitis Akut menurut Tokyo Guidelines (TG18)",
     "category": "Diagnosis",
     "difficulty": "Menengah PAPDI",
@@ -6942,7 +6942,7 @@
   {
     "id": "geh-5-1-06",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Kriteria Diagnostik Pankreatitis Akut Atlanta Revisi 2012",
     "category": "Diagnosis",
     "difficulty": "Esensial PAPDI",
@@ -6974,7 +6974,7 @@
   {
     "id": "geh-5-1-07",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Stratifikasi Keparahan Atlanta Revisi & Skoring Prediktif BISAP",
     "category": "Diagnosis",
     "difficulty": "Menengah PAPDI",
@@ -7006,7 +7006,7 @@
   {
     "id": "geh-5-1-08",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-3",
     "subtopic": "Tata Laksana Kolangitis Akut Sesuai Derajat TG18 & Waktu Dekompresi ERCP",
     "category": "Tatalaksana",
     "difficulty": "Menengah PAPDI",
@@ -7038,7 +7038,7 @@
   {
     "id": "geh-5-1-09",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Resusitasi Cairan Terarah (Trial WATERFALL) & Nutrisi Dini Pankreatitis",
     "category": "Tatalaksana",
     "difficulty": "Esensial PAPDI",
@@ -7070,7 +7070,7 @@
   {
     "id": "geh-5-1-10",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Step-Up Approach pada Pankreatitis Nekrotikans Terinfeksi",
     "category": "Tatalaksana",
     "difficulty": "Menengah PAPDI",
@@ -7168,7 +7168,7 @@
   {
     "id": "geh-board-082",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-5",
     "subtopic": "Pankreatitis Kronik & Keganasan Bilier-Pankreas",
     "category": "Diagnosis",
     "difficulty": "Tantangan Board",
@@ -7762,7 +7762,7 @@
   {
     "id": "geh-board-159",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-5",
     "subtopic": "Pankreatitis Kronik & Keganasan Bilier-Pankreas",
     "category": "Diagnosis",
     "difficulty": "Tantangan Board",
@@ -7828,7 +7828,7 @@
   {
     "id": "geh-board-186",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Pankreatitis Bilier Tanpa Kolangitis & Waktu Indeks Kolesistektomi",
     "category": "Tatalaksana",
     "difficulty": "Tantangan Board",
@@ -7993,7 +7993,7 @@
   {
     "id": "geh-board-224",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Nekrosis Pankreas Steril & Larangan Antibiotik Profilaksis",
     "category": "Tatalaksana",
     "difficulty": "Tantangan Board",
@@ -8323,7 +8323,7 @@
   {
     "id": "geh-board-255",
     "divisionId": "gastroenterohepatologi",
-    "moduleId": "geh-5-1",
+    "moduleId": "geh-5-4",
     "subtopic": "Pankreatitis Akut (Stratifikasi, Komplikasi & Terapi)",
     "category": "Diagnosis",
     "difficulty": "Tantangan Board",
@@ -8417,6 +8417,499 @@
       "clinicalPearl": "Temuan skip lesion pada kolonoskopi membedakan penyakit Crohn dari kolitis ulserativa dan menjelaskan kombinasi malabsorpsi serta kehilangan darah kronis pada anemia defisiensi besi.",
       "redFlags": "Pada pasien penyakit Crohn aktif dengan Hb 8 g/dL dan diare kronis, pemberian besi oral sering gagal diserap dan justru memperburuk peradangan mukosa usus; prioritaskan terapi besi intravena serta evaluasi tanda striktur, abses, atau megakolon toksik.",
       "pathophysiology": "Inflamasi transmural segmental (skip lesions) pada penyakit Crohn menyebabkan ulserasi kronis yang memicu kehilangan darah gastrointestinal konstan serta kerusakan mukosa duodenum/ileum yang mengganggu absorpsi besi sehingga feritin turun dan TIBC meningkat (580 ug/dL)."
+    }
+  },
+  {
+    "id": "geh-5-1-11",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-1",
+    "subtopic": "Stratifikasi Risiko Koledokolitiasis ASGE 2019",
+    "category": "Diagnosis",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang perempuan berusia 58 tahun datang dengan riwayat kolik bilier berulang tanpa demam dan tanpa ikterus klinis. Pemeriksaan laboratorium menunjukkan bilirubin total 2,1 mg/dL, alkali fosfatase (ALP) 260 U/L (meningkat 2,2 kali batas atas normal), GGT 195 U/L, dan leukosit 7.800/uL. USG abdomen menunjukkan multipel batu di kandung empedu serta dilatasi duktus biliaris komunis (CBD) berdiameter 9 mm, namun batu di dalam CBD tidak tervisualisasi jelas.",
+    "leadIn": "Menurut pedoman ASGE 2019, bagaimana stratifikasi risiko koledokolitiasis dan langkah evaluasi lanjutan yang paling tepat?",
+    "options": [
+      "Risiko menengah; lakukan MRCP atau Endoscopic Ultrasound (EUS) terlebih dahulu sebelum memutuskan ERCP",
+      "Risiko tinggi; segera lakukan ERCP sfingterotomi terapeutik tanpa pencitraan tambahan",
+      "Risiko rendah; langsung jadwalkan kolesistektomi laparoskopik tanpa evaluasi saluran empedu",
+      "Risiko tinggi; pasang Percutaneous Transhepatic Biliary Drainage (PTBD) untuk dekompresi darurat",
+      "Risiko menengah; berikan terapi asam ursodeoksikolat oral selama 6 bulan lalu ulang USG"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Pasien memenuhi prediktor risiko menengah ASGE 2019 berupa usia >55 tahun, biokimia hati pola kolestatik abnormal (bilirubin 1,8-4 mg/dL dan ALP meningkat), serta dilatasi CBD >6 mm tanpa batu CBD terlihat pada USG dan tanpa kolangitis/bilirubin >4 mg/dL. Langkah terbaik adalah konfirmasi non-invasif dengan MRCP atau EUS sebelum ERCP.",
+      "distractorAnalysis": {
+        "1": "Risiko tinggi ASGE 2019 baru terpenuhi bila batu CBD tampak langsung pada USG/CT, terdapat kolangitis akut, atau kombinasi bilirubin >4 mg/dL disertai dilatasi CBD.",
+        "2": "Kolesistektomi langsung hanya berlaku untuk risiko rendah bila semua prediktor negatif sehingga risiko batu CBD tertinggal diabaikan.",
+        "3": "PTBD bukan prosedur evaluasi koledokolitiasis stabil dan hanya menjadi alternatif drainase bila ERCP gagal pada obstruksi/kolangitis berat.",
+        "4": "Asam ursodeoksikolat tidak efektif untuk batu CBD maupun kelainan biokimia kolestatik dengan dilatasi duktus."
+      },
+      "guidelineAnchor": "ASGE Guideline on Choledocholithiasis (Gastrointest Endosc, 2019)"
+    }
+  },
+  {
+    "id": "geh-5-1-12",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-1",
+    "subtopic": "Manajemen Polip Kandung Empedu Menurut ESGAR 2022",
+    "category": "Tatalaksana",
+    "difficulty": "Tantangan Board",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang laki-laki berusia 48 tahun dengan riwayat Kolitis Ulseratif dan Primary Sclerosing Cholangitis (PSC) menjalani USG abdomen rutin. Ditemukan sebuah polip kandung empedu soliter berukuran 7 mm dengan dasar melekat lebar (sesil), tanpa batu empedu dan tanpa keluhan nyeri perut.",
+    "leadIn": "Berdasarkan konsensus ESGAR/EAES 2022, tatalaksana yang paling tepat untuk pasien ini adalah:",
+    "options": [
+      "Tidak perlu surveilans maupun operasi karena polip masih di bawah 10 mm",
+      "Terapi asam ursodeoksikolat dosis tinggi dan evaluasi ulang 12 bulan kemudian",
+      "Surveilans USG berkala pada bulan ke-6, 12, dan 24 kemudian dihentikan bila stabil",
+      "Biopsi jarum halus perkutan berpanduan USG sebelum memutuskan kolesistektomi",
+      "Kolesistektomi laparoskopik karena ukuran 6-9 mm disertai faktor risiko tinggi PSC dan morfologi sesil"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Konsensus ESGAR 2022 merekomendasikan kolesistektomi langsung pada polip >=10 mm maupun polip ukuran 6-9 mm yang memiliki faktor risiko keganasan, antara lain riwayat Primary Sclerosing Cholangitis (PSC), usia >=60 tahun, atau morfologi polip sesil. Pada pasien PSC, risiko adenokarsinoma kandung empedu sangat tinggi meskipun ukuran polip belum mencapai 10 mm.",
+      "distractorAnalysis": {
+        "0": "Penghentian follow-up tanpa operasi hanya berlaku untuk polip <=5 mm tanpa faktor risiko, bukan pada pasien PSC.",
+        "1": "UDCA tidak memiliki efektivitas dalam melarutkan polip kandung empedu sejati maupun mencegah transformasi maligna pada PSC.",
+        "2": "Surveilans bulan ke-6, 12, dan 24 berlaku untuk polip 6-9 mm tanpa faktor risiko atau polip <=5 mm dengan faktor risiko.",
+        "3": "Biopsi perkutan pada polip kandung empedu dikontraindikasikan karena risiko kebocoran empedu dan penyebaran sel tumor di traktus jarum."
+      },
+      "guidelineAnchor": "ESGAR/EAES Updated Guidelines on Gallbladder Polyps (Eur Radiol, 2022)"
+    }
+  },
+  {
+    "id": "geh-5-1-13",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-1",
+    "subtopic": "Sindrom Mirizzi & Kompresi Ekstrinsik Duktus Hepatikus",
+    "category": "Diagnosis",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang wanita berusia 56 tahun datang dengan ikterus obstruktif progresif (bilirubin total 7,4 mg/dL, direk 6,2 mg/dL) dan nyeri kuadran kanan atas sejak 5 hari tanpa demam tinggi. MRCP menunjukkan sebuah batu empedu besar berdiameter 2,6 cm yang mengalami impaksi di kantong Hartmann / duktus sistikus sehingga menekan dinding lateral duktus hepatikus komunis dari luar dan menyebabkan dilatasi saluran empedu proksimal, sedangkan duktus koledokus distal tampak kolaps normal.",
+    "leadIn": "Diagnosis anatomis yang paling tepat menggambarkan kondisi pasien ini adalah:",
+    "options": [
+      "Kolangitis sklerosing primer (PSC) dengan striktur dominan",
+      "Sindrom Bouveret dengan fistula kolesistoduodenal",
+      "Sindrom Mirizzi akibat kompresi ekstrinsik duktus hepatikus oleh batu kandung empedu",
+      "Tumor Klatskin (kolangiokarsinoma perihilar) stadium IV",
+      "Disfungsi sfingter Oddi tipe I pasca-kolesistektomi"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Sindrom Mirizzi terjadi ketika batu berukuran besar terjebak di infundibulum kandung empedu (kantong Hartmann) atau duktus sistikus sehingga menyebabkan kompresi mekanis ekstrinsik pada duktus hepatikus komunis dan ikterus obstruktif, yang pada tahap lanjut dapat membentuk fistula kolesistobilier.",
+      "distractorAnalysis": {
+        "0": "PSC menimbulkan striktur multipel intra- dan ekstrahepatik menyerupai beads-on-a-string tanpa pemicu batu besar impaksi.",
+        "1": "Sindrom Bouveret adalah obstruksi outlet lambung atau duodenum proksimal akibat batu empedu besar yang bermigrasi lewat fistula bilioenterik.",
+        "3": "Tumor Klatskin memberikan massa infiltratif di konfluens duktus hepatikus kiri-kanan tanpa mekanisme impaksi batu di duktus sistikus.",
+        "4": "Disfungsi sfingter Oddi terjadi di papilla Vater distal dan ditandai dilatasi CBD sampai distal, bukan kompresi di proksimal dengan CBD distal kolaps."
+      },
+      "guidelineAnchor": "Buku Ajar IPD PAPDI Edisi VII (2024): Komplikasi Kolelitiasis & Sindrom Mirizzi"
+    }
+  },
+  {
+    "id": "geh-5-1-14",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-1",
+    "subtopic": "Indikasi Kolesistektomi Profilaksis pada Batu Asimtomatik",
+    "category": "Tatalaksana",
+    "difficulty": "Esensial PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Empat pasien datang ke poliklinik membawa hasil pemeriksaan pencitraan kandung empedu yang ditemukan secara insidental tanpa adanya gejala nyeri kolik bilier maupun riwayat kolesistitis akut.",
+    "leadIn": "Manakah pasien kolelitiasis asimtomatik berikut ini yang memiliki indikasi paling kuat untuk menjalani kolesistektomi profilaksis?",
+    "options": [
+      "Pria 52 tahun dengan diabetes melitus tipe 2 terkontrol dan batu tunggal 1,2 cm",
+      "Wanita 38 tahun obesitas dengan tiga batu kolesterol masing-masing berdiameter 0,8 cm",
+      "Wanita 49 tahun dengan batu soliter berukuran 0,6 cm yang berencana kehamilan",
+      "Wanita 61 tahun dengan kalsifikasi dinding kandung empedu (porcelain gallbladder) dan batu 3,4 cm",
+      "Pria 65 tahun pasca-stroke iskemik dengan sludge kandung empedu tanpa batu padat"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Kolelitiasis asimtomatik umumnya cukup diobservasi, tetapi kolesistektomi profilaksis direkomendasikan bila terdapat peningkatan risiko karsinoma kandung empedu secara bermakna, seperti porcelain gallbladder (kalsifikasi dinding terutama tipe mukosal/inkomplet) atau batu berukuran sangat besar >3 cm.",
+      "distractorAnalysis": {
+        "0": "Diabetes melitus saja tanpa gejala atau batu >3 cm bukan lagi indikasi kolesistektomi profilaksis rutin.",
+        "1": "Batu kolesterol multipel berukuran kecil (<3 cm) pada pasien asimtomatik memiliki risiko komplikasi tahunan rendah dan tidak perlu dioperasi.",
+        "2": "Batu kecil asimtomatik bukan indikasi operasi profilaksis prakehamilan; tindakan bedah hanya dilakukan bila muncul gejala bermakna.",
+        "4": "Biliary sludge asimtomatik bersifat dinamis dan sering menghilang spontan setelah pola makan normal kembali."
+      },
+      "guidelineAnchor": "PAPDI Edisi VII (2024) & EASL Clinical Practice Guidelines on Gallstones"
+    }
+  },
+  {
+    "id": "geh-5-2-01",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-2",
+    "subtopic": "Kriteria Diagnostik Kolesistitis Akut (TG18)",
+    "category": "Diagnosis",
+    "difficulty": "Esensial PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang wanita berusia 46 tahun datang ke IGD dengan nyeri perut kanan atas konstan sejak 14 jam yang lalu disertai demam 38,6 C dan mual. Pemeriksaan fisik menunjukkan tanda Murphy positif, leukosit 14.800/uL, dan CRP 6,4 mg/dL.",
+    "leadIn": "Untuk menegakkan diagnosis pasti (Definite Diagnosis) kolesistitis akut menurut Tokyo Guidelines 2018 (TG18), temuan apakah yang wajib ditambahkan dari USG abdomen?",
+    "options": [
+      "Peningkatan ekogenisitas parenkim hati difus menyerupai gambaran bright liver",
+      "Dilatasi duktus biliaris intrahepatik bilateral tanpa pembesaran kandung empedu",
+      "Kalsifikasi difus di sepanjang duktus pankreatikus utama disertai atrofi parenkim",
+      "Penebalan dinding kandung empedu >= 4 mm, cairan perikolesistik, atau sonographic Murphy sign positif",
+      "Udara bebas subdiafragma bilateral dan penebalan lipatan mukosa lambung"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Kriteria diagnostik TG18 mensyaratkan kombinasi tanda inflamasi lokal (kriteria A: tanda Murphy atau nyeri/massa RUQ) + tanda inflamasi sistemik (kriteria B: demam, CRP naik, atau leukositosis) untuk Suspected Diagnosis, ditambah temuan pencitraan khas (kriteria C: dinding kandung empedu >=4 mm, pembesaran kandung empedu, cairan perikolesistik, atau sonographic Murphy sign) untuk Definite Diagnosis.",
+      "distractorAnalysis": {
+        "0": "Bright liver menandakan steatosis hepatis (MASLD/perlemakan hati) dan tidak mengonfirmasi inflamasi kandung empedu.",
+        "1": "Dilatasi duktus intrahepatik mengarah pada obstruksi bilier proksimal atau kolangitis, bukan kriteria diagnostik khas kolesistitis akut.",
+        "2": "Kalsifikasi duktus pankreatikus merupakan temuan klasik pankreatitis kronik.",
+        "4": "Udara bebas subdiafragma merupakan tanda perforasi organ berongga seperti ulkus peptikum perforata."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Diagnostic Criteria for Acute Cholecystitis"
+    }
+  },
+  {
+    "id": "geh-5-2-02",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-2",
+    "subtopic": "Grading Keparahan Kolesistitis Akut (TG18)",
+    "category": "Diagnosis",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 59 tahun dirawat dengan kolesistitis akut kalkulosa pasti. Nyeri perut kuadran kanan atas sudah dirasakan terus-menerus selama 4 hari (96 jam). Tekanan darah 124/78 mmHg, laju nadi 98 x/mnt, kesadaran compos mentis, kreatinin 0,9 mg/dL, trombosit 265.000/uL, INR 1,0, namun leukosit 20.400/uL dan teraba massa nyeri tegas di subkostal kanan.",
+    "leadIn": "Termasuk derajat keparahan manakah kolesistitis akut pada pasien ini menurut klasifikasi TG18?",
+    "options": [
+      "Grade I (Mild) karena tidak terdapat hipotensi maupun gangguan ginjal",
+      "Kolesistitis kronik eksaserbasi akut sehingga tidak dapat diklasifikasikan dengan TG18",
+      "Grade III (Severe) karena leukosit melebihi ambang 20.000/uL menunjukkan sepsis",
+      "Kolik bilier komplikasi karena belum ada peningkatan bilirubin direk",
+      "Grade II (Moderate) karena memenuhi kriteria leukosit >18.000/uL, durasi >72 jam, dan massa nyeri RUQ"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Menurut TG18, kolesistitis akut digolongkan Grade II (Moderate) apabila TIDAK ada disfungsi organ namun memenuhi >=1 kriteria inflamasi lokal/sistemik bermakna: leukosit >18.000/uL, teraba massa nyeri di RUQ, durasi keluhan >72 jam, atau tanda inflamasi lokal berat (gangren/emfisema/abses).",
+      "distractorAnalysis": {
+        "0": "Grade I hanya berlaku bila tidak ada satupun kriteria Grade II maupun disfungsi organ Grade III.",
+        "1": "Durasi 96 jam dengan inflamasi akut aktif tetap diklasifikasikan dengan sistem derajat keparahan TG18.",
+        "2": "Grade III (Severe) secara spesifik didefinisikan oleh adanya disfungsi organ (kardiovaskular, neurologis, respirasi, renal, hepatik INR >1,5, atau trombosit <100.000/uL), bukan semata leukosit >20.000/uL.",
+        "3": "Kolik bilier berlangsung <6 jam tanpa demam, leukositosis, ataupun massa inflamasi."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Severity Grading for Acute Cholecystitis"
+    }
+  },
+  {
+    "id": "geh-5-2-03",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-2",
+    "subtopic": "Kolesistitis Akalkulosa pada Pasien Kritis ICU",
+    "category": "Patofisiologi",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 67 tahun dirawat hari ke-12 di ICU akibat luka bakar luas 45% dan syok sepsis dengan ventilasi mekanik serta nutrisi parenteral total (TPN). Pasien mengalami demam mendadak, leukositosis 22.000/uL, dan nyeri tekan subkostal kanan saat dilakukan palpasi. USG bedside menunjukkan penebalan dinding kandung empedu 6 mm, cairan perikolesistik, distensi lumen berisi biliary sludge kental, namun TIDAK ditemukan batu empedu.",
+    "leadIn": "Mekanisme patofisiologi utama yang mendasari kondisi akut pada kandung empedu pasien tersebut adalah:",
+    "options": [
+      "Reaktivasi virus hepatitis B laten pada epitel mukosa duktus sistikus",
+      "Supersaturasi kolesterol akut akibat nutrisi parenteral kaya asam lemak rantai panjang",
+      "Migrasi mikrolitiasis tak terlihat yang menyumbat papilla Vater dan memicu refleks vagal",
+      "Iskemia mikrovaskular dinding kandung empedu dan stasis empedu pekat akibat puasa/TPN serta hipoperfusi",
+      "Defisiensi enzim glukuronosiltransferase yang menghambat konjugasi bilirubin di hepatosit"
+    ],
+    "correctIndex": 3,
+    "rationale": {
+      "correctExplanation": "Kolesistitis akut akalkulosa (5-10% kasus kolesistitis akut) terjadi pada pasien sakit kritis (ICU, luka bakar, trauma berat, sepsis, ventilasi mekanik, TPN berkepanjangan) akibat kombinasi iskemia dinding kandung empedu dan stasis empedu tanpa batu mekanik, dengan risiko tinggi gangren dan perforasi.",
+      "distractorAnalysis": {
+        "0": "Virus hepatitis B tidak menyebabkan penebalan dinding kandung empedu dengan cairan perikolesistik supuratif.",
+        "1": "TPN memicu stasis kandung empedu karena hilangnya stimulasi CCK enteral, bukan terutama melalui presipitasi batu kolesterol mendadak sebagai penyebab utama nekrosis akut.",
+        "2": "Pada kolesistitis akalkulosa ICU tidak diperlukan obstruksi batu mekanik; kelainan primernya adalah iskemia dan hipomotilitas kandung empedu.",
+        "4": "Defisiensi UGT1A1 terjadi pada sindrom Gilbert/Crigler-Najjar dengan hiperbilirubinemia tak terkonjugasi tanpa kolesistitis."
+      },
+      "guidelineAnchor": "PAPDI Edisi VII (2024) & TG18: Kolesistitis Akalkulosa"
+    }
+  },
+  {
+    "id": "geh-5-2-04",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-2",
+    "subtopic": "Waktu Operasi vs Drainase Perkutan (PTGBD) pada TG18",
+    "category": "Tatalaksana",
+    "difficulty": "Tantangan Board",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 76 tahun dengan riwayat gagal jantung kongestif berat (EF 25%) dan PGK stadium 4 datang dengan kolesistitis akut kalkulosa disertai hipotensi (TD 82/50 mmHg memerlukan norepinefrin), trombosit 78.000/uL, kreatinin 3,4 mg/dL, dan penurunan kesadaran somnolen.",
+    "leadIn": "Selain resusitasi cairan intensif dan antibiotik IV spektrum luas, intervensi dekompresi/sumber infeksi dini yang paling aman dan direkomendasikan menurut TG18 adalah:",
+    "options": [
+      "Kolesistektomi terbuka darurat di kamar operasi dalam 2 jam pertama setelah koreksi trombosit",
+      "ERCP dengan sfingterotomi pankreatikus untuk menurunkan tekanan kandung empedu",
+      "Terapi antibiotik intravena tunggal tanpa tindakan drainase selama 14 hari sambil menunggu EF jantung membaik",
+      "Kolesistektomi laparoskopik segera dalam keadaan syok dengan tekanan insuflasi tinggi CO2",
+      "Percutaneous Transhepatic Gallbladder Drainage (PTGBD) berpanduan USG untuk stabilisasi drainase empedu terinfeksi"
+    ],
+    "correctIndex": 4,
+    "rationale": {
+      "correctExplanation": "Pasien ini mengalami kolesistitis akut TG18 Grade III (Severe) karena disertai disfungsi organ multipel (kardiovaskular, neurologis, renal, hematologi) dengan risiko bedah/anestesi umum yang sangat tinggi. Pedoman TG18 merekomendasikan drainase kandung empedu perkutan (PTGBD) segera sebagai jembatan stabilisasi sebelum mempertimbangkan kolesistektomi elektif.",
+      "distractorAnalysis": {
+        "0": "Kolesistektomi terbuka/laparoskopik darurat pada pasien syok kardiogenik-septik dengan trombositopenia memiliki angka mortalitas perioperatif yang amat tinggi.",
+        "1": "Sfingterotomi ERCP mendekompresi duktus koledokus, bukan mengatasi obstruksi duktus sistikus pada kolesistitis akut Grade III (kecuali teknik khusus EUS-GBD).",
+        "2": "Kolesistitis akut Grade III berisiko tinggi gangren dan perforasi bila hanya diterapi antibiotik konservatif tanpa kontrol sumber infeksi (source control).",
+        "3": "Pneumoperitoneum CO2 pada laparoskopi akan memperburuk venous return dan hemodinamik pasien syok berat."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Flowchart for Grade III Acute Cholecystitis"
+    }
+  },
+  {
+    "id": "geh-5-2-05",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-2",
+    "subtopic": "Kolesistitis Emfisematosa pada Diabetes Melitus",
+    "category": "Diagnosis",
+    "difficulty": "Tantangan Board",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang laki-laki berusia 68 tahun dengan diabetes melitus tipe 2 tidak terkontrol datang ke IGD karena nyeri kuadran kanan atas hebat, demam tinggi 39,2 C, dan leukosit 24.500/uL. CT scan abdomen menunjukkan adanya cincin gelembung gas/udara intraluminal dan intramural di sepanjang dinding kandung empedu tanpa adanya fistula bilioenterik ke usus.",
+    "leadIn": "Diagnosis klinis komplikasi kolesistitis akut ini beserta patogen pembentuk gas yang paling klasik terlibat adalah:",
+    "options": [
+      "Ileus batu empedu (Trias Rigler); disebabkan terutama oleh Enterococcus faecalis",
+      "Kolesistitis emfisematosa; paling sering melibatkan Clostridium perfringens dan Escherichia coli",
+      "Kolesistitis kronik porselen; berkaitan erat dengan infeksi Salmonella Typhi karier",
+      "Aerobilia pasca-sfingterotomi; disebabkan kolonisasi komensal Bacteroides fragilis",
+      "Abses piogenik lobus kaudatus; disebabkan terutama oleh Entamoeba histolytica"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Kolesistitis emfisematosa adalah varian fulminan kolesistitis akut akibat iskemia arteri sistika dan infeksi bakteri pembentuk gas (terutama Clostridium perfringens dan E. coli) yang secara klasik menyerang pria lansia penderita DM. Diagnosis ditandai gas di dinding/lumen kandung empedu pada radiologi dan membutuhkan antibiotik anti-anaerob + pembedahan/drainase segera karena risiko gangren dan perforasi amat tinggi.",
+      "distractorAnalysis": {
+        "0": "Ileus batu empedu memberikan gambaran pneumobilia + obstruksi usus halus + batu ektopik, bukan gas di intramural dinding kandung empedu tanpa fistula.",
+        "2": "Porcelain gallbladder adalah kalsifikasi dinding kandung empedu (kalsium), bukan akumulasi gas intramural akut.",
+        "3": "Pneumobilia pasca-ERCP menampakkan gas mengikuti percabangan duktus biliaris intrahepatik sentral, bukan di dinding kandung empedu pada pasien sepsis tanpa riwayat ERCP.",
+        "4": "Entamoeba histolytica membentuk abses hati amuba steril berisi pus anchovy paste, bukan gas dinding kandung empedu."
+      },
+      "guidelineAnchor": "PAPDI Edisi VII (2024): Komplikasi Kolesistitis Akut (Kolesistitis Emfisematosa)"
+    }
+  },
+  {
+    "id": "geh-5-3-01",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-3",
+    "subtopic": "Kriteria Diagnostik Kolangitis Akut TG18 vs Trias Charcot",
+    "category": "Diagnosis",
+    "difficulty": "Esensial PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 62 tahun datang dengan demam 38,5 C sejak 2 hari, menggigil, dan nyeri perut kanan atas ringan. Tidak tampak sklera ikterik jelas secara inspeksi fisik (bilirubin total 2,3 mg/dL, direk 1,8 mg/dL, ALP 340 U/L, CRP 8,2 mg/dL). USG abdomen memperlihatkan dilatasi CBD 11 mm dengan bayangan batu 8 mm di distal CBD.",
+    "leadIn": "Mengapa diagnosis kolangitis akut tetap dapat ditegakkan secara pasti (Definite) pada pasien ini meskipun ikterus klinis belum mencolok?",
+    "options": [
+      "Karena Trias Charcot memiliki sensitivitas <50%, sehingga TG18 cukup memenuhi kombinasi inflamasi sistemik (A), kolestasis lab (B), dan dilatasi/batu CBD pada USG (C)",
+      "Karena nyeri perut kanan atas saja sudah cukup menggantikan seluruh komponen Trias Charcot",
+      "Karena setiap dilatasi CBD pada USG otomatis tergolong kolangitis akut tanpa perlu bukti inflamasi",
+      "Karena peningkatan alkali fosfatase menyingkirkan batu empedu dan memastikan sepsis bilier",
+      "Karena demam pada usia >60 tahun selalu menandakan Pentad Reynolds stadium kompensasi"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Walaupun Trias Charcot sangat spesifik, sensitivitasnya rendah (sekitar 26-50%) karena tidak semua pasien memiliki ketiga gejala secara lengkap saat datang. Pedoman TG18 memiliki sensitivitas >90% dengan memadukan (A) inflamasi sistemik (demam/CRP/WBC), (B) bukti kolestasis/LFT abnormal (bilirubin >=2 atau ALP/GGT/AST/ALT >1,5x ULN), dan (C) pencitraan dilatasi bilier/etiologi batu untuk Definite Diagnosis.",
+      "distractorAnalysis": {
+        "1": "Nyeri RUQ tunggal tidak pernah cukup mendiagnosis kolangitis akut tanpa bukti inflamasi sistemik dan kolestasis/pencitraan.",
+        "2": "Dilatasi CBD tanpa tanda inflamasi sistemik (demam/WBC/CRP) dapat berupa koledokolitiasis simpel atau obstruksi maligna tanpa infeksi.",
+        "3": "Kenaikan ALP hanya menunjukkan pola kolestasis, bukan bukti infeksi maupun menyingkirkan batu empedu.",
+        "4": "Pentad Reynolds mensyaratkan Trias Charcot ditambah syok hipotensif dan penurunan kesadaran."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Diagnostic Criteria for Acute Cholangitis"
+    }
+  },
+  {
+    "id": "geh-5-3-02",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-3",
+    "subtopic": "Stratifikasi Kolangitis Akut Grade II (TG18)",
+    "category": "Diagnosis",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 78 tahun dirawat dengan kolangitis akut akibat koledokolitiasis. Saat masuk IGD, TD 118/72 mmHg, nadi 96 x/mnt, kesadaran compos mentis, kreatinin 1,1 mg/dL, trombosit 190.000/uL, INR 1,1, suhu 38,4 C, leukosit 11.200/uL, bilirubin total 6,2 mg/dL, dan albumin 3,6 g/dL.",
+    "leadIn": "Berdasarkan kriteria keparahan Tokyo Guidelines 2018 (TG18), derajat kolangitis akut dan target waktu dekompresi bilier pasien ini adalah:",
+    "options": [
+      "Grade I (Ringan); dekompresi bilier ditunda 2 minggu setelah antibiotik oral selesai",
+      "Grade II (Sedang) karena memenuhi >=2 prediktor (usia >=75 th dan bilirubin >=5 mg/dL); dekompresi bilier dini (<24-48 jam)",
+      "Grade III (Berat) karena usia >75 tahun terhitung disfungsi organ geriatrik; dekompresi cito <1 jam",
+      "Grade I (Ringan) karena leukosit <12.000/uL dan demam <39 C sehingga tidak perlu ERCP",
+      "Grade III (Berat) karena bilirubin total >5 mg/dL dikategorikan gagal hati akut berat"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "TG18 mengklasifikasikan kolangitis akut sebagai Grade II (Moderate) bila tidak ada disfungsi organ namun memenuhi >=2 dari 5 kriteria: (1) WBC >12.000 atau <4.000/uL, (2) demam tinggi >=39 C, (3) usia >=75 tahun, (4) hiperbilirubinemia >=5 mg/dL, dan (5) hipoalbuminemia <0,7x LLN. Pasien memenuhi 2 kriteria (usia 78 th dan bilirubin 6,2 mg/dL) sehingga memerlukan dekompresi bilier dini (<24-48 jam).",
+      "distractorAnalysis": {
+        "0": "Pasien memenuhi 2 kriteria Grade II sehingga bukan Grade I, dan obstruksi batu CBD memerlukan dekompresi dini daripada menunggu 2 minggu.",
+        "2": "Usia >=75 tahun adalah parameter Grade II dalam TG18, sedangkan disfungsi organ Grade III memerlukan syok, gangguan kesadaran, PaO2/FiO2 <300, Cr >2, INR >1,5, atau trombosit <100.000.",
+        "3": "Dua dari lima kriteria sudah cukup untuk Grade II meskipun kriteria leukosit dan demam >=39 C tidak terpenuhi.",
+        "4": "Disfungsi hepatik pada TG18 Grade III diukur dengan koagulopati (PT-INR >1,5), bukan kadar bilirubin total."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Severity Assessment of Acute Cholangitis"
+    }
+  },
+  {
+    "id": "geh-5-3-03",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-3",
+    "subtopic": "Durasi Antibiotik Kolangitis Akut & Bakteremia Enterococcus",
+    "category": "Tatalaksana",
+    "difficulty": "Tantangan Board",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang wanita berusia 66 tahun menjalani ERCP dan ekstraksi batu CBD sukses dalam 18 jam pertama karena kolangitis akut Grade II. Demam dan ikterus mulai membaik pada hari ke-2, namun hasil kultur darah yang diambil sebelum antibiotik ternyata menumbuhkan Enterococcus faecalis yang sensitif ampisilin/piperasilin-tazobaktam.",
+    "leadIn": "Menurut rekomendasi Tokyo Guidelines 2018 (TG18), berapa lama durasi minimal pemberian antibiotik pada pasien ini?",
+    "options": [
+      "Hentikan antibiotik segera setelah 24 jam pasca-ERCP karena sumbatan mekanik sudah terbuka",
+      "Lanjutkan total 4 hingga 7 hari pasca-dekompresi pada semua pasien tanpa memandang hasil kultur",
+      "Perpanjang terapi antibiotik hingga minimal 14 hari (2 minggu) karena terdapat bakteremia Gram-positif (Enterococcus)",
+      "Ganti dengan metronidazol oral tunggal selama 5 hari sejak hari ke-3 rawat inap",
+      "Lanjutkan antibiotik intravena selama 6 minggu penuh seperti abses hati piogenik"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "TG18 merekomendasikan durasi antibiotik selama 4-7 hari setelah kontrol sumber infeksi (dekompresi bilier) tercapai pada kolangitis akut tanpa bakteremia Gram-positif. Namun apabila kultur darah positif menumbuhkan kokus Gram-positif seperti Enterococcus spp. atau Streptococcus spp., terapi wajib diperpanjang menjadi minimal 14 hari (2 minggu) untuk mencegah komplikasi endokarditis infektif sekunder.",
+      "distractorAnalysis": {
+        "0": "Penghentian dalam 24 jam hanya berlaku untuk kolesistitis akut Grade I pasca-kolesistektomi tanpa komplikasi, bukan kolangitis dengan bakteremia.",
+        "1": "Batas 4-7 hari berlaku bila tidak ada bakteremia Gram-positif atau abses residual; bakteremia Enterococcus memerlukan terapi 14 hari.",
+        "3": "Metronidazol tidak memiliki aktivitas sama sekali terhadap bakteri Gram-positif aerob/fakultatif seperti Enterococcus faecalis.",
+        "4": "Durasi 4-6 minggu berlaku untuk abses hati piogenik/endokarditis terkonfirmasi, bukan standar kolangitis tanpa abses."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Antimicrobial Therapy for Acute Cholangitis"
+    }
+  },
+  {
+    "id": "geh-5-3-04",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-3",
+    "subtopic": "Alternatif Dekompresi Bilier Saat ERCP Gagal (PTBD vs Bedah)",
+    "category": "Tatalaksana",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang laki-laki berusia 69 tahun dengan riwayat operasi gastrektomi subtotal rekonstruksi Roux-en-Y mengalami kolangitis akut Grade III dengan syok septik, bilirubin total 9,8 mg/dL, dan dilatasi hebat duktus biliaris intrahepatik. Upaya ERCP gagal mencapai papilla Vater karena lengkung anatomi pasca-operasi yang panjang.",
+    "leadIn": "Tindakan dekompresi bilier alternatif yang paling tepat segera dilakukan pada pasien ini adalah:",
+    "options": [
+      "Percutaneous Transhepatic Biliary Drainage (PTBD) oleh radiologi intervensi (atau EUS-guided biliary drainage bila tersedia)",
+      "Laparotomi eksplorasi CBD terbuka dan pemasangan T-tube darurat sebagai lini pertama pasca-ERCP gagal",
+      "Kolesistektomi laparoskopik segera untuk menurunkan tekanan seluruh cabang biliaris",
+      "Mengulang ERCP standar tanpa modifikasi sebanyak tiga kali berturut-turut dalam 3 hari berikutnya",
+      "Menunda seluruh prosedur invasif dan hanya menaikkan dosis vasopresor serta karbapenem"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Apabila ERCP gagal (misalnya akibat anatomi Roux-en-Y, striktur hilar kompleks, atau obstruksi duodenum), modalitas alternatif pilihan TG18 untuk dekompresi bilier darurat adalah Percutaneous Transhepatic Biliary Drainage (PTBD) atau Endoscopic Ultrasound-Guided Biliary Drainage (EUS-BD) di senter yang berpengalaman, yang jauh lebih aman dibanding bedah terbuka.",
+      "distractorAnalysis": {
+        "1": "Drainase bedah terbuka pada kolangitis akut Grade III memiliki mortalitas perioperatif sangat tinggi (~20-40%) dan hanya dilakukan bila endoskopi serta drainase perkutan tidak berhasil.",
+        "2": "Kolesistektomi tidak menyelesaikan sumbatan atau infeksi di dalam duktus biliaris komunis maupun intrahepatik.",
+        "3": "Menunggu 3 hari sambil mengulang ERCP yang secara anatomis sulit terjangkau pada pasien syok septik Grade III membahayakan nyawa pasien.",
+        "4": "Antibiotik tanpa drainase bilier pada obstruksi bertekanan tinggi tidak mampu menghentikan refluks kolangiovenosa dan bakteremia persisten."
+      },
+      "guidelineAnchor": "Tokyo Guidelines 2018 (TG18): Indications and Techniques for Biliary Drainage"
+    }
+  },
+  {
+    "id": "geh-5-5-01",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-5",
+    "subtopic": "Diagnosis Insufisiensi Eksokrin & Terapi PERT Pankreatitis Kronik",
+    "category": "Tatalaksana",
+    "difficulty": "Esensial PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang laki-laki berusia 49 tahun dengan riwayat pankreatitis kronik kalsifikans akibat alkohol dan merokok 20 tahun mengeluhkan tinja berminyak, mengambang, dan berbau busuk disertai penurunan berat badan 8 kg dan kadar vitamin D yang rendah. Hasil pemeriksaan Fecal Elastase-1 adalah 62 ug/g (normal >200 ug/g), sedangkan amilase dan lipase serum normal.",
+    "leadIn": "Selain menghentikan alkohol serta rokok secara total dan suplementasi vitamin larut lemak, cara pemberian terapi pengganti enzim pankreas (PERT / pankrelipase) yang paling tepat adalah:",
+    "options": [
+      "Berikan kapsul PERT bersalut enterik BERSAMA makanan (40.000-50.000 unit lipase per makan utama) tanpa menerapkan diet tanpa lemak ketat",
+      "Berikan kapsul PERT 2 jam sebelum makan dengan diet rendah lemak ketat (<10 g/hari) seumur hidup",
+      "Tunda PERT hingga kadar lipase serum meningkat kembali di atas batas atas normal",
+      "Berikan oktreotid subkutan harian sebagai pengganti enzim pankreas untuk menghentikan steatorea",
+      "Berikan kombinasi kolestiramin dan loperamid sebagai terapi lini pertama menggantikan PERT"
+    ],
+    "correctIndex": 0,
+    "rationale": {
+      "correctExplanation": "Pasien mengalami insufisiensi eksokrin pankreas berat (Fecal Elastase-1 <100 ug/g). Terapi utamanya adalah Pancreatic Enzyme Replacement Therapy (PERT) bersalut enterik dosis awal 40.000-50.000 unit lipase yang diminum BERSAMA makanan agar tercampur homogen dengan kimus di lambung/duodenum, disertai diet kalori seimbang tanpa restriksi lemak ekstrem agar tidak memperburuk malnutrisi.",
+      "distractorAnalysis": {
+        "1": "Meminum PERT 2 jam sebelum makan membuat enzim melewati duodenum sebelum makanan masuk sehingga gagal mencerna lemak; diet terlalu rendah lemak memperparah defisit kalori dan vitamin A/D/E/K.",
+        "2": "Pada pankreatitis kronik lanjut, atrofi asinar menyebabkan amilase/lipase tetap normal atau rendah sehingga tidak akan naik kembali.",
+        "3": "Oktreotid menekan sekresi enzim pankreas endogen yang justru dapat memperberat malabsorpsi.",
+        "4": "Kolestiramin mengikat garam empedu sehingga berisiko memperburuk steatorea dan malabsorpsi lemak."
+      },
+      "guidelineAnchor": "ACG Clinical Guideline: Chronic Pancreatitis (Am J Gastroenterol, 2020)"
+    }
+  },
+  {
+    "id": "geh-5-5-02",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-5",
+    "subtopic": "Pankreatitis Autoimun Tipe 1 (IgG4-Related Disease)",
+    "category": "Diagnosis",
+    "difficulty": "Tantangan Board",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 64 tahun datang dengan ikterus obstruktif ringan dan rasa tidak nyaman di epigastrium sejak 3 minggu tanpa penurunan berat badan bermakna. CT scan abdomen menunjukkan pembesaran pankreas difus tanpa batas massa diskret menyerupai gambaran 'sausage-shaped pancreas' dengan cincin halo hipodens peripankreas, disertai striktur bilier distal halus. Biopsi EUS-FNB menyingkirkan adenokarsinoma dan memperlihatkan infiltrat limfoplasmasitik padat kaya sel plasma IgG4+ dengan fibrosis storiform.",
+    "leadIn": "Diagnosis yang paling mungkin serta tata laksana lini pertama yang paling tepat pada pasien ini adalah:",
+    "options": [
+      "Adenokarsinoma caput pankreas stadium awal; segera lakukan operasi pankreatikoduodenektomi (Whipple)",
+      "Pankreatitis autoimun (AIP) Tipe 1 terkait IgG4; berikan kortikosteroid sistemik (prednison)",
+      "Pankreatitis kronik herediter; lakukan total pankreatektomi dengan autotransplantasi pulau Langerhans",
+      "Main-duct IPMN risiko tinggi; observasi dengan MRCP ulang dalam 2 tahun",
+      "Pankreatitis akut nekrotikans steril; mulai infus meropenem dan TPN selama 4 minggu"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Gambaran 'sausage-shaped pancreas' dengan halo hipodens, infiltrat limfoplasmasitik kaya sel IgG4+, fibrosis storiform, dan ikterus obstruktif merupakan ciri klasik Pankreatitis Autoimun (AIP) Tipe 1 sebagai manifestasi IgG4-Related Disease. Kondisi ini sering meniru Ca pankreas namun berespons sangat dramatis terhadap kortikosteroid sistemik (mis. prednison) sehingga reseksi bedah besar dapat dihindari.",
+      "distractorAnalysis": {
+        "0": "Biopsi sudah menyingkirkan adenokarsinoma dan membuktikan histopatologi IgG4+, sehingga operasi Whipple tidak diperlukan dan membahayakan pasien.",
+        "2": "Pankreatitis herediter terjadi sejak usia muda/anak dengan riwayat keluarga mutasi PRSS1 dan kalsifikasi, bukan infiltrat IgG4+ pada usia 64 tahun.",
+        "3": "IPMN adalah neoplasma kistik penghasil musin di duktus pankreatikus, bukan pembesaran parenkim difus dengan fibrosis storiform IgG4+.",
+        "4": "Tidak ada gambaran nekrosis akut maupun indikasi antibiotik meropenem dan TPN pada pankreatitis autoimun."
+      },
+      "guidelineAnchor": "PAPDI Edisi VII (2024) & International Consensus Diagnostic Criteria for AIP"
+    }
+  },
+  {
+    "id": "geh-5-5-03",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-5",
+    "subtopic": "Manajemen IPMN Pankreas Menurut Konsensus Kyoto 2024",
+    "category": "Tatalaksana",
+    "difficulty": "Tantangan Board",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 67 tahun dengan kondisi fisik bugar (status performa ECOG 0) menjalani MRCP dan EUS karena keluhan nyeri epigastrium ringan. Ditemukan lesi kistik pankreas yang berhubungan dengan sistem duktal (IPMN) disertai dilatasi duktus pankreatikus utama (MPD) berdiameter 12 mm dan sebuah nodul mural menyangat kontras (enhancing mural nodule) berukuran 8 mm di dalamnya.",
+    "leadIn": "Menurut pedoman konsensus internasional Kyoto 2024 untuk manajemen IPMN, langkah tata laksana yang paling tepat adalah:",
+    "options": [
+      "Surveilans MRCP setiap 12 bulan selama masih tanpa ikterus obstruktif",
+      "Aspirasi cairan kista terapeutik berulang setiap 6 bulan berpanduan EUS",
+      "Reseksi bedah pankreas karena pasien memiliki High-Risk Stigmata (MPD >=10 mm dan mural nodule >=5 mm)",
+      "Ablasi etanol endoskopik tanpa evaluasi bedah onkologi",
+      "Berikan terapi kombinasi PERT dosis tinggi dan PPI selama 3 bulan lalu evaluasi ukuran nodul"
+    ],
+    "correctIndex": 2,
+    "rationale": {
+      "correctExplanation": "Berdasarkan pedoman Kyoto 2024 (pembaruan Fukuoka), High-Risk Stigmata pada IPMN meliputi: (1) ikterus obstruktif akibat lesi di caput pankreas, (2) enhancing mural nodule >=5 mm, dan (3) dilatasi MPD >=10 mm. Keberadaan High-Risk Stigmata pada pasien yang fit merupakan indikasi kuat reseksi bedah karena probabilitas tinggi telah terjadinya displasia derajat tinggi atau karsinoma invasif.",
+      "distractorAnalysis": {
+        "0": "Surveilans berkala hanya diperuntukkan bagi branch-duct IPMN tanpa High-Risk Stigmata maupun Worrisome Features yang mencurigakan pada EUS.",
+        "1": "Aspirasi kista tidak menghilangkan epitel neoplastik musinosa dan tidak mencegah progresi menjadi adenokarsinoma pankreas.",
+        "3": "Ablasi etanol kista pankreas bersifat eksperimental dan bukan standar terapi untuk IPMN risiko tinggi yang resectable.",
+        "4": "PERT dan PPI adalah terapi insufisiensi eksokrin/asam lambung dan sama sekali tidak memengaruhi ukuran nodul neoplastik IPMN."
+      },
+      "guidelineAnchor": "Kyoto 2024 International Consensus Guidelines for IPMN and MCN (Pancreatology, 2024)"
+    }
+  },
+  {
+    "id": "geh-5-5-04",
+    "divisionId": "gastroenterohepatologi",
+    "moduleId": "geh-5-5",
+    "subtopic": "Presentasi Klinis Ca Pankreas, Tanda Courvoisier & CA 19-9",
+    "category": "Diagnosis",
+    "difficulty": "Menengah PAPDI",
+    "sourceType": "papdi_drill",
+    "vignette": "Seorang pria berusia 65 tahun perokok berat datang dengan ikterus obstruktif tanpa nyeri perut, urin gelap, tinja pucat, penurunan berat badan 11 kg dalam 4 bulan, serta baru terdiagnosis diabetes melitus 6 bulan yang lalu. Pada palpasi abdomen teraba massa oval di kuadran kanan atas yang licin, ikut bergerak saat bernapas, dan tidak nyeri tekan (Tanda Courvoisier positif). Hasil CA 19-9 serum ternyata <2 U/mL.",
+    "leadIn": "Interpretasi yang paling tepat mengenai hasil CA 19-9 yang sangat rendah (<2 U/mL) pada pasien dengan kecurigaan klinis kuat karsinoma caput pankreas ini adalah:",
+    "options": [
+      "Menyingkirkan diagnosis adenokarsinoma pankreas secara mutlak dan memastikan batu CBD",
+      "Dapat terjadi negatif palsu pada 5-10% populasi bergolongan darah Lewis-negatif (Le a-b-) yang tidak mensintesis CA 19-9",
+      "Menunjukkan tumor pankreas masih berada pada stadium prainvasif (PanIN-1) tanpa risiko metastasis",
+      "Mengonfirmasi bahwa massa tersebut pasti merupakan serous cystadenoma (SCN) yang jinak",
+      "Menandakan ikterus berasal dari hemolisis intravaskular sehingga tidak perlu CT abdomen"
+    ],
+    "correctIndex": 1,
+    "rationale": {
+      "correctExplanation": "Sekitar 5-10% populasi manusia memiliki fenotipe golongan darah Lewis-negatif (Le a-b-) karena defisiensi enzim fukosiltransferase, sehingga sel mereka tidak mampu mensintesis antigen CA 19-9 meskipun menderita adenokarsinoma pankreas lanjut (negatif palsu dengan kadar nyaris nol/tidak terdeteksi). Oleh sebab itu, CA 19-9 rendah TIDAK boleh menyingkirkan kanker pankreas bila red flags klinis (painless jaundice, Courvoisier, new-onset DM usia >50 tahun) jelas terlihat.",
+      "distractorAnalysis": {
+        "0": "Tanda Courvoisier lebih sering menandakan obstruksi maligna daripada batu (hukum Courvoisier), dan CA 19-9 memiliki keterbatasan sensitivitas akibat fenotipe Lewis-negatif.",
+        "2": "Kadar CA 19-9 tidak terdeteksi (<2 U/mL) justru khas ketidakmampuan genetik memproduksi antigen Lewis, bukan jaminan stadium dini.",
+        "3": "Serous cystadenoma jarang sekali menyebabkan painless jaundice berat dengan Courvoisier dan penurunan BB 11 kg.",
+        "4": "Tinja pucat/akolik dan tanda Courvoisier menandakan obstruksi mekanik bilier ekstrahepatik, bukan hemolisis intravaskular."
+      },
+      "guidelineAnchor": "PAPDI Edisi VII (2024) & NCCN/ESMO Pancreatic Adenocarcinoma Guidelines"
     }
   }
 ]

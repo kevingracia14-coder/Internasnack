@@ -525,8 +525,14 @@ const GEH_WIDGET_MAP = {
     slideTitle: "Simulator Dinamika Kontras CT 3 Fase KSH (Wash-in/Wash-out) & Peta Terapi BCLC 2022",
     slideContent: "Karakteristik vaskular KSH (arterial hyperenhancement / wash-in & portal venous wash-out) serta alur terapi BCLC 2022: reseksi/RFA (0/A), TACE (B), Atezolizumab+Bevacizumab (C), hingga paliatif (D)."
   },
-  "geh-5-1": {
-    slideIndex: 3,
+  "geh-5-3": {
+    slideIndex: 2,
+    widgetType: "geh-pancreatitis-tg18-viz",
+    slideTitle: "Simulator Kolangitis Akut (Tokyo TG18) & Pankreatitis Akut (Revised Atlanta)",
+    slideContent: "Trias Charcot & Pentad Reynolds kolangitis akut dengan stratifikasi TG18 dan indikasi dekompresi bilier emergensi, dibandingkan kriteria diagnostik & skor BISAP pankreatitis akut."
+  },
+  "geh-5-4": {
+    slideIndex: 2,
     widgetType: "geh-pancreatitis-tg18-viz",
     slideTitle: "Simulator Pankreatitis Akut (Revised Atlanta & BISAP) vs Kolangitis Akut (Tokyo TG18)",
     slideContent: "Kriteria diagnostik amilase/lipase >=3x ULN, skor BISAP mortalitas pankreatitis vs Trias Charcot & Pentad Reynolds kolangitis akut dengan indikasi dekompresi bilier emergensi TG18."
@@ -1131,7 +1137,13 @@ const PSIKO_EXTRA_WIDGET_SPECS = [];
     "pulmo-4-2": { title: "Emboli Paru & Hipertensi Pulmonal", subtitle: "Wells/Age-Dimer/CTPA, High-Risk PE, PH 2022 & CTEPH/PEA" },
     "pulmo-4-3": { title: "Onkologi Toraks & Paraneoplastik", subtitle: "SPN/Fleischner, NSCLC EGFR/ALK, SCLC, Pancoast-Horner & LEMS" },
     "pulmo-5-1": { title: "Gagal Napas Akut, HFNC & ARDS", subtitle: "Tipe I-II, ROX Index, ARDSNet 6 mL/kg PBW, PROSEVA & Global 2024" },
-    "pulmo-5-2": { title: "Ventilasi Mekanik, NIV, Weaning & OSA", subtitle: "BiPAP/CPAP, Ppeak-Pplat, Auto-PEEP, RSBI & Pickwickian/OHS" }
+    "pulmo-5-2": { title: "Ventilasi Mekanik, NIV, Weaning & OSA", subtitle: "BiPAP/CPAP, Ppeak-Pplat, Auto-PEEP, RSBI & Pickwickian/OHS" },
+    // Gastroenterohepatologi Sub-klaster 5 (5)
+    "geh-5-1": { title: "Kolelitiasis, Koledokolitiasis & Polip", subtitle: "Batu Kolesterol/Pigmen, ASGE 2019, Mirizzi & Polip ESGAR 2022" },
+    "geh-5-2": { title: "Kolesistitis Akut (TG18)", subtitle: "Kalkulosa vs Akalkulosa, Grading TG18, Early Cholecystectomy & PTGBD" },
+    "geh-5-3": { title: "Kolangitis Akut (TG18)", subtitle: "Trias Charcot, Pentad Reynolds, Grading TG18 & Dekompresi ERCP CITO" },
+    "geh-5-4": { title: "Pankreatitis Akut", subtitle: "Revised Atlanta 2012, BISAP, WATERFALL Trial & Step-Up WON" },
+    "geh-5-5": { title: "Pankreatitis Kronik, IPMN & Ca Pankreas", subtitle: "TIGAR-O, Fecal Elastase-1/PERT, AIP IgG4, Kyoto 2024 & PDAC" }
   };
 
   function getModuleDisplayTitles(mod) {

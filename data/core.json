@@ -29,8 +29,8 @@
       "name": "Gastroenterohepatologi",
       "shortName": "GEH",
       "status": "active",
-      "badge": "Aktif (16 Modul)",
-      "description": "Kurikulum 5 Sub-Klaster (16 Modul): Esofagus, GERD & Akalasia, Dispepsia, H. pylori & Ulkus Peptikum, Perdarahan SCBA Non-Variseal & Variseal (Baveno VII), Perdarahan SCBB, Diare Kronik/Malabsorpsi, IBD (UC vs Crohn), IBS (Rome IV), Polip & KKR, Ikterus/R-Value & ALF, Hepatitis B & C Kronik, MASLD/Alkoholik/DILI/Autoimun, Sirosis, Asites/SBP, Ensefalopati Hepatikum, KSH (BCLC), Kolelitiasis, Kolangitis (TG18) & Pankreatitis Akut (SK KKI 181/2024 & PAPDI Edisi VII)"
+      "badge": "Aktif (20 Modul)",
+      "description": "Kurikulum 5 Sub-Klaster (20 Modul): Esofagus, GERD & Akalasia, Dispepsia, H. pylori & Ulkus Peptikum, Perdarahan SCBA Non-Variseal & Variseal (Baveno VII), Perdarahan SCBB, Diare Kronik/Malabsorpsi, IBD (UC vs Crohn), IBS (Rome IV), Polip & KKR, Ikterus/R-Value & ALF, Hepatitis B & C Kronik, MASLD/Alkoholik/DILI/Autoimun, Sirosis, Asites/SBP, Ensefalopati Hepatikum, KSH (BCLC), Kolelitiasis/Koledokolitiasis/Polip Empedu, Kolesistitis Akut (TG18), Kolangitis Akut (TG18), Pankreatitis Akut (Revised Atlanta & WATERFALL), serta Pankreatitis Kronik, IPMN & Kanker Pankreas (SK KKI 181/2024 & PAPDI Edisi VII)"
     },
     {
       "id": "ginjal-hipertensi",
